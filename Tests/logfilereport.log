@@ -338,3 +338,150 @@
 2024-06-04 12:52:21,438 : INFO : test_mandatory_field_register : Next button is clicked
 2024-06-04 12:52:23,161 : INFO : test_mandatory_field_register : Password section is filled
 2024-06-04 12:52:23,303 : INFO : test_mandatory_field_register : Registration is successfully completed
+2024-06-04 13:33:08,905 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:33:09,094 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:33:09,143 : INFO : test_valid_login : click the login button
+2024-06-04 13:33:09,167 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:33:21,190 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:33:21,190 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:33:21,389 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:33:21,389 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:33:21,473 : INFO : test_valid_login : click the login button
+2024-06-04 13:33:21,473 : INFO : test_valid_login : click the login button
+2024-06-04 13:33:21,510 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:33:21,510 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:33:33,288 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:33:33,288 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:33:33,288 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:34:02,500 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:34:02,699 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:34:02,751 : INFO : test_valid_login : click the login button
+2024-06-04 13:34:02,781 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:34:19,878 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:34:19,878 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:34:20,097 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:34:20,097 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:34:20,161 : INFO : test_valid_login : click the login button
+2024-06-04 13:34:20,161 : INFO : test_valid_login : click the login button
+2024-06-04 13:34:20,192 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:34:20,192 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:48:30,832 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:48:31,157 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:48:31,256 : INFO : test_valid_login : click the login button
+2024-06-04 13:48:31,303 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:48:42,521 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:48:42,521 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:48:42,706 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:48:42,706 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:48:42,787 : INFO : test_valid_login : click the login button
+2024-06-04 13:48:42,787 : INFO : test_valid_login : click the login button
+2024-06-04 13:48:42,825 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:48:42,825 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:49:31,109 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:49:31,290 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:49:31,339 : INFO : test_valid_login : click the login button
+2024-06-04 13:49:31,365 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:49:43,563 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:49:43,563 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:49:43,782 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:49:43,782 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:49:43,861 : INFO : test_valid_login : click the login button
+2024-06-04 13:49:43,861 : INFO : test_valid_login : click the login button
+2024-06-04 13:49:43,891 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:49:43,891 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:51:31,625 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:31,809 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:31,863 : INFO : test_invalid_login : click the login button
+2024-06-04 13:51:43,305 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:43,305 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:43,476 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:43,476 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:43,527 : INFO : test_invalid_login : click the login button
+2024-06-04 13:51:43,527 : INFO : test_invalid_login : click the login button
+2024-06-04 13:51:56,625 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:56,625 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:56,625 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:56,831 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:56,831 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:56,831 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:56,885 : INFO : test_invalid_login : click the login button
+2024-06-04 13:51:56,885 : INFO : test_invalid_login : click the login button
+2024-06-04 13:51:56,885 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:12,702 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:12,878 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:12,927 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:22,927 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:22,927 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:23,147 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:23,147 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:23,202 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:23,202 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:38,416 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:38,416 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:38,416 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:38,630 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:38,630 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:38,630 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:38,696 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:38,696 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:38,696 : INFO : test_invalid_login : click the login button
+2024-06-04 18:58:43,437 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:58:43,613 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:58:43,662 : INFO : test_invalid_login : click the login button
+2024-06-04 18:58:48,720 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 18:59:00,950 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:59:00,950 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:59:01,123 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:59:01,123 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:59:01,201 : INFO : test_invalid_login : click the login button
+2024-06-04 18:59:01,201 : INFO : test_invalid_login : click the login button
+2024-06-04 18:59:06,241 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 18:59:06,241 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 18:59:17,579 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:59:17,579 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:59:17,579 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:59:17,780 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:59:17,780 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:59:17,780 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:59:17,852 : INFO : test_invalid_login : click the login button
+2024-06-04 18:59:17,852 : INFO : test_invalid_login : click the login button
+2024-06-04 18:59:17,852 : INFO : test_invalid_login : click the login button
+2024-06-04 18:59:22,883 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 18:59:22,883 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 18:59:22,883 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:01:21,634 : INFO : test_valid_login : Go to Login Page
+2024-06-04 19:01:21,823 : INFO : test_valid_login : fill the details in login form
+2024-06-04 19:01:21,866 : INFO : test_valid_login : click the login button
+2024-06-04 19:01:21,889 : INFO : test_valid_login : verify the login made successful
+2024-06-04 19:01:33,460 : INFO : test_valid_login : Go to Login Page
+2024-06-04 19:01:33,460 : INFO : test_valid_login : Go to Login Page
+2024-06-04 19:01:33,648 : INFO : test_valid_login : fill the details in login form
+2024-06-04 19:01:33,648 : INFO : test_valid_login : fill the details in login form
+2024-06-04 19:01:33,733 : INFO : test_valid_login : click the login button
+2024-06-04 19:01:33,733 : INFO : test_valid_login : click the login button
+2024-06-04 19:01:33,769 : INFO : test_valid_login : verify the login made successful
+2024-06-04 19:01:33,769 : INFO : test_valid_login : verify the login made successful
+2024-06-04 19:01:51,411 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:01:51,575 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:01:51,624 : INFO : test_invalid_login : click the login button
+2024-06-04 19:01:56,653 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:02:08,305 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:02:08,305 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:02:08,485 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:02:08,485 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:02:08,566 : INFO : test_invalid_login : click the login button
+2024-06-04 19:02:08,566 : INFO : test_invalid_login : click the login button
+2024-06-04 19:02:13,627 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:02:13,627 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:02:25,550 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:02:25,550 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:02:25,550 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:02:25,762 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:02:25,762 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:02:25,762 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:02:25,830 : INFO : test_invalid_login : click the login button
+2024-06-04 19:02:25,830 : INFO : test_invalid_login : click the login button
+2024-06-04 19:02:25,830 : INFO : test_invalid_login : click the login button
+2024-06-04 19:02:30,862 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:02:30,862 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:02:30,862 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
