@@ -1,0 +1,194 @@
+2024-06-02 12:41:27,176 : INFO : test_valid_register : Register page opens
+2024-06-02 12:41:29,544 : INFO : test_valid_register : Required fields are filled
+2024-06-02 12:41:29,990 : INFO : test_valid_register : Remaining fields are filled
+2024-06-02 12:41:30,068 : INFO : test_valid_register : Address field is enabled
+2024-06-02 12:41:30,457 : INFO : test_valid_register : Address section is filled
+2024-06-02 12:41:30,516 : INFO : test_valid_register : Next button is clicked
+2024-06-02 12:41:32,576 : INFO : test_valid_register : Password section is filled
+2024-06-02 12:41:32,734 : INFO : test_valid_register : Registration is successfully completed
+2024-06-02 12:41:45,577 : INFO : test_valid_register : Register page opens
+2024-06-02 12:41:45,577 : INFO : test_valid_register : Register page opens
+2024-06-02 12:41:58,048 : INFO : test_valid_register : Register page opens
+2024-06-02 12:41:58,048 : INFO : test_valid_register : Register page opens
+2024-06-02 12:41:58,048 : INFO : test_valid_register : Register page opens
+2024-06-02 12:42:13,915 : INFO : test_valid_register : Register page opens
+2024-06-02 12:42:13,915 : INFO : test_valid_register : Register page opens
+2024-06-02 12:42:13,915 : INFO : test_valid_register : Register page opens
+2024-06-02 12:42:13,915 : INFO : test_valid_register : Register page opens
+2024-06-02 12:42:32,498 : INFO : test_valid_register : Register page opens
+2024-06-02 12:42:32,498 : INFO : test_valid_register : Register page opens
+2024-06-02 12:42:32,498 : INFO : test_valid_register : Register page opens
+2024-06-02 12:42:32,498 : INFO : test_valid_register : Register page opens
+2024-06-02 12:42:32,498 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:05,184 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:05,184 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:05,184 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:05,184 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:05,184 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:05,184 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:05,184 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:17,892 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:17,892 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:17,892 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:17,892 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:17,892 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:17,892 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:17,892 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:17,892 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:31,898 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:31,898 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:31,898 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:31,898 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:31,898 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:31,898 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:31,898 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:31,898 : INFO : test_valid_register : Register page opens
+2024-06-02 12:43:31,898 : INFO : test_valid_register : Register page opens
+2024-06-02 13:20:26,984 : INFO : test_valid_register : Register page opens
+2024-06-02 13:20:29,418 : INFO : test_valid_register : Required fields are filled
+2024-06-02 13:20:29,966 : INFO : test_valid_register : Remaining fields are filled
+2024-06-02 13:20:30,062 : INFO : test_valid_register : Address field is enabled
+2024-06-02 13:20:30,610 : INFO : test_valid_register : Address section is filled
+2024-06-02 13:20:30,670 : INFO : test_valid_register : Next button is clicked
+2024-06-02 13:20:33,486 : INFO : test_valid_register : Password section is filled
+2024-06-02 13:20:33,733 : INFO : test_valid_register : Registration is successfully completed
+2024-06-02 13:38:28,077 : INFO : test_valid_register : Register page opens
+2024-06-02 13:38:31,076 : INFO : test_valid_register : Required fields are filled
+2024-06-02 13:38:31,518 : INFO : test_valid_register : Remaining fields are filled
+2024-06-02 13:38:31,595 : INFO : test_valid_register : Address field is enabled
+2024-06-02 13:38:32,079 : INFO : test_valid_register : Address section is filled
+2024-06-02 13:38:32,142 : INFO : test_valid_register : Next button is clicked
+2024-06-02 13:38:34,616 : INFO : test_valid_register : Password section is filled
+2024-06-02 13:38:34,768 : INFO : test_valid_register : Registration is successfully completed
+2024-06-02 13:38:47,231 : INFO : test_valid_register : Register page opens
+2024-06-02 13:38:47,231 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:00,303 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:00,303 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:00,303 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:13,851 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:13,851 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:13,851 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:13,851 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:36,678 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:36,678 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:36,678 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:36,678 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:36,678 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:51,590 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:51,590 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:51,590 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:51,590 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:51,590 : INFO : test_valid_register : Register page opens
+2024-06-02 13:39:51,590 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:04,237 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:04,237 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:04,237 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:04,237 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:04,237 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:04,237 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:04,237 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:30,598 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:30,598 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:30,598 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:30,598 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:30,598 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:30,598 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:30,598 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:30,598 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:43,776 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:43,776 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:43,776 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:43,776 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:43,776 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:43,776 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:43,776 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:43,776 : INFO : test_valid_register : Register page opens
+2024-06-02 13:40:43,776 : INFO : test_valid_register : Register page opens
+2024-06-02 13:50:17,891 : INFO : test_valid_register : Register page opens
+2024-06-02 13:50:21,316 : INFO : test_valid_register : Required fields are filled
+2024-06-02 13:50:21,966 : INFO : test_valid_register : Remaining fields are filled
+2024-06-02 13:50:22,097 : INFO : test_valid_register : Address field is enabled
+2024-06-02 13:50:22,612 : INFO : test_valid_register : Address section is filled
+2024-06-02 13:50:22,723 : INFO : test_valid_register : Next button is clicked
+2024-06-02 13:50:25,473 : INFO : test_valid_register : Password section is filled
+2024-06-02 13:50:25,719 : INFO : test_valid_register : Registration is successfully completed
+2024-06-04 06:57:04,086 : INFO : test_mandatory_field_register : Register button is clicked
+2024-06-04 06:57:14,614 : INFO : test_mandatory_field_register : Register page opens
+2024-06-04 06:57:16,487 : INFO : test_mandatory_field_register : Required fields are filled
+2024-06-04 06:57:16,554 : INFO : test_mandatory_field_register : Next button is clicked
+2024-06-04 06:57:18,921 : INFO : test_mandatory_field_register : Password section is filled
+2024-06-04 06:57:19,069 : INFO : test_mandatory_field_register : Registration is successfully completed
+2024-06-04 06:58:17,673 : INFO : test_mandatory_field_register : Register button is clicked
+2024-06-04 06:58:21,818 : INFO : test_mandatory_field_register : Register page opens
+2024-06-04 06:58:22,160 : INFO : test_mandatory_field_register : Required fields are filled
+2024-06-04 06:58:22,227 : INFO : test_mandatory_field_register : Next button is clicked
+2024-06-04 06:58:24,631 : INFO : test_mandatory_field_register : Password section is filled
+2024-06-04 06:58:24,805 : INFO : test_mandatory_field_register : Registration is successfully completed
+2024-06-04 06:58:51,318 : INFO : test_valid_register : Register page opens
+2024-06-04 06:58:51,318 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:08,778 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:08,778 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:08,778 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:21,720 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:21,720 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:21,720 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:21,720 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:37,922 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:37,922 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:37,922 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:37,922 : INFO : test_valid_register : Register page opens
+2024-06-04 06:59:37,922 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:04,082 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:04,082 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:04,082 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:04,082 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:04,082 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:04,082 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:18,224 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:18,224 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:18,224 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:18,224 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:18,224 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:18,224 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:18,224 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:35,227 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:35,227 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:35,227 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:35,227 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:35,227 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:35,227 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:35,227 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:35,227 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:57,256 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:57,256 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:57,256 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:57,256 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:57,256 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:57,256 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:57,256 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:57,256 : INFO : test_valid_register : Register page opens
+2024-06-04 07:00:57,256 : INFO : test_valid_register : Register page opens
+2024-06-04 07:01:09,409 : INFO : test_valid_register : Register page opens
+2024-06-04 07:01:09,409 : INFO : test_valid_register : Register page opens
+2024-06-04 07:01:09,409 : INFO : test_valid_register : Register page opens
+2024-06-04 07:01:09,409 : INFO : test_valid_register : Register page opens
+2024-06-04 07:01:09,409 : INFO : test_valid_register : Register page opens
+2024-06-04 07:01:09,409 : INFO : test_valid_register : Register page opens
+2024-06-04 07:01:09,409 : INFO : test_valid_register : Register page opens
+2024-06-04 07:01:09,409 : INFO : test_valid_register : Register page opens
+2024-06-04 07:01:09,409 : INFO : test_valid_register : Register page opens
+2024-06-04 07:01:09,409 : INFO : test_valid_register : Register page opens
+2024-06-04 07:17:35,286 : INFO : test_already_exists_email : Register button is clicked
+2024-06-04 07:17:37,389 : INFO : test_already_exists_email : Register page opens
+2024-06-04 07:17:37,766 : INFO : test_already_exists_email : Required fields are filled
+2024-06-04 07:17:37,826 : INFO : test_already_exists_email : Next button is clicked
+2024-06-04 07:18:20,709 : INFO : test_already_exists_email : Register button is clicked
+2024-06-04 07:18:22,591 : INFO : test_already_exists_email : Register page opens
+2024-06-04 07:18:22,896 : INFO : test_already_exists_email : Required fields are filled
+2024-06-04 07:18:22,960 : INFO : test_already_exists_email : Next button is clicked
+2024-06-04 07:18:23,924 : INFO : test_already_exists_email : Already existing email is verified
+2024-06-04 07:19:14,859 : INFO : test_already_exists_email : Register button is clicked
+2024-06-04 07:19:16,757 : INFO : test_already_exists_email : Register page opens
+2024-06-04 07:19:17,056 : INFO : test_already_exists_email : Required fields are filled
+2024-06-04 07:19:17,111 : INFO : test_already_exists_email : Next button is clicked
+2024-06-04 07:19:18,191 : INFO : test_already_exists_email : Already existing email is verified
