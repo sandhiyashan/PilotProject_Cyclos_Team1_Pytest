@@ -6,6 +6,8 @@ class HomePage(BasePage):
     register_Xpath = (By.XPATH,"//div[text()=' Register ']")
     login_xpath = (By.XPATH,"(//div[@class='ml-2'])[3]")
     verify_login_xpath = (By.XPATH,"(//div[@class='top-title'])[2]")
+    marketPlace_xpath = (By.XPATH,"//div[text()='Marketplace']")
+    Logout_xpath = (By.XPATH,"//a[@aria-label='Logout']//icon//*[name()='svg']")
     #banking_Xpath = (By.XPATH,"//a[@id='menu_banking']")
     banking_page_verify = (By.XPATH,"//div[@class='side-menu-title' and text()=' Banking ']")
     banking_page_keyword = "Banking"
@@ -20,6 +22,12 @@ class HomePage(BasePage):
     def verifyLogin(self):
         title = self.find(self.verify_login_xpath).text
         assert title == 'Cyclos'
+        
+    def goToMarketPlace(self):
+        self.click(self.marketPlace_xpath)
+
+    def click_the_logout(self):
+        self.click(self.Logout_xpath)
 
     def goToBanking(self):
         self.click(self.banking_xpath)
