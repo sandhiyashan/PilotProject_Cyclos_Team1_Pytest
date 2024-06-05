@@ -1,7 +1,6 @@
 import openpyxl
 
 def get_data(path,sheet_name):
-
     final_list=[]
     workbook = openpyxl.load_workbook(path)
     sheet = workbook[sheet_name]
@@ -13,6 +12,5 @@ def get_data(path,sheet_name):
         for c in range(1,total_columns+1):
             rows_list.append(sheet.cell(r,c).value)
         final_list.append(rows_list)
-
     return final_list
 

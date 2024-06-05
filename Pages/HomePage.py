@@ -6,9 +6,11 @@ class HomePage(BasePage):
     register_Xpath = (By.XPATH,"//div[text()=' Register ']")
     login_xpath = (By.XPATH,"(//div[@class='ml-2'])[3]")
     verify_login_xpath = (By.XPATH,"(//div[@class='top-title'])[2]")
-    banking_Xpath = (By.XPATH,"//a[@id='menu_banking']")
+    #banking_Xpath = (By.XPATH,"//a[@id='menu_banking']")
     banking_page_verify = (By.XPATH,"//div[@class='side-menu-title' and text()=' Banking ']")
     banking_page_keyword = "Banking"
+    banking_xpath = (By.XPATH, "//div[text()='Banking']")
+
     def goToRegister(self):
         self.click(self.register_Xpath)
 
@@ -20,9 +22,10 @@ class HomePage(BasePage):
         assert title == 'Cyclos'
 
     def goToBanking(self):
-        self.click(self.banking_Xpath)
+        self.click(self.banking_xpath)
     
     def verifyBankingPage(self):
         title = self.find(self.banking_page_verify).text
         assert title == self.banking_page_keyword
+    
 
