@@ -564,3 +564,131 @@
 2024-06-05 13:40:53,442 : INFO : test_search_advertisement : Click my advertisement in sub section
 2024-06-05 13:41:01,573 : INFO : test_search_advertisement : send a values to search
 2024-06-05 13:41:01,610 : INFO : test_search_advertisement : verify the searched result
+2024-06-05 04:56:40,325 : INFO : test_valid_login : Go to Login Page
+2024-06-05 04:56:42,719 : INFO : test_valid_login : fill the details in login form
+2024-06-05 04:56:43,089 : INFO : test_valid_login : click the login button
+2024-06-05 04:56:43,681 : INFO : test_valid_login : verify the login made successful
+2024-06-05 04:57:17,932 : INFO : test_valid_login : Go to Login Page
+2024-06-05 04:57:17,932 : INFO : test_valid_login : Go to Login Page
+2024-06-05 04:57:19,726 : INFO : test_valid_login : fill the details in login form
+2024-06-05 04:57:19,726 : INFO : test_valid_login : fill the details in login form
+2024-06-05 04:57:20,079 : INFO : test_valid_login : click the login button
+2024-06-05 04:57:20,079 : INFO : test_valid_login : click the login button
+2024-06-05 04:57:20,329 : INFO : test_valid_login : verify the login made successful
+2024-06-05 04:57:20,329 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:04:11,017 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:04:13,762 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:04:13,997 : INFO : test_valid_login : click the login button
+2024-06-05 13:04:14,184 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:04:49,618 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:04:49,618 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:04:51,545 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:04:51,545 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:04:52,404 : INFO : test_valid_login : click the login button
+2024-06-05 13:04:52,404 : INFO : test_valid_login : click the login button
+2024-06-05 13:04:52,560 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:04:52,560 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:25:49,590 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:25:52,354 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:25:53,217 : INFO : test_valid_login : click the login button
+2024-06-05 13:25:53,636 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:26:23,791 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:26:23,791 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:26:26,041 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:26:26,041 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:26:26,623 : INFO : test_valid_login : click the login button
+2024-06-05 13:26:26,623 : INFO : test_valid_login : click the login button
+2024-06-05 13:26:26,748 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:26:26,748 : INFO : test_valid_login : verify the login made successful
+2024-06-05 14:31:42,933 : INFO : test_valid_login : Go to Login Page
+2024-06-05 14:31:47,769 : INFO : test_valid_login : fill the details in login form
+2024-06-05 14:31:48,304 : INFO : test_valid_login : click the login button
+2024-06-05 14:31:49,157 : INFO : test_valid_login : verify the login made successful
+2024-06-05 15:21:59,468 : INFO : test_valid_login : Go to Login Page
+2024-06-05 15:22:09,188 : INFO : test_valid_login : fill the details in login form
+2024-06-05 15:22:09,523 : INFO : test_valid_login : click the login button
+2024-06-05 15:22:09,876 : INFO : test_valid_login : verify the login made successful
+2024-06-05 15:24:38,532 : INFO : test_valid_login : Go to Login Page
+2024-06-05 15:24:38,532 : INFO : test_valid_login : Go to Login Page
+2024-06-05 15:24:42,263 : INFO : test_valid_login : fill the details in login form
+2024-06-05 15:24:42,263 : INFO : test_valid_login : fill the details in login form
+2024-06-05 15:24:44,140 : INFO : test_valid_login : click the login button
+2024-06-05 15:24:44,140 : INFO : test_valid_login : click the login button
+2024-06-05 15:24:44,637 : INFO : test_valid_login : verify the login made successful
+2024-06-05 15:24:44,637 : INFO : test_valid_login : verify the login made successful
+2024-06-05 16:22:58,816 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:23:00,523 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:23:00,792 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:23:24,421 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:23:24,421 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:23:27,411 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:23:27,411 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:23:27,543 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:23:27,543 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:27:07,134 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:27:09,010 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:27:09,500 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:30:01,945 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:30:04,511 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:30:04,785 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:39:43,624 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:39:45,627 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:39:46,210 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:46:30,980 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:46:33,392 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:46:34,331 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:46:37,244 : INFO : test_membAccount : Member account Page is displayed
+2024-06-05 16:46:37,429 : INFO : test_membAccount : Balance is verified
+2024-06-05 16:46:37,519 : INFO : test_membAccount : Transaction history is verified
+2024-06-05 19:13:03,056 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:16:58,535 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:18:05,732 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:18:07,298 : INFO : test_validreceive_qr_code : Go to Banking Page
+2024-06-05 19:37:46,032 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:38:45,180 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:38:47,127 : INFO : test_validreceive_qr_code : Go to Banking Page
+2024-06-05 19:44:18,930 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:44:21,371 : INFO : test_validreceive_qr_code : Go to Banking Page
+2024-06-05 19:46:37,989 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:46:39,247 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:51:15,055 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:51:17,988 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:54:35,070 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:54:38,458 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:55:36,618 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:55:37,896 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:57:01,959 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:57:03,272 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:58:01,234 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:58:03,243 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:58:39,979 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:58:42,301 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 20:01:39,458 : INFO : test_membAccount : Logged in successfully
+2024-06-05 20:01:41,555 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 20:01:45,803 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 20:06:55,934 : INFO : test_membAccount : Logged in successfully
+2024-06-05 20:06:57,490 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 20:06:59,077 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 20:07:00,752 : INFO : test_membAccount : Member account Page is displayed
+2024-06-05 20:07:00,814 : INFO : test_membAccount : Balance is verified
+2024-06-05 20:07:00,853 : INFO : test_membAccount : Transaction history is verified
+2024-06-05 20:07:35,225 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 20:07:36,746 : INFO : test_validreceive_qr_code : Go to Banking Page
+2024-06-05 20:07:37,686 : INFO : test_validreceive_qr_code : Banking Page is displayed
+2024-06-05 20:07:38,251 : INFO : test_validreceive_qr_code : Go to Receive QR Code Page
+2024-06-05 20:07:38,835 : INFO : test_validreceive_qr_code : Receive QR Code Page is displayed
+2024-06-05 20:07:41,426 : INFO : test_validreceive_qr_code : QR Code is generated successfully
+2024-06-05 20:17:20,335 : INFO : test_invalidreceive_qr_code : Logged in successfully
+2024-06-05 20:17:23,143 : INFO : test_invalidreceive_qr_code : Go to Banking Page
+2024-06-05 20:18:06,591 : INFO : test_invalidreceive_qr_code : Logged in successfully
+2024-06-05 20:18:08,313 : INFO : test_invalidreceive_qr_code : Go to Banking Page
+2024-06-05 20:18:09,956 : INFO : test_invalidreceive_qr_code : Banking Page is displayed
+2024-06-05 20:18:10,642 : INFO : test_invalidreceive_qr_code : Go to Receive QR Code Page
+2024-06-05 20:18:11,854 : INFO : test_invalidreceive_qr_code : Receive QR Code Page is displayed
+2024-06-05 20:18:15,520 : INFO : test_invalidreceive_qr_code : Error message is displayed successfully
+2024-06-05 20:29:42,422 : INFO : test_invalidreceive_qr_code : Logged in successfully
+2024-06-05 20:29:45,126 : INFO : test_invalidreceive_qr_code : Go to Banking Page
+2024-06-05 20:29:47,452 : INFO : test_invalidreceive_qr_code : Banking Page is displayed
+2024-06-05 20:29:48,027 : INFO : test_invalidreceive_qr_code : Go to Receive QR Code Page
+2024-06-05 20:29:49,798 : INFO : test_invalidreceive_qr_code : Receive QR Code Page is displayed
+2024-06-05 20:29:53,587 : INFO : test_invalidreceive_qr_code : Error message is displayed successfully
