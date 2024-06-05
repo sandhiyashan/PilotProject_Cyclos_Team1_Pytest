@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 from selenium.webdriver.common.by import By
 from Pages.BasePage import BasePage
 
@@ -8,6 +6,7 @@ class HomePage(BasePage):
     register_Xpath = (By.XPATH,"//div[text()=' Register ']")
     login_xpath = (By.XPATH,"(//div[@class='ml-2'])[3]")
     verify_login_xpath = (By.XPATH,"(//div[@class='top-title'])[2]")
+
     banking_xpath = (By.XPATH, "//div[text()='Banking']")
 
     def goToRegister(self):
@@ -22,5 +21,4 @@ class HomePage(BasePage):
 
     def gotoBanking(self):
         self.click(self.banking_xpath)
-    
->>>>>>> Stashed changes
+
