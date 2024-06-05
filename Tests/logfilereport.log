@@ -1,0 +1,615 @@
+2024-06-04 07:20:02,586 : INFO : test_already_exists_email : Register button is clicked
+2024-06-04 07:20:04,638 : INFO : test_already_exists_email : Register page opens
+2024-06-04 07:20:04,951 : INFO : test_already_exists_email : Required fields are filled
+2024-06-04 07:20:05,009 : INFO : test_already_exists_email : Next button is clicked
+2024-06-04 07:20:06,105 : INFO : test_already_exists_email : Already existing email is verified
+2024-06-04 07:20:28,645 : INFO : test_mandatory_field_register : Register button is clicked
+2024-06-04 07:20:30,752 : INFO : test_mandatory_field_register : Register page opens
+2024-06-04 07:20:31,059 : INFO : test_mandatory_field_register : Required fields are filled
+2024-06-04 07:20:31,123 : INFO : test_mandatory_field_register : Next button is clicked
+2024-06-04 07:20:32,375 : INFO : test_mandatory_field_register : Password section is filled
+2024-06-04 07:20:32,534 : INFO : test_mandatory_field_register : Registration is successfully completed
+2024-06-04 07:46:25,456 : INFO : test_blank_field_register : Register button is clicked
+2024-06-04 07:46:27,717 : INFO : test_blank_field_register : Register page opens
+2024-06-04 07:46:28,187 : INFO : test_blank_field_register : fill the remaining field in the profile except mandatory field
+2024-06-04 07:46:28,264 : INFO : test_blank_field_register : enable the address section
+2024-06-04 07:46:28,654 : INFO : test_blank_field_register : Fill the address field
+2024-06-04 07:46:28,746 : INFO : test_blank_field_register : click the next button
+2024-06-04 07:46:28,774 : INFO : test_blank_field_register : verify the mandatory fields gives a alert message
+2024-06-04 08:06:03,461 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:06:05,763 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:06:06,048 : INFO : test_confirm_password_register : Required fields are filled
+2024-06-04 08:06:06,482 : INFO : test_confirm_password_register : Remaining fields are filled
+2024-06-04 08:06:06,556 : INFO : test_confirm_password_register : Address field is enabled
+2024-06-04 08:06:06,953 : INFO : test_confirm_password_register : Address section is filled
+2024-06-04 08:06:07,014 : INFO : test_confirm_password_register : Next button is clicked
+2024-06-04 08:06:08,962 : INFO : test_confirm_password_register : Password section is filled
+2024-06-04 08:06:21,316 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:06:21,316 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:06:24,571 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:06:24,571 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:06:34,689 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:06:34,689 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:06:34,689 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:06:37,129 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:06:37,129 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:06:37,129 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:06:48,542 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:06:48,542 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:06:48,542 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:06:48,542 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:06:51,391 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:06:51,391 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:06:51,391 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:06:51,391 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:15,599 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:15,599 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:15,599 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:15,599 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:15,599 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:17,735 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:17,735 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:17,735 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:17,735 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:17,735 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:27,465 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:27,465 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:27,465 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:27,465 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:27,465 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:27,465 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:29,823 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:29,823 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:29,823 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:29,823 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:29,823 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:29,823 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:47,845 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:47,845 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:47,845 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:47,845 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:47,845 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:47,845 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:47,845 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:07:50,819 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:50,819 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:50,819 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:50,819 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:50,819 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:50,819 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:07:50,819 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:01,753 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:01,753 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:01,753 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:01,753 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:01,753 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:01,753 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:01,753 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:01,753 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:03,973 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:03,973 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:03,973 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:03,973 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:03,973 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:03,973 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:03,973 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:03,973 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:14,067 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:14,067 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:14,067 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:14,067 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:14,067 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:14,067 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:14,067 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:14,067 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:14,067 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:08:15,963 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:15,963 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:15,963 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:15,963 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:15,963 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:15,963 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:15,963 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:15,963 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:08:15,963 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:11:03,089 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:11:05,847 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:11:06,143 : INFO : test_confirm_password_register : Required fields are filled
+2024-06-04 08:11:06,601 : INFO : test_confirm_password_register : Remaining fields are filled
+2024-06-04 08:11:06,678 : INFO : test_confirm_password_register : Address field is enabled
+2024-06-04 08:11:07,093 : INFO : test_confirm_password_register : Address section is filled
+2024-06-04 08:11:07,153 : INFO : test_confirm_password_register : Next button is clicked
+2024-06-04 08:11:08,754 : INFO : test_confirm_password_register : Password section is filled
+2024-06-04 08:11:08,952 : INFO : test_confirm_password_register : Verification is done by confirm password
+2024-06-04 08:12:44,479 : INFO : test_valid_register : Register page opens
+2024-06-04 08:12:47,406 : INFO : test_valid_register : Required fields are filled
+2024-06-04 08:12:47,862 : INFO : test_valid_register : Remaining fields are filled
+2024-06-04 08:12:47,941 : INFO : test_valid_register : Address field is enabled
+2024-06-04 08:12:48,322 : INFO : test_valid_register : Address section is filled
+2024-06-04 08:12:48,384 : INFO : test_valid_register : Next button is clicked
+2024-06-04 08:12:50,048 : INFO : test_valid_register : Password section is filled
+2024-06-04 08:12:50,188 : INFO : test_valid_register : Registration is successfully completed
+2024-06-04 08:20:31,280 : INFO : test_invalid_email_register : Register button is clicked
+2024-06-04 08:20:34,043 : INFO : test_invalid_email_register : Register page opens
+2024-06-04 08:20:34,333 : INFO : test_invalid_email_register : Required fields are filled
+2024-06-04 08:20:34,385 : INFO : test_invalid_email_register : Next button is clicked
+2024-06-04 08:20:34,407 : INFO : test_invalid_email_register : Invalid email is verified
+2024-06-04 08:26:36,831 : INFO : test_invalid_password_register : Register button is clicked
+2024-06-04 08:26:39,264 : INFO : test_invalid_password_register : Register page opens
+2024-06-04 08:26:39,562 : INFO : test_invalid_password_register : Required fields are filled
+2024-06-04 08:26:39,992 : INFO : test_invalid_password_register : Remaining fields are filled
+2024-06-04 08:26:40,061 : INFO : test_invalid_password_register : Address field is enabled
+2024-06-04 08:26:40,451 : INFO : test_invalid_password_register : Address section is filled
+2024-06-04 08:26:40,505 : INFO : test_invalid_password_register : Next button is clicked
+2024-06-04 08:26:42,496 : INFO : test_invalid_password_register : Password section is filled
+2024-06-04 08:26:42,643 : INFO : test_invalid_password_register : Verification is done for password field
+2024-06-04 08:28:23,985 : INFO : test_blank_field_register : Register button is clicked
+2024-06-04 08:28:26,349 : INFO : test_blank_field_register : Register page opens
+2024-06-04 08:28:26,814 : INFO : test_blank_field_register : fill the remaining field in the profile except mandatory field
+2024-06-04 08:28:26,899 : INFO : test_blank_field_register : enable the address section
+2024-06-04 08:28:27,275 : INFO : test_blank_field_register : Fill the address field
+2024-06-04 08:28:27,338 : INFO : test_blank_field_register : click the next button
+2024-06-04 08:28:27,365 : INFO : test_blank_field_register : verify the mandatory fields gives a alert message
+2024-06-04 08:28:37,084 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 08:28:39,649 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 08:28:39,912 : INFO : test_confirm_password_register : Required fields are filled
+2024-06-04 08:28:40,336 : INFO : test_confirm_password_register : Remaining fields are filled
+2024-06-04 08:28:40,410 : INFO : test_confirm_password_register : Address field is enabled
+2024-06-04 08:28:40,758 : INFO : test_confirm_password_register : Address section is filled
+2024-06-04 08:28:40,821 : INFO : test_confirm_password_register : Next button is clicked
+2024-06-04 08:28:42,621 : INFO : test_confirm_password_register : Password section is filled
+2024-06-04 08:28:42,767 : INFO : test_confirm_password_register : Verification is done by confirm password
+2024-06-04 08:28:52,382 : INFO : test_invalid_email_register : Register button is clicked
+2024-06-04 08:28:54,914 : INFO : test_invalid_email_register : Register page opens
+2024-06-04 08:28:55,194 : INFO : test_invalid_email_register : Required fields are filled
+2024-06-04 08:28:55,259 : INFO : test_invalid_email_register : Next button is clicked
+2024-06-04 08:28:55,285 : INFO : test_invalid_email_register : Invalid email is verified
+2024-06-04 08:29:05,571 : INFO : test_invalid_password_register : Register button is clicked
+2024-06-04 08:29:08,148 : INFO : test_invalid_password_register : Register page opens
+2024-06-04 08:29:08,460 : INFO : test_invalid_password_register : Required fields are filled
+2024-06-04 08:29:08,903 : INFO : test_invalid_password_register : Remaining fields are filled
+2024-06-04 08:29:08,972 : INFO : test_invalid_password_register : Address field is enabled
+2024-06-04 08:29:09,350 : INFO : test_invalid_password_register : Address section is filled
+2024-06-04 08:29:09,412 : INFO : test_invalid_password_register : Next button is clicked
+2024-06-04 08:29:11,449 : INFO : test_invalid_password_register : Password section is filled
+2024-06-04 08:29:11,585 : INFO : test_invalid_password_register : Verification is done for password field
+2024-06-04 08:29:21,366 : INFO : test_mandatory_field_register : Register button is clicked
+2024-06-04 08:29:23,950 : INFO : test_mandatory_field_register : Register page opens
+2024-06-04 08:29:24,254 : INFO : test_mandatory_field_register : Required fields are filled
+2024-06-04 08:29:24,310 : INFO : test_mandatory_field_register : Next button is clicked
+2024-06-04 08:29:25,473 : INFO : test_mandatory_field_register : Password section is filled
+2024-06-04 08:29:25,624 : INFO : test_mandatory_field_register : Registration is successfully completed
+2024-06-04 08:29:35,683 : INFO : test_valid_register : Register page opens
+2024-06-04 08:29:38,837 : INFO : test_valid_register : Required fields are filled
+2024-06-04 08:29:39,316 : INFO : test_valid_register : Remaining fields are filled
+2024-06-04 08:29:39,385 : INFO : test_valid_register : Address field is enabled
+2024-06-04 08:29:39,802 : INFO : test_valid_register : Address section is filled
+2024-06-04 08:29:39,865 : INFO : test_valid_register : Next button is clicked
+2024-06-04 08:29:41,856 : INFO : test_valid_register : Password section is filled
+2024-06-04 08:29:42,002 : INFO : test_valid_register : Registration is successfully completed
+2024-06-04 12:03:25,970 : INFO : test_already_exists_email : Register button is clicked
+2024-06-04 12:03:28,992 : INFO : test_already_exists_email : Register page opens
+2024-06-04 12:03:29,377 : INFO : test_already_exists_email : Required fields are filled
+2024-06-04 12:03:29,446 : INFO : test_already_exists_email : Next button is clicked
+2024-06-04 12:03:31,706 : INFO : test_already_exists_email : Already existing email is verified
+2024-06-04 12:03:59,049 : INFO : test_blank_field_register : Register button is clicked
+2024-06-04 12:04:04,093 : INFO : test_blank_field_register : Register page opens
+2024-06-04 12:04:04,617 : INFO : test_blank_field_register : fill the remaining field in the profile except mandatory field
+2024-06-04 12:04:04,694 : INFO : test_blank_field_register : enable the address section
+2024-06-04 12:04:05,139 : INFO : test_blank_field_register : Fill the address field
+2024-06-04 12:04:05,204 : INFO : test_blank_field_register : click the next button
+2024-06-04 12:04:05,231 : INFO : test_blank_field_register : verify the mandatory fields gives a alert message
+2024-06-04 12:04:17,577 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 12:04:21,269 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 12:04:21,668 : INFO : test_confirm_password_register : Required fields are filled
+2024-06-04 12:04:22,237 : INFO : test_confirm_password_register : Remaining fields are filled
+2024-06-04 12:04:22,350 : INFO : test_confirm_password_register : Address field is enabled
+2024-06-04 12:04:22,964 : INFO : test_confirm_password_register : Address section is filled
+2024-06-04 12:04:23,036 : INFO : test_confirm_password_register : Next button is clicked
+2024-06-04 12:04:24,890 : INFO : test_confirm_password_register : Password section is filled
+2024-06-04 12:04:25,077 : INFO : test_confirm_password_register : Verification is done by confirm password
+2024-06-04 12:04:39,673 : INFO : test_invalid_email_register : Register button is clicked
+2024-06-04 12:04:43,342 : INFO : test_invalid_email_register : Register page opens
+2024-06-04 12:04:43,650 : INFO : test_invalid_email_register : Required fields are filled
+2024-06-04 12:04:43,711 : INFO : test_invalid_email_register : Next button is clicked
+2024-06-04 12:04:43,733 : INFO : test_invalid_email_register : Invalid email is verified
+2024-06-04 12:04:54,312 : INFO : test_invalid_password_register : Register button is clicked
+2024-06-04 12:04:57,631 : INFO : test_invalid_password_register : Register page opens
+2024-06-04 12:04:57,964 : INFO : test_invalid_password_register : Required fields are filled
+2024-06-04 12:04:58,458 : INFO : test_invalid_password_register : Remaining fields are filled
+2024-06-04 12:04:58,530 : INFO : test_invalid_password_register : Address field is enabled
+2024-06-04 12:04:58,935 : INFO : test_invalid_password_register : Address section is filled
+2024-06-04 12:04:58,997 : INFO : test_invalid_password_register : Next button is clicked
+2024-06-04 12:05:01,329 : INFO : test_invalid_password_register : Password section is filled
+2024-06-04 12:05:01,482 : INFO : test_invalid_password_register : Verification is done for password field
+2024-06-04 12:05:19,262 : INFO : test_mandatory_field_register : Register button is clicked
+2024-06-04 12:06:45,607 : INFO : test_already_exists_email : Register button is clicked
+2024-06-04 12:07:08,046 : INFO : test_blank_field_register : Register button is clicked
+2024-06-04 12:07:11,657 : INFO : test_blank_field_register : Register page opens
+2024-06-04 12:07:12,208 : INFO : test_blank_field_register : fill the remaining field in the profile except mandatory field
+2024-06-04 12:07:12,313 : INFO : test_blank_field_register : enable the address section
+2024-06-04 12:07:12,785 : INFO : test_blank_field_register : Fill the address field
+2024-06-04 12:07:12,850 : INFO : test_blank_field_register : click the next button
+2024-06-04 12:07:12,879 : INFO : test_blank_field_register : verify the mandatory fields gives a alert message
+2024-06-04 12:07:23,346 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 12:07:27,311 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 12:07:27,617 : INFO : test_confirm_password_register : Required fields are filled
+2024-06-04 12:07:28,071 : INFO : test_confirm_password_register : Remaining fields are filled
+2024-06-04 12:07:28,155 : INFO : test_confirm_password_register : Address field is enabled
+2024-06-04 12:07:28,532 : INFO : test_confirm_password_register : Address section is filled
+2024-06-04 12:07:28,611 : INFO : test_confirm_password_register : Next button is clicked
+2024-06-04 12:07:30,552 : INFO : test_confirm_password_register : Password section is filled
+2024-06-04 12:07:30,719 : INFO : test_confirm_password_register : Verification is done by confirm password
+2024-06-04 12:07:43,918 : INFO : test_invalid_email_register : Register button is clicked
+2024-06-04 12:07:47,825 : INFO : test_invalid_email_register : Register page opens
+2024-06-04 12:07:48,169 : INFO : test_invalid_email_register : Required fields are filled
+2024-06-04 12:07:48,233 : INFO : test_invalid_email_register : Next button is clicked
+2024-06-04 12:07:48,260 : INFO : test_invalid_email_register : Invalid email is verified
+2024-06-04 12:08:04,824 : INFO : test_invalid_password_register : Register button is clicked
+2024-06-04 12:08:07,915 : INFO : test_invalid_password_register : Register page opens
+2024-06-04 12:08:08,263 : INFO : test_invalid_password_register : Required fields are filled
+2024-06-04 12:08:08,722 : INFO : test_invalid_password_register : Remaining fields are filled
+2024-06-04 12:08:08,802 : INFO : test_invalid_password_register : Address field is enabled
+2024-06-04 12:08:09,220 : INFO : test_invalid_password_register : Address section is filled
+2024-06-04 12:08:09,278 : INFO : test_invalid_password_register : Next button is clicked
+2024-06-04 12:08:11,179 : INFO : test_invalid_password_register : Password section is filled
+2024-06-04 12:08:11,353 : INFO : test_invalid_password_register : Verification is done for password field
+2024-06-04 12:08:28,844 : INFO : test_mandatory_field_register : Register button is clicked
+2024-06-04 12:08:33,114 : INFO : test_mandatory_field_register : Register page opens
+2024-06-04 12:08:33,415 : INFO : test_mandatory_field_register : Required fields are filled
+2024-06-04 12:08:33,474 : INFO : test_mandatory_field_register : Next button is clicked
+2024-06-04 12:08:34,597 : INFO : test_mandatory_field_register : Password section is filled
+2024-06-04 12:08:34,780 : INFO : test_mandatory_field_register : Registration is successfully completed
+2024-06-04 12:09:20,010 : INFO : test_valid_register : Register page opens
+2024-06-04 12:09:23,075 : INFO : test_valid_register : Required fields are filled
+2024-06-04 12:09:23,599 : INFO : test_valid_register : Remaining fields are filled
+2024-06-04 12:09:23,691 : INFO : test_valid_register : Address field is enabled
+2024-06-04 12:09:24,165 : INFO : test_valid_register : Address section is filled
+2024-06-04 12:09:24,234 : INFO : test_valid_register : Next button is clicked
+2024-06-04 12:09:26,635 : INFO : test_valid_register : Password section is filled
+2024-06-04 12:09:26,796 : INFO : test_valid_register : Registration is successfully completed
+2024-06-04 12:10:23,200 : INFO : test_already_exists_email : Register button is clicked
+2024-06-04 12:10:40,721 : INFO : test_blank_field_register : Register button is clicked
+2024-06-04 12:10:44,111 : INFO : test_blank_field_register : Register page opens
+2024-06-04 12:10:44,694 : INFO : test_blank_field_register : fill the remaining field in the profile except mandatory field
+2024-06-04 12:10:44,788 : INFO : test_blank_field_register : enable the address section
+2024-06-04 12:10:45,237 : INFO : test_blank_field_register : Fill the address field
+2024-06-04 12:10:45,349 : INFO : test_blank_field_register : click the next button
+2024-06-04 12:10:45,395 : INFO : test_blank_field_register : verify the mandatory fields gives a alert message
+2024-06-04 12:10:58,103 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 12:11:02,320 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 12:11:02,641 : INFO : test_confirm_password_register : Required fields are filled
+2024-06-04 12:11:03,124 : INFO : test_confirm_password_register : Remaining fields are filled
+2024-06-04 12:11:03,207 : INFO : test_confirm_password_register : Address field is enabled
+2024-06-04 12:11:03,592 : INFO : test_confirm_password_register : Address section is filled
+2024-06-04 12:11:03,649 : INFO : test_confirm_password_register : Next button is clicked
+2024-06-04 12:11:07,148 : INFO : test_confirm_password_register : Password section is filled
+2024-06-04 12:11:07,294 : INFO : test_confirm_password_register : Verification is done by confirm password
+2024-06-04 12:11:19,148 : INFO : test_invalid_email_register : Register button is clicked
+2024-06-04 12:11:21,873 : INFO : test_invalid_email_register : Register page opens
+2024-06-04 12:11:22,168 : INFO : test_invalid_email_register : Required fields are filled
+2024-06-04 12:11:22,228 : INFO : test_invalid_email_register : Next button is clicked
+2024-06-04 12:11:22,255 : INFO : test_invalid_email_register : Invalid email is verified
+2024-06-04 12:11:37,330 : INFO : test_invalid_password_register : Register button is clicked
+2024-06-04 12:11:40,297 : INFO : test_invalid_password_register : Register page opens
+2024-06-04 12:11:40,618 : INFO : test_invalid_password_register : Required fields are filled
+2024-06-04 12:11:41,094 : INFO : test_invalid_password_register : Remaining fields are filled
+2024-06-04 12:11:41,176 : INFO : test_invalid_password_register : Address field is enabled
+2024-06-04 12:11:41,629 : INFO : test_invalid_password_register : Address section is filled
+2024-06-04 12:11:41,691 : INFO : test_invalid_password_register : Next button is clicked
+2024-06-04 12:11:43,610 : INFO : test_invalid_password_register : Password section is filled
+2024-06-04 12:11:43,767 : INFO : test_invalid_password_register : Verification is done for password field
+2024-06-04 12:11:58,312 : INFO : test_mandatory_field_register : Register button is clicked
+2024-06-04 12:12:16,718 : INFO : test_valid_register : Register page opens
+2024-06-04 12:50:43,190 : INFO : test_already_exists_email : Register button is clicked
+2024-06-04 12:50:59,324 : INFO : test_blank_field_register : Register button is clicked
+2024-06-04 12:51:02,687 : INFO : test_blank_field_register : Register page opens
+2024-06-04 12:51:03,335 : INFO : test_blank_field_register : fill the remaining field in the profile except mandatory field
+2024-06-04 12:51:03,412 : INFO : test_blank_field_register : enable the address section
+2024-06-04 12:51:03,898 : INFO : test_blank_field_register : Fill the address field
+2024-06-04 12:51:04,017 : INFO : test_blank_field_register : click the next button
+2024-06-04 12:51:04,048 : INFO : test_blank_field_register : verify the mandatory fields gives a alert message
+2024-06-04 12:51:15,971 : INFO : test_confirm_password_register : Register button is clicked
+2024-06-04 12:51:18,601 : INFO : test_confirm_password_register : Register page opens
+2024-06-04 12:51:18,963 : INFO : test_confirm_password_register : Required fields are filled
+2024-06-04 12:51:19,435 : INFO : test_confirm_password_register : Remaining fields are filled
+2024-06-04 12:51:19,564 : INFO : test_confirm_password_register : Address field is enabled
+2024-06-04 12:51:20,180 : INFO : test_confirm_password_register : Address section is filled
+2024-06-04 12:51:20,247 : INFO : test_confirm_password_register : Next button is clicked
+2024-06-04 12:51:22,093 : INFO : test_confirm_password_register : Password section is filled
+2024-06-04 12:51:22,246 : INFO : test_confirm_password_register : Verification is done by confirm password
+2024-06-04 12:51:36,017 : INFO : test_invalid_email_register : Register button is clicked
+2024-06-04 12:51:40,808 : INFO : test_invalid_email_register : Register page opens
+2024-06-04 12:51:41,196 : INFO : test_invalid_email_register : Required fields are filled
+2024-06-04 12:51:41,261 : INFO : test_invalid_email_register : Next button is clicked
+2024-06-04 12:51:41,286 : INFO : test_invalid_email_register : Invalid email is verified
+2024-06-04 12:51:54,565 : INFO : test_invalid_password_register : Register button is clicked
+2024-06-04 12:51:58,902 : INFO : test_invalid_password_register : Register page opens
+2024-06-04 12:51:59,235 : INFO : test_invalid_password_register : Required fields are filled
+2024-06-04 12:51:59,726 : INFO : test_invalid_password_register : Remaining fields are filled
+2024-06-04 12:51:59,827 : INFO : test_invalid_password_register : Address field is enabled
+2024-06-04 12:52:00,300 : INFO : test_invalid_password_register : Address section is filled
+2024-06-04 12:52:00,368 : INFO : test_invalid_password_register : Next button is clicked
+2024-06-04 12:52:02,096 : INFO : test_invalid_password_register : Password section is filled
+2024-06-04 12:52:02,244 : INFO : test_invalid_password_register : Verification is done for password field
+2024-06-04 12:52:16,955 : INFO : test_mandatory_field_register : Register button is clicked
+2024-06-04 12:52:21,039 : INFO : test_mandatory_field_register : Register page opens
+2024-06-04 12:52:21,360 : INFO : test_mandatory_field_register : Required fields are filled
+2024-06-04 12:52:21,438 : INFO : test_mandatory_field_register : Next button is clicked
+2024-06-04 12:52:23,161 : INFO : test_mandatory_field_register : Password section is filled
+2024-06-04 12:52:23,303 : INFO : test_mandatory_field_register : Registration is successfully completed
+2024-06-04 13:33:08,905 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:33:09,094 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:33:09,143 : INFO : test_valid_login : click the login button
+2024-06-04 13:33:09,167 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:33:21,190 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:33:21,190 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:33:21,389 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:33:21,389 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:33:21,473 : INFO : test_valid_login : click the login button
+2024-06-04 13:33:21,473 : INFO : test_valid_login : click the login button
+2024-06-04 13:33:21,510 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:33:21,510 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:33:33,288 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:33:33,288 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:33:33,288 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:34:02,500 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:34:02,699 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:34:02,751 : INFO : test_valid_login : click the login button
+2024-06-04 13:34:02,781 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:34:19,878 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:34:19,878 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:34:20,097 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:34:20,097 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:34:20,161 : INFO : test_valid_login : click the login button
+2024-06-04 13:34:20,161 : INFO : test_valid_login : click the login button
+2024-06-04 13:34:20,192 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:34:20,192 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:48:30,832 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:48:31,157 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:48:31,256 : INFO : test_valid_login : click the login button
+2024-06-04 13:48:31,303 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:48:42,521 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:48:42,521 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:48:42,706 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:48:42,706 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:48:42,787 : INFO : test_valid_login : click the login button
+2024-06-04 13:48:42,787 : INFO : test_valid_login : click the login button
+2024-06-04 13:48:42,825 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:48:42,825 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:49:31,109 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:49:31,290 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:49:31,339 : INFO : test_valid_login : click the login button
+2024-06-04 13:49:31,365 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:49:43,563 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:49:43,563 : INFO : test_valid_login : Go to Login Page
+2024-06-04 13:49:43,782 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:49:43,782 : INFO : test_valid_login : fill the details in login form
+2024-06-04 13:49:43,861 : INFO : test_valid_login : click the login button
+2024-06-04 13:49:43,861 : INFO : test_valid_login : click the login button
+2024-06-04 13:49:43,891 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:49:43,891 : INFO : test_valid_login : verify the login made successful
+2024-06-04 13:51:31,625 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:31,809 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:31,863 : INFO : test_invalid_login : click the login button
+2024-06-04 13:51:43,305 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:43,305 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:43,476 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:43,476 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:43,527 : INFO : test_invalid_login : click the login button
+2024-06-04 13:51:43,527 : INFO : test_invalid_login : click the login button
+2024-06-04 13:51:56,625 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:56,625 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:56,625 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 13:51:56,831 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:56,831 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:56,831 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 13:51:56,885 : INFO : test_invalid_login : click the login button
+2024-06-04 13:51:56,885 : INFO : test_invalid_login : click the login button
+2024-06-04 13:51:56,885 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:12,702 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:12,878 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:12,927 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:22,927 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:22,927 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:23,147 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:23,147 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:23,202 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:23,202 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:38,416 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:38,416 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:38,416 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 14:11:38,630 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:38,630 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:38,630 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 14:11:38,696 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:38,696 : INFO : test_invalid_login : click the login button
+2024-06-04 14:11:38,696 : INFO : test_invalid_login : click the login button
+2024-06-04 18:58:43,437 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:58:43,613 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:58:43,662 : INFO : test_invalid_login : click the login button
+2024-06-04 18:58:48,720 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 18:59:00,950 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:59:00,950 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:59:01,123 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:59:01,123 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:59:01,201 : INFO : test_invalid_login : click the login button
+2024-06-04 18:59:01,201 : INFO : test_invalid_login : click the login button
+2024-06-04 18:59:06,241 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 18:59:06,241 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 18:59:17,579 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:59:17,579 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:59:17,579 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 18:59:17,780 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:59:17,780 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:59:17,780 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 18:59:17,852 : INFO : test_invalid_login : click the login button
+2024-06-04 18:59:17,852 : INFO : test_invalid_login : click the login button
+2024-06-04 18:59:17,852 : INFO : test_invalid_login : click the login button
+2024-06-04 18:59:22,883 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 18:59:22,883 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 18:59:22,883 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:01:21,634 : INFO : test_valid_login : Go to Login Page
+2024-06-04 19:01:21,823 : INFO : test_valid_login : fill the details in login form
+2024-06-04 19:01:21,866 : INFO : test_valid_login : click the login button
+2024-06-04 19:01:21,889 : INFO : test_valid_login : verify the login made successful
+2024-06-04 19:01:33,460 : INFO : test_valid_login : Go to Login Page
+2024-06-04 19:01:33,460 : INFO : test_valid_login : Go to Login Page
+2024-06-04 19:01:33,648 : INFO : test_valid_login : fill the details in login form
+2024-06-04 19:01:33,648 : INFO : test_valid_login : fill the details in login form
+2024-06-04 19:01:33,733 : INFO : test_valid_login : click the login button
+2024-06-04 19:01:33,733 : INFO : test_valid_login : click the login button
+2024-06-04 19:01:33,769 : INFO : test_valid_login : verify the login made successful
+2024-06-04 19:01:33,769 : INFO : test_valid_login : verify the login made successful
+2024-06-04 19:01:51,411 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:01:51,575 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:01:51,624 : INFO : test_invalid_login : click the login button
+2024-06-04 19:01:56,653 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:02:08,305 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:02:08,305 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:02:08,485 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:02:08,485 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:02:08,566 : INFO : test_invalid_login : click the login button
+2024-06-04 19:02:08,566 : INFO : test_invalid_login : click the login button
+2024-06-04 19:02:13,627 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:02:13,627 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:02:25,550 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:02:25,550 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:02:25,550 : INFO : test_invalid_login : Go to Login Page
+2024-06-04 19:02:25,762 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:02:25,762 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:02:25,762 : INFO : test_invalid_login : fill the details in login form
+2024-06-04 19:02:25,830 : INFO : test_invalid_login : click the login button
+2024-06-04 19:02:25,830 : INFO : test_invalid_login : click the login button
+2024-06-04 19:02:25,830 : INFO : test_invalid_login : click the login button
+2024-06-04 19:02:30,862 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:02:30,862 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-04 19:02:30,862 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-05 04:56:40,325 : INFO : test_valid_login : Go to Login Page
+2024-06-05 04:56:42,719 : INFO : test_valid_login : fill the details in login form
+2024-06-05 04:56:43,089 : INFO : test_valid_login : click the login button
+2024-06-05 04:56:43,681 : INFO : test_valid_login : verify the login made successful
+2024-06-05 04:57:17,932 : INFO : test_valid_login : Go to Login Page
+2024-06-05 04:57:17,932 : INFO : test_valid_login : Go to Login Page
+2024-06-05 04:57:19,726 : INFO : test_valid_login : fill the details in login form
+2024-06-05 04:57:19,726 : INFO : test_valid_login : fill the details in login form
+2024-06-05 04:57:20,079 : INFO : test_valid_login : click the login button
+2024-06-05 04:57:20,079 : INFO : test_valid_login : click the login button
+2024-06-05 04:57:20,329 : INFO : test_valid_login : verify the login made successful
+2024-06-05 04:57:20,329 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:04:11,017 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:04:13,762 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:04:13,997 : INFO : test_valid_login : click the login button
+2024-06-05 13:04:14,184 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:04:49,618 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:04:49,618 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:04:51,545 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:04:51,545 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:04:52,404 : INFO : test_valid_login : click the login button
+2024-06-05 13:04:52,404 : INFO : test_valid_login : click the login button
+2024-06-05 13:04:52,560 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:04:52,560 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:25:49,590 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:25:52,354 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:25:53,217 : INFO : test_valid_login : click the login button
+2024-06-05 13:25:53,636 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:26:23,791 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:26:23,791 : INFO : test_valid_login : Go to Login Page
+2024-06-05 13:26:26,041 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:26:26,041 : INFO : test_valid_login : fill the details in login form
+2024-06-05 13:26:26,623 : INFO : test_valid_login : click the login button
+2024-06-05 13:26:26,623 : INFO : test_valid_login : click the login button
+2024-06-05 13:26:26,748 : INFO : test_valid_login : verify the login made successful
+2024-06-05 13:26:26,748 : INFO : test_valid_login : verify the login made successful
+2024-06-05 14:31:42,933 : INFO : test_valid_login : Go to Login Page
+2024-06-05 14:31:47,769 : INFO : test_valid_login : fill the details in login form
+2024-06-05 14:31:48,304 : INFO : test_valid_login : click the login button
+2024-06-05 14:31:49,157 : INFO : test_valid_login : verify the login made successful
+2024-06-05 15:21:59,468 : INFO : test_valid_login : Go to Login Page
+2024-06-05 15:22:09,188 : INFO : test_valid_login : fill the details in login form
+2024-06-05 15:22:09,523 : INFO : test_valid_login : click the login button
+2024-06-05 15:22:09,876 : INFO : test_valid_login : verify the login made successful
+2024-06-05 15:24:38,532 : INFO : test_valid_login : Go to Login Page
+2024-06-05 15:24:38,532 : INFO : test_valid_login : Go to Login Page
+2024-06-05 15:24:42,263 : INFO : test_valid_login : fill the details in login form
+2024-06-05 15:24:42,263 : INFO : test_valid_login : fill the details in login form
+2024-06-05 15:24:44,140 : INFO : test_valid_login : click the login button
+2024-06-05 15:24:44,140 : INFO : test_valid_login : click the login button
+2024-06-05 15:24:44,637 : INFO : test_valid_login : verify the login made successful
+2024-06-05 15:24:44,637 : INFO : test_valid_login : verify the login made successful
+2024-06-05 16:22:58,816 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:23:00,523 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:23:00,792 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:23:24,421 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:23:24,421 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:23:27,411 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:23:27,411 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:23:27,543 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:23:27,543 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:27:07,134 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:27:09,010 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:27:09,500 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:30:01,945 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:30:04,511 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:30:04,785 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:39:43,624 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:39:45,627 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:39:46,210 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:46:30,980 : INFO : test_membAccount : Logged in successfully
+2024-06-05 16:46:33,392 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 16:46:34,331 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 16:46:37,244 : INFO : test_membAccount : Member account Page is displayed
+2024-06-05 16:46:37,429 : INFO : test_membAccount : Balance is verified
+2024-06-05 16:46:37,519 : INFO : test_membAccount : Transaction history is verified
+2024-06-05 19:13:03,056 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:16:58,535 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:18:05,732 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:18:07,298 : INFO : test_validreceive_qr_code : Go to Banking Page
+2024-06-05 19:37:46,032 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:38:45,180 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:38:47,127 : INFO : test_validreceive_qr_code : Go to Banking Page
+2024-06-05 19:44:18,930 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 19:44:21,371 : INFO : test_validreceive_qr_code : Go to Banking Page
+2024-06-05 19:46:37,989 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:46:39,247 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:51:15,055 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:51:17,988 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:54:35,070 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:54:38,458 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:55:36,618 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:55:37,896 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:57:01,959 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:57:03,272 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:58:01,234 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:58:03,243 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 19:58:39,979 : INFO : test_membAccount : Logged in successfully
+2024-06-05 19:58:42,301 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 20:01:39,458 : INFO : test_membAccount : Logged in successfully
+2024-06-05 20:01:41,555 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 20:01:45,803 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 20:06:55,934 : INFO : test_membAccount : Logged in successfully
+2024-06-05 20:06:57,490 : INFO : test_membAccount : Go to Banking Page
+2024-06-05 20:06:59,077 : INFO : test_membAccount : Banking Page is displayed
+2024-06-05 20:07:00,752 : INFO : test_membAccount : Member account Page is displayed
+2024-06-05 20:07:00,814 : INFO : test_membAccount : Balance is verified
+2024-06-05 20:07:00,853 : INFO : test_membAccount : Transaction history is verified
+2024-06-05 20:07:35,225 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-05 20:07:36,746 : INFO : test_validreceive_qr_code : Go to Banking Page
+2024-06-05 20:07:37,686 : INFO : test_validreceive_qr_code : Banking Page is displayed
+2024-06-05 20:07:38,251 : INFO : test_validreceive_qr_code : Go to Receive QR Code Page
+2024-06-05 20:07:38,835 : INFO : test_validreceive_qr_code : Receive QR Code Page is displayed
+2024-06-05 20:07:41,426 : INFO : test_validreceive_qr_code : QR Code is generated successfully
+2024-06-05 20:17:20,335 : INFO : test_invalidreceive_qr_code : Logged in successfully
+2024-06-05 20:17:23,143 : INFO : test_invalidreceive_qr_code : Go to Banking Page
+2024-06-05 20:18:06,591 : INFO : test_invalidreceive_qr_code : Logged in successfully
+2024-06-05 20:18:08,313 : INFO : test_invalidreceive_qr_code : Go to Banking Page
+2024-06-05 20:18:09,956 : INFO : test_invalidreceive_qr_code : Banking Page is displayed
+2024-06-05 20:18:10,642 : INFO : test_invalidreceive_qr_code : Go to Receive QR Code Page
+2024-06-05 20:18:11,854 : INFO : test_invalidreceive_qr_code : Receive QR Code Page is displayed
+2024-06-05 20:18:15,520 : INFO : test_invalidreceive_qr_code : Error message is displayed successfully
+2024-06-05 20:29:42,422 : INFO : test_invalidreceive_qr_code : Logged in successfully
+2024-06-05 20:29:45,126 : INFO : test_invalidreceive_qr_code : Go to Banking Page
+2024-06-05 20:29:47,452 : INFO : test_invalidreceive_qr_code : Banking Page is displayed
+2024-06-05 20:29:48,027 : INFO : test_invalidreceive_qr_code : Go to Receive QR Code Page
+2024-06-05 20:29:49,798 : INFO : test_invalidreceive_qr_code : Receive QR Code Page is displayed
+2024-06-05 20:29:53,587 : INFO : test_invalidreceive_qr_code : Error message is displayed successfully

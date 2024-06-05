@@ -19,3 +19,6 @@ class BasePage:
         element = self.find(locator)
         element.send_keys(text)
         
+
+
+        
