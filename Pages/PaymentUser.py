@@ -11,10 +11,12 @@ class PaymentUser(BasePage):
     amount_xpath = (By.XPATH,"//div[@class='input-group']//input")
     scheduling_xpath = (By.XPATH,"//button[@class='form-control text-left custom-select w-100']")
     pay_now_xpath = (By.XPATH,"//a[text()=' Pay now ']")
+    recurringPayment_xpath = (By.XPATH, "//a[text()=' Recurring payments ']")
     next_button_xpath = (By.XPATH , "//action-button[@class='d-inline-block button']/button")
     confirm_button_xpath = (By.XPATH , "//span[text()='Confirm']")
     toUser_error_msg = (By.XPATH, "(//div[@class='invalid-feedback'])[1]")
     amount_error_msg = (By.XPATH, "(//div[@class='invalid-feedback'])[2]")
+    invalid_amount_error_msg = (By.CSS_SELECTOR, "div[class='invalid-feedback']")
 
     def __init__(self,driver):
         super().__init__(driver)
@@ -44,6 +46,11 @@ class PaymentUser(BasePage):
     def select_PayNow(self):
         time.sleep(3)
         self.click(self.pay_now_xpath)
+    
+    def select_Recurring_Payment(self):
+        time.sleep(3)
+        self.click(self.recurringPayment_xpath)
+
 
     def click_Next_Button(self):
         self.click(self.next_button_xpath)
@@ -67,3 +74,7 @@ class PaymentUser(BasePage):
         error_msg = self.find(self.amount_error_msg).text
         assert error_msg == 'This field is required'
         
+    def invalid_Amount_Message(self):
+        time.sleep(3)
+        error_msg = self.find(self.invalid_amount_error_msg).text
+        assert error_msg == "Amount must be less or equal to 500,00 IU's."

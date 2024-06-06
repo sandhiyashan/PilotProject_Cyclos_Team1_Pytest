@@ -7,10 +7,10 @@ from Pages.LoginPage import LoginPage
 
 @pytest.mark.usefixtures("test_setup_teardown")
 @pytest.mark.parametrize("username,password", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\payment_to_user_testdata.xlsx", "login"))
-@pytest.mark.parametrize("user_name,amount_data", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\payment_to_user_testdata.xlsx", "validData"))
+@pytest.mark.parametrize("user_name,exceeded_amount_data", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\payment_to_user_testdata.xlsx", "boundary"))
 
-class Test_paymentToUser:
-    def test_PayNow(self,username,password,user_name,amount_data):
+class Test_InvalidPayment:
+    def test_PayNow(self,username,password,user_name,exceeded_amount_data):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
         payment = PaymentUser(self.driver)
@@ -25,12 +25,15 @@ class Test_paymentToUser:
         home.goToBanking()
         payment.click_Payment_To_User()
         payment.verify_Payment_To_User()
-        log.info("fill the amount field ")
-        payment.fill_Amount_Field(amount_data)
+        log.info("fill the required payment details ")
+        payment.fill_ToUser_Field(user_name)
+        log.info("Enter the amount which is greater than 500")
+        payment.fill_Amount_Field(exceeded_amount_data)
+        payment.click_Scheduling()
+        payment.select_PayNow()
         log.info("click the next button")
         payment.click_Next_Button()
-        log.info("verify the error message for the blank to User field")
-        payment.toUser_required_error_msg()
-        
+        log.info("verify the invalid payment error message")
+        payment.invalid_Amount_Message()
 
 

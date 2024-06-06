@@ -8,7 +8,6 @@ class HomePage(BasePage):
     verify_login_xpath = (By.XPATH,"(//div[@class='top-title'])[2]")
     marketPlace_xpath = (By.XPATH,"//div[text()='Marketplace']")
     Logout_xpath = (By.XPATH,"//a[@aria-label='Logout']//icon//*[name()='svg']")
-    #banking_Xpath = (By.XPATH,"//a[@id='menu_banking']")
     banking_page_verify = (By.XPATH,"//div[@class='side-menu-title' and text()=' Banking ']")
     banking_page_keyword = "Banking"
     banking_xpath = (By.XPATH, "//div[text()='Banking']")
