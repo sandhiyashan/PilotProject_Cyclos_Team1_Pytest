@@ -1,7 +1,6 @@
 import time
 from selenium.webdriver.common.by import By
 from Pages.BasePage import BasePage
-#import time
 
 class PaymentUser(BasePage):
     payment_to_user_xpath = (By.XPATH,"//div[text()='Payment to user']")

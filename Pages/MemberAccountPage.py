@@ -14,10 +14,10 @@ class MemberAccountPage(BasePage):
         self.driver = driver
 
     def gotTo_memberaccount(self):
-       self._wait.until(expected_conditions.visibility_of_element_located((self.member_acc_xpath)))
-       self.click(self.member_acc_xpath)
-       mem_acc_title = self.find(self.verify_memberacc_xpath).text
-       assert mem_acc_title == self.member_acc_keyword
+        self._wait.until(expected_conditions.visibility_of_element_located((self.member_acc_xpath)))
+        self.click(self.member_acc_xpath)
+        mem_acc_title = self.find(self.verify_memberacc_xpath).text
+        assert mem_acc_title == self.member_acc_keyword
 
     def verify_balance(self):
         self._wait.until(expected_conditions.presence_of_element_located((self.balance_xpath)))

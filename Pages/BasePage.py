@@ -20,6 +20,7 @@ class BasePage:
         element = self.find(locator)
         element.send_keys(text)
         
-
-
+    
+    def find_Elements(self, locator):
+        return self._driver.find_elements(*locator)
         
