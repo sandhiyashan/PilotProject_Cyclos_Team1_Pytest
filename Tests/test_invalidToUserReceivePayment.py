@@ -8,8 +8,8 @@ from Pages.ReceivePaymentPage import ReceivePayPage
 @pytest.mark.usefixtures("test_setup_teardown")
 @pytest.mark.parametrize("to_user,amount,description,username,password", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\receivePay_data.xlsx", "invalid_data"))
 
-class TestValidReceivePaymentPage:
-    def test_validreceive_payment(self, to_user, amount, description, username, password):
+class TestinvalidToUserReceivePaymentPage:
+    def test_invalidToUserreceive_payment(self, to_user, amount, description, username, password):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
         receive_pay  = ReceivePayPage(self.driver)
