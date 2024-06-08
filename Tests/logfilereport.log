@@ -808,3 +808,65 @@
 2024-06-07 19:11:13,799 : INFO : test_Validmonthlypayment_touser : Monthly install is clicked
 2024-06-07 19:11:14,128 : INFO : test_Validmonthlypayment_touser : Next button is clicked
 2024-06-07 19:11:18,213 : INFO : test_Validmonthlypayment_touser : No of Installments Error message is displayed
+2024-06-08 18:17:26,681 : INFO : test_validbusiness_directory : Logged in successfully
+2024-06-08 18:17:28,487 : INFO : test_validbusiness_directory : Go to Market Place
+2024-06-08 18:19:07,180 : INFO : test_validbusiness_directory : Logged in successfully
+2024-06-08 18:19:08,888 : INFO : test_validbusiness_directory : Go to Market Place
+2024-06-08 18:19:11,155 : INFO : test_validbusiness_directory : Market Place Page is displayed
+2024-06-08 18:35:55,746 : INFO : test_validbusiness_directory : Logged in successfully
+2024-06-08 18:35:57,162 : INFO : test_validbusiness_directory : Go to Market Place
+2024-06-08 18:35:59,194 : INFO : test_validbusiness_directory : Market Place Page is displayed
+2024-06-08 18:40:42,636 : INFO : test_validbusiness_directory : Logged in successfully
+2024-06-08 18:40:44,751 : INFO : test_validbusiness_directory : Go to Market Place
+2024-06-08 18:40:48,176 : INFO : test_validbusiness_directory : Market Place Page is displayed
+2024-06-08 18:40:48,998 : INFO : test_validbusiness_directory : Go to Business directory
+2024-06-08 18:40:50,040 : INFO : test_validbusiness_directory : Business Directory Page is displayed
+2024-06-08 18:40:50,447 : INFO : test_validbusiness_directory : Filled the key
+2024-06-08 18:40:50,705 : INFO : test_validbusiness_directory : Clicked on Order By
+2024-06-08 18:40:52,226 : INFO : test_validbusiness_directory : Clicked on Relevance
+2024-06-08 18:47:55,062 : INFO : test_validbusiness_directory : Logged in successfully
+2024-06-08 18:47:56,778 : INFO : test_validbusiness_directory : Go to Market Place
+2024-06-08 18:47:58,265 : INFO : test_validbusiness_directory : Market Place Page is displayed
+2024-06-08 18:47:58,745 : INFO : test_validbusiness_directory : Go to Business directory
+2024-06-08 18:47:59,392 : INFO : test_validbusiness_directory : Business Directory Page is displayed
+2024-06-08 18:48:00,317 : INFO : test_validbusiness_directory : Filled the key
+2024-06-08 18:48:00,524 : INFO : test_validbusiness_directory : Clicked on Order By
+2024-06-08 18:48:01,105 : INFO : test_validbusiness_directory : Clicked on Relevance
+2024-06-08 18:48:01,566 : INFO : test_validbusiness_directory : Verified the relevance results
+2024-06-08 19:00:17,167 : INFO : test_validbusiness_directory : Logged in successfully
+2024-06-08 19:00:18,800 : INFO : test_validbusiness_directory : Go to Market Place
+2024-06-08 19:00:20,613 : INFO : test_validbusiness_directory : Market Place Page is displayed
+2024-06-08 19:00:23,073 : INFO : test_validbusiness_directory : Go to Business directory
+2024-06-08 19:00:23,803 : INFO : test_validbusiness_directory : Business Directory Page is displayed
+2024-06-08 19:00:24,675 : INFO : test_validbusiness_directory : Filled the key
+2024-06-08 19:00:25,303 : INFO : test_validbusiness_directory : Clicked on Order By
+2024-06-08 19:00:25,874 : INFO : test_validbusiness_directory : Clicked on Relevance
+2024-06-08 19:00:27,326 : INFO : test_validbusiness_directory : Verified the relevance results
+2024-06-08 19:04:22,964 : INFO : test_validbusiness_directory : Logged in successfully
+2024-06-08 19:04:24,311 : INFO : test_validbusiness_directory : Go to Market Place
+2024-06-08 19:05:34,629 : INFO : test_validbusiness_directory : Logged in successfully
+2024-06-08 19:05:36,435 : INFO : test_validbusiness_directory : Go to Market Place
+2024-06-08 19:05:38,631 : INFO : test_validbusiness_directory : Market Place Page is displayed
+2024-06-08 19:05:40,515 : INFO : test_validbusiness_directory : Go to Business directory
+2024-06-08 19:05:41,730 : INFO : test_validbusiness_directory : Business Directory Page is displayed
+2024-06-08 19:05:43,107 : INFO : test_validbusiness_directory : Filled the key
+2024-06-08 19:05:48,191 : INFO : test_validbusiness_directory : Clicked on user
+2024-06-08 19:05:49,799 : INFO : test_validbusiness_directory : Clicked on add to contact
+2024-06-08 19:11:27,755 : INFO : test_validbusiness_directory : Logged in successfully
+2024-06-08 19:11:29,717 : INFO : test_validbusiness_directory : Go to Market Place
+2024-06-08 19:11:32,393 : INFO : test_validbusiness_directory : Market Place Page is displayed
+2024-06-08 19:11:33,380 : INFO : test_validbusiness_directory : Go to Business directory
+2024-06-08 19:11:34,256 : INFO : test_validbusiness_directory : Business Directory Page is displayed
+2024-06-08 19:11:35,266 : INFO : test_validbusiness_directory : Filled the key
+2024-06-08 19:11:35,756 : INFO : test_validbusiness_directory : Clicked on user
+2024-06-08 19:11:36,701 : INFO : test_validbusiness_directory : Clicked on add to contact
+2024-06-08 19:11:37,606 : INFO : test_validbusiness_directory : User added to contact is verified
+2024-06-08 19:19:25,759 : INFO : test_invalidkey_business_directory : Logged in successfully
+2024-06-08 19:19:29,996 : INFO : test_invalidkey_business_directory : Go to Market Place
+2024-06-08 19:20:24,361 : INFO : test_invalidkey_business_directory : Logged in successfully
+2024-06-08 19:20:27,152 : INFO : test_invalidkey_business_directory : Go to Market Place
+2024-06-08 19:20:30,243 : INFO : test_invalidkey_business_directory : Market Place Page is displayed
+2024-06-08 19:20:31,085 : INFO : test_invalidkey_business_directory : Go to Business directory
+2024-06-08 19:20:33,394 : INFO : test_invalidkey_business_directory : Business Directory Page is displayed
+2024-06-08 19:20:34,553 : INFO : test_invalidkey_business_directory : Filled the key
+2024-06-08 19:20:39,943 : INFO : test_invalidkey_business_directory : Alert is verified successfully
