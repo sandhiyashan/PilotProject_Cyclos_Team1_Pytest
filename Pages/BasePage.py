@@ -11,7 +11,6 @@ class BasePage:
     def find(self, locator):
         return self._driver.find_element(*locator)
     
-    
     def click(self, locator):
         element = self.find(locator)
         element.click()
@@ -20,6 +19,7 @@ class BasePage:
         element = self.find(locator)
         element.send_keys(text)
         
-
-
+    
+    def find_Elements(self, locator):
+        return self._driver.find_elements(*locator)
         

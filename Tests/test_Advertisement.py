@@ -2,34 +2,32 @@ import pytest
 from Utilities import consolelogger
 from Utilities import excelReader
 from Pages.HomePage import HomePage
-from Pages.PaymentUser import PaymentUser
 from Pages.LoginPage import LoginPage
+from Pages.AdvertisementPage import Advertisement
 
 @pytest.mark.usefixtures("test_setup_teardown")
 @pytest.mark.parametrize("username,password", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\payment_to_user_testdata.xlsx", "login"))
-@pytest.mark.parametrize("user_name,amount_data", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\payment_to_user_testdata.xlsx", "validData"))
+@pytest.mark.parametrize("keyword_data", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\advertisement_testdata.xlsx", "valid_data"))
 
 class Test_paymentToUser:
-    def test_PayNow(self,username,password,user_name,amount_data):
+    def test_PayNow(self,username,password,keyword_data):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
-        payment = PaymentUser(self.driver)
         login = LoginPage(self.driver)
+        ads = Advertisement(self.driver)
         log.info("click the login page")
         home.goToLogin()
         log.info("Fill the required details in login page")
         login.fill_the_login_form(username,password)
         log.info("click the loggin button")
         login.click_login_button()
-        log.info("click the banking option in homepage")
-        home.goToBanking()
-        payment.click_Payment_To_User()
-        payment.verify_Payment_To_User()
-        log.info("fill the required payment details ")
-        payment.fill_ToUser_Field(user_name)
-        log.info("click the next button")
-        payment.click_Next_Button()
-        log.info("verify the error message amount required")
-        payment.toUser_required_error_msg()
+        log.info("click the marketplace option in homepage")
+        home.goToMarketPlace()
+        log.info("click the Advertisment option in marketplace")
+        ads.click_Advertisement()
+        log.info("Enter the keyword into the keyword field")
+        ads.enter_keyword(keyword_data)
+        log.info("verify the keyword based element displayed ")
+        ads.verify_keyword_based_element()
 
 

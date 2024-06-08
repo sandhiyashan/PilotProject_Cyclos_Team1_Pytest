@@ -1,7 +1,6 @@
 import pytest
 from Utilities import consolelogger
 from Utilities import excelReader
-from Utilities import read_config
 from Pages.HomePage import HomePage
 from Pages.LoginPage import LoginPage
 from Pages.ReceiveQRcodePage import ReceiveQRcodePage
