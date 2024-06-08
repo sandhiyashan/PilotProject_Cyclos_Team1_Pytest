@@ -11,7 +11,6 @@ class HomePage(BasePage):
     marketplace_title_xpath = (By.XPATH,"//div[@class='side-menu-title' and text()=' Marketplace ']")
     marketplace_key = "Marketplace"
     Logout_xpath = (By.XPATH,"//a[@aria-label='Logout']//icon//*[name()='svg']")
-    #banking_Xpath = (By.XPATH,"//a[@id='menu_banking']")
     banking_page_verify = (By.XPATH,"//div[@class='side-menu-title' and text()=' Banking ']")
     banking_page_keyword = "Banking"
     banking_xpath = (By.XPATH, "//div[text()='Banking']")

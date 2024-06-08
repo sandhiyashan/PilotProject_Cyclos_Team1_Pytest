@@ -9,8 +9,8 @@ from Pages.LoginPage import LoginPage
 @pytest.mark.parametrize("username,password", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\payment_to_user_testdata.xlsx", "login"))
 @pytest.mark.parametrize("user_name,amount_data", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\payment_to_user_testdata.xlsx", "validData"))
 
-class Test_paymentToUser:
-    def test_PayNow(self,username,password,user_name,amount_data):
+class Test_recurringPayment:
+    def test_recurringPayment(self,username,password,user_name,amount_data):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
         payment = PaymentUser(self.driver)
@@ -25,12 +25,13 @@ class Test_paymentToUser:
         home.goToBanking()
         payment.click_Payment_To_User()
         payment.verify_Payment_To_User()
-        log.info("fill the amount field ")
+        log.info("fill the required payment details ")
+        payment.fill_ToUser_Field(user_name)
         payment.fill_Amount_Field(amount_data)
+        payment.click_Scheduling()
+        payment.select_Recurring_Payment()
         log.info("click the next button")
         payment.click_Next_Button()
-        log.info("verify the error message for the blank to User field")
-        payment.toUser_required_error_msg()
-        
-
-
+        log.info("click the submit button")
+        payment.click_Confirm_Button()
+        payment.verify_succesful_payment()

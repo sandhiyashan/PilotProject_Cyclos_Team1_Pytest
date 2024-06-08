@@ -692,6 +692,151 @@
 2024-06-05 20:29:48,027 : INFO : test_invalidreceive_qr_code : Go to Receive QR Code Page
 2024-06-05 20:29:49,798 : INFO : test_invalidreceive_qr_code : Receive QR Code Page is displayed
 2024-06-05 20:29:53,587 : INFO : test_invalidreceive_qr_code : Error message is displayed successfully
+2024-06-06 18:27:06,886 : INFO : test_PayNow : click the login page
+2024-06-06 18:27:08,806 : INFO : test_PayNow : Fill the required details in login page
+2024-06-06 18:27:09,383 : INFO : test_PayNow : click the loggin button
+2024-06-06 18:27:09,488 : INFO : test_PayNow : click the banking option in homepage
+2024-06-06 18:27:20,495 : INFO : test_PayNow : fill the required payment details 
+2024-06-06 18:27:27,297 : INFO : test_PayNow : click the next button
+2024-06-06 18:27:27,378 : INFO : test_PayNow : verify the error message amount required
+2024-06-06 18:29:36,298 : INFO : test_PayNow : click the login page
+2024-06-06 18:29:38,409 : INFO : test_PayNow : Fill the required details in login page
+2024-06-06 18:29:38,939 : INFO : test_PayNow : click the loggin button
+2024-06-06 18:29:39,060 : INFO : test_PayNow : click the banking option in homepage
+2024-06-06 18:31:11,769 : INFO : test_PayNow : click the login page
+2024-06-06 18:31:13,868 : INFO : test_PayNow : Fill the required details in login page
+2024-06-06 18:31:14,471 : INFO : test_PayNow : click the loggin button
+2024-06-06 18:31:14,578 : INFO : test_PayNow : click the banking option in homepage
+2024-06-06 18:31:25,624 : INFO : test_PayNow : click the next button
+2024-06-06 18:31:25,716 : INFO : test_PayNow : verify the error message for the blank to User field
+2024-06-06 18:31:29,744 : INFO : test_PayNow : verify the error message for the blank amount field
+2024-06-06 18:33:45,465 : INFO : test_PayNow : click the login page
+2024-06-06 18:38:46,427 : INFO : test_PayNow : click the login page
+2024-06-06 18:40:44,124 : INFO : test_PayNow : click the login page
+2024-06-06 18:40:46,205 : INFO : test_PayNow : Fill the required details in login page
+2024-06-06 18:40:46,641 : INFO : test_PayNow : click the loggin button
+2024-06-06 18:40:46,739 : INFO : test_PayNow : click the banking option in homepage
+2024-06-06 18:40:57,792 : INFO : test_PayNow : fill the amount field 
+2024-06-06 18:41:00,922 : INFO : test_PayNow : click the next button
+2024-06-06 18:41:01,023 : INFO : test_PayNow : verify the error message for the blank to User field
+2024-06-06 18:48:31,126 : INFO : test_PayNow : click the login page
+2024-06-06 18:48:33,207 : INFO : test_PayNow : Fill the required details in login page
+2024-06-06 18:48:33,796 : INFO : test_PayNow : click the loggin button
+2024-06-06 18:48:33,902 : INFO : test_PayNow : click the banking option in homepage
+2024-06-06 18:48:44,941 : INFO : test_PayNow : fill the required payment details 
+2024-06-06 18:48:51,129 : INFO : test_PayNow : Enter the amount which is greater than 500
+2024-06-06 18:49:02,428 : INFO : test_PayNow : click the next button
+2024-06-06 18:49:02,515 : INFO : test_PayNow : verify the invalid payment error message
+2024-06-06 18:51:55,702 : INFO : test_PayNow : click the login page
+2024-06-06 18:51:59,834 : INFO : test_PayNow : Fill the required details in login page
+2024-06-06 18:52:00,379 : INFO : test_PayNow : click the loggin button
+2024-06-06 18:52:00,551 : INFO : test_PayNow : click the banking option in homepage
+2024-06-06 18:52:11,679 : INFO : test_PayNow : fill the required payment details 
+2024-06-06 18:52:31,285 : INFO : test_PayNow : click the next button
+2024-06-06 18:52:31,386 : INFO : test_PayNow : click the submit button
+2024-06-06 18:53:04,702 : INFO : test_PayNow : click the login page
+2024-06-06 18:53:07,224 : INFO : test_PayNow : Fill the required details in login page
+2024-06-06 18:53:07,847 : INFO : test_PayNow : click the loggin button
+2024-06-06 18:53:07,962 : INFO : test_PayNow : click the banking option in homepage
+2024-06-06 18:53:19,405 : INFO : test_PayNow : fill the required payment details 
+2024-06-06 18:53:37,451 : INFO : test_PayNow : click the next button
+2024-06-06 18:53:37,535 : INFO : test_PayNow : click the submit button
+2024-06-06 19:00:59,950 : INFO : test_recurringPayment : click the login page
+2024-06-06 19:01:02,445 : INFO : test_recurringPayment : Fill the required details in login page
+2024-06-06 19:01:02,827 : INFO : test_recurringPayment : click the loggin button
+2024-06-06 19:01:02,917 : INFO : test_recurringPayment : click the banking option in homepage
+2024-06-06 19:01:42,146 : INFO : test_recurringPayment : click the login page
+2024-06-06 19:01:44,374 : INFO : test_recurringPayment : Fill the required details in login page
+2024-06-06 19:01:44,921 : INFO : test_recurringPayment : click the loggin button
+2024-06-06 19:01:45,122 : INFO : test_recurringPayment : click the banking option in homepage
+2024-06-06 19:01:56,171 : INFO : test_recurringPayment : fill the required payment details 
+2024-06-06 19:02:14,433 : INFO : test_recurringPayment : click the next button
+2024-06-06 19:02:14,529 : INFO : test_recurringPayment : click the submit button
+2024-06-07 10:57:22,890 : INFO : test_PayNow : click the login page
+2024-06-07 10:57:26,387 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 10:57:26,977 : INFO : test_PayNow : click the loggin button
+2024-06-07 10:57:27,081 : INFO : test_PayNow : click the banking option in homepage
+2024-06-07 11:07:31,788 : INFO : test_PayNow : click the login page
+2024-06-07 11:07:35,062 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:07:35,480 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:07:35,561 : INFO : test_PayNow : click the banking option in homepage
+2024-06-07 11:08:14,043 : INFO : test_PayNow : click the login page
+2024-06-07 11:08:15,997 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:08:16,546 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:08:16,644 : INFO : test_PayNow : click the banking option in homepage
+2024-06-07 11:09:12,314 : INFO : test_PayNow : click the login page
+2024-06-07 11:09:14,280 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:09:14,816 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:09:14,929 : INFO : test_PayNow : click the banking option in homepage
+2024-06-07 11:09:54,104 : INFO : test_PayNow : click the login page
+2024-06-07 11:09:56,548 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:09:57,070 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:09:57,173 : INFO : test_PayNow : click the banking option in homepage
+2024-06-07 11:25:19,744 : INFO : test_PayNow : click the login page
+2024-06-07 11:25:21,646 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:25:22,078 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:25:22,147 : INFO : test_PayNow : click the banking option in homepage
+2024-06-07 11:30:16,208 : INFO : test_PayNow : click the login page
+2024-06-07 11:30:19,425 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:30:19,854 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:30:19,956 : INFO : test_PayNow : click the banking option in homepage
+2024-06-07 11:32:28,053 : INFO : test_PayNow : click the login page
+2024-06-07 11:32:30,069 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:32:30,561 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:32:30,672 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-07 11:38:39,032 : INFO : test_PayNow : click the login page
+2024-06-07 11:38:44,034 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:38:44,451 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:38:44,559 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-07 11:41:32,526 : INFO : test_PayNow : click the login page
+2024-06-07 11:41:34,486 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:41:35,002 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:41:35,108 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-07 11:41:36,921 : INFO : test_PayNow : click the Advertisment option in marketplace
+2024-06-07 11:41:40,699 : INFO : test_PayNow : Enter the keyword into the keyword field
+2024-06-07 11:41:44,030 : INFO : test_PayNow : verify the keyword based element displayed 
+2024-06-07 11:53:58,923 : INFO : test_PayNow : click the login page
+2024-06-07 11:54:01,021 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:54:01,647 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:54:01,755 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-07 11:54:02,559 : INFO : test_PayNow : click the Advertisment option in marketplace
+2024-06-07 11:54:04,182 : INFO : test_PayNow : Enter the keyword into the keyword field
+2024-06-07 11:54:07,470 : INFO : test_PayNow : verify the keyword based element displayed 
+2024-06-07 11:55:51,705 : INFO : test_PayNow : click the login page
+2024-06-07 11:55:53,715 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 11:55:54,309 : INFO : test_PayNow : click the loggin button
+2024-06-07 11:55:54,427 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-07 11:55:55,235 : INFO : test_PayNow : click the Advertisment option in marketplace
+2024-06-07 11:55:56,728 : INFO : test_PayNow : Enter the keyword into the keyword field
+2024-06-07 11:56:00,027 : INFO : test_PayNow : verify the keyword based element displayed 
+2024-06-07 12:09:01,312 : INFO : test_PayNow : click the login page
+2024-06-07 12:09:03,355 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 12:09:03,894 : INFO : test_PayNow : click the loggin button
+2024-06-07 12:09:03,994 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-07 12:09:04,773 : INFO : test_PayNow : click the Advertisment option in marketplace
+2024-06-07 12:09:06,058 : INFO : test_PayNow : Enter the keyword into the keyword field
+2024-06-07 12:09:09,358 : INFO : test_PayNow : verify the Invalid keywords error message displayed 
+2024-06-07 12:10:56,260 : INFO : test_invalid_keyword : click the login page
+2024-06-07 12:10:58,397 : INFO : test_invalid_keyword : Fill the required details in login page
+2024-06-07 12:10:59,011 : INFO : test_invalid_keyword : click the loggin button
+2024-06-07 12:10:59,111 : INFO : test_invalid_keyword : click the marketplace option in homepage
+2024-06-07 12:10:59,947 : INFO : test_invalid_keyword : click the Advertisment option in marketplace
+2024-06-07 12:11:01,546 : INFO : test_invalid_keyword : Enter the keyword into the keyword field
+2024-06-07 12:11:04,835 : INFO : test_invalid_keyword : verify the Invalid keywords error message displayed 
+2024-06-07 12:11:36,746 : INFO : test_invalid_keyword : click the login page
+2024-06-07 12:11:38,775 : INFO : test_invalid_keyword : Fill the required details in login page
+2024-06-07 12:11:39,290 : INFO : test_invalid_keyword : click the loggin button
+2024-06-07 12:11:39,431 : INFO : test_invalid_keyword : click the marketplace option in homepage
+2024-06-07 12:11:40,263 : INFO : test_invalid_keyword : click the Advertisment option in marketplace
+2024-06-07 12:11:41,599 : INFO : test_invalid_keyword : Enter the keyword into the keyword field
+2024-06-07 12:11:44,873 : INFO : test_invalid_keyword : verify the Invalid keywords error message displayed 
+2024-06-07 12:12:07,641 : INFO : test_invalid_keyword : click the login page
+2024-06-07 12:12:09,592 : INFO : test_invalid_keyword : Fill the required details in login page
+2024-06-07 12:12:10,086 : INFO : test_invalid_keyword : click the loggin button
+2024-06-07 12:12:10,134 : INFO : test_invalid_keyword : click the marketplace option in homepage
+2024-06-07 12:12:10,920 : INFO : test_invalid_keyword : click the Advertisment option in marketplace
+2024-06-07 12:12:12,065 : INFO : test_invalid_keyword : Enter the keyword into the keyword field
+2024-06-07 12:12:15,313 : INFO : test_invalid_keyword : verify the Invalid keywords error message displayed 
 2024-06-06 17:45:04,283 : INFO : test_validreceive_payment : Logged in successfully
 2024-06-06 17:45:07,082 : INFO : test_validreceive_payment : Go to Banking Page
 2024-06-06 17:45:08,298 : INFO : test_validreceive_payment : Banking Page is displayed

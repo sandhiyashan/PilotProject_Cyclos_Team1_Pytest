@@ -21,7 +21,7 @@ class Test_paymentToUser:
         log.info("click the loggin button")
         login.click_login_button()
         log.info("click the banking option in homepage")
-        home.gotoBanking()
+        home.goToBanking()
         payment.click_Payment_To_User()
         payment.verify_Payment_To_User()
         log.info("fill the required payment details ")
