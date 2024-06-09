@@ -837,181 +837,516 @@
 2024-06-07 12:12:10,920 : INFO : test_invalid_keyword : click the Advertisment option in marketplace
 2024-06-07 12:12:12,065 : INFO : test_invalid_keyword : Enter the keyword into the keyword field
 2024-06-07 12:12:15,313 : INFO : test_invalid_keyword : verify the Invalid keywords error message displayed 
-2024-06-06 17:45:04,283 : INFO : test_validreceive_payment : Logged in successfully
-2024-06-06 17:45:07,082 : INFO : test_validreceive_payment : Go to Banking Page
-2024-06-06 17:45:08,298 : INFO : test_validreceive_payment : Banking Page is displayed
-2024-06-06 17:45:10,527 : INFO : test_validreceive_payment : Go to Receive Payment Page
-2024-06-06 17:46:55,500 : INFO : test_validreceive_payment : Logged in successfully
-2024-06-06 17:46:57,123 : INFO : test_validreceive_payment : Go to Banking Page
-2024-06-06 17:47:01,237 : INFO : test_validreceive_payment : Banking Page is displayed
-2024-06-06 17:47:02,521 : INFO : test_validreceive_payment : Go to Receive Payment Page
-2024-06-06 17:47:04,374 : INFO : test_validreceive_payment : Receive Payment Page is displayed
-2024-06-06 17:47:05,274 : INFO : test_validreceive_payment : To user is filled
-2024-06-06 17:47:05,955 : INFO : test_validreceive_payment : amount is entered
-2024-06-06 17:47:07,401 : INFO : test_validreceive_payment : schedule is selected
-2024-06-06 17:47:08,547 : INFO : test_validreceive_payment : description is entered
-2024-06-06 17:47:08,829 : INFO : test_validreceive_payment : next button is clicked
-2024-06-06 17:51:17,921 : INFO : test_validreceive_payment : Logged in successfully
-2024-06-06 17:51:19,679 : INFO : test_validreceive_payment : Go to Banking Page
-2024-06-06 17:51:21,298 : INFO : test_validreceive_payment : Banking Page is displayed
-2024-06-06 17:51:22,080 : INFO : test_validreceive_payment : Go to Receive Payment Page
-2024-06-06 17:51:22,681 : INFO : test_validreceive_payment : Receive Payment Page is displayed
-2024-06-06 17:51:22,927 : INFO : test_validreceive_payment : To user is filled
-2024-06-06 17:51:23,185 : INFO : test_validreceive_payment : amount is entered
-2024-06-06 17:51:24,565 : INFO : test_validreceive_payment : schedule is selected
-2024-06-06 17:51:25,615 : INFO : test_validreceive_payment : description is entered
-2024-06-06 17:51:25,806 : INFO : test_validreceive_payment : next button is clicked
-2024-06-06 17:56:05,885 : INFO : test_validreceive_payment : Logged in successfully
-2024-06-06 17:56:08,079 : INFO : test_validreceive_payment : Go to Banking Page
-2024-06-06 17:56:09,743 : INFO : test_validreceive_payment : Banking Page is displayed
-2024-06-06 17:56:11,039 : INFO : test_validreceive_payment : Go to Receive Payment Page
-2024-06-06 17:56:12,157 : INFO : test_validreceive_payment : Receive Payment Page is displayed
-2024-06-06 17:56:12,485 : INFO : test_validreceive_payment : To user is filled
-2024-06-06 17:56:12,806 : INFO : test_validreceive_payment : amount is entered
-2024-06-06 17:56:14,611 : INFO : test_validreceive_payment : schedule is selected
-2024-06-06 17:56:15,752 : INFO : test_validreceive_payment : description is entered
-2024-06-06 17:56:16,796 : INFO : test_validreceive_payment : next button is clicked
-2024-06-06 17:56:17,883 : INFO : test_validreceive_payment : confirmation page is displayed successfully
-2024-06-06 18:29:12,887 : INFO : test_validreceive_payment : Logged in successfully
-2024-06-06 18:29:16,270 : INFO : test_validreceive_payment : Go to Banking Page
-2024-06-06 18:29:18,088 : INFO : test_validreceive_payment : Banking Page is displayed
-2024-06-06 18:29:19,532 : INFO : test_validreceive_payment : Go to Receive Payment Page
-2024-06-06 18:29:20,303 : INFO : test_validreceive_payment : Receive Payment Page is displayed
-2024-06-06 18:34:47,465 : INFO : test_validreceive_payment : Logged in successfully
-2024-06-06 18:34:51,144 : INFO : test_validreceive_payment : Go to Banking Page
-2024-06-06 18:34:53,139 : INFO : test_validreceive_payment : Banking Page is displayed
-2024-06-06 18:34:54,806 : INFO : test_validreceive_payment : Go to Receive Payment Page
-2024-06-06 18:34:56,768 : INFO : test_validreceive_payment : Receive Payment Page is displayed
-2024-06-06 18:34:59,288 : INFO : test_validreceive_payment : Alert is verified
-2024-06-06 18:44:10,805 : INFO : test_validreceive_payment : Logged in successfully
-2024-06-06 18:44:12,885 : INFO : test_validreceive_payment : Go to Banking Page
-2024-06-06 18:44:14,284 : INFO : test_validreceive_payment : Banking Page is displayed
-2024-06-06 18:44:15,021 : INFO : test_validreceive_payment : Go to Receive Payment Page
-2024-06-06 18:44:15,870 : INFO : test_validreceive_payment : Receive Payment Page is displayed
-2024-06-06 18:44:16,534 : INFO : test_validreceive_payment : amount is entered
-2024-06-06 18:44:16,818 : INFO : test_validreceive_payment : next button is clicked
-2024-06-06 18:44:16,972 : INFO : test_validreceive_payment : verify the error message username required 
-2024-06-06 18:49:40,388 : INFO : test_validreceive_payment : Logged in successfully
-2024-06-06 18:49:41,941 : INFO : test_validreceive_payment : Go to Banking Page
-2024-06-06 18:49:43,463 : INFO : test_validreceive_payment : Banking Page is displayed
-2024-06-06 18:49:44,202 : INFO : test_validreceive_payment : Go to Receive Payment Page
-2024-06-06 18:49:44,722 : INFO : test_validreceive_payment : Receive Payment Page is displayed
-2024-06-06 18:49:44,948 : INFO : test_validreceive_payment : To user is filled
-2024-06-06 18:49:45,234 : INFO : test_validreceive_payment : next button is clicked
-2024-06-06 18:49:45,471 : INFO : test_validreceive_payment : verify the error message amount required 
-2024-06-06 18:54:28,316 : INFO : test_validreceive_payment : Logged in successfully
-2024-06-06 18:54:30,946 : INFO : test_validreceive_payment : Go to Banking Page
-2024-06-06 18:54:32,924 : INFO : test_validreceive_payment : Banking Page is displayed
-2024-06-06 18:54:33,830 : INFO : test_validreceive_payment : Go to Receive Payment Page
-2024-06-06 18:54:34,416 : INFO : test_validreceive_payment : Receive Payment Page is displayed
-2024-06-06 18:54:34,783 : INFO : test_validreceive_payment : next button is clicked
-2024-06-06 18:54:34,886 : INFO : test_validreceive_payment : verify the error message amount required 
-2024-06-07 18:23:44,362 : INFO : test_Validmonthlypayment_touser : Logged in successfully
-2024-06-07 18:23:45,965 : INFO : test_Validmonthlypayment_touser : Go to Banking Page
-2024-06-07 18:23:48,575 : INFO : test_Validmonthlypayment_touser : Banking Page is displayed
-2024-06-07 18:23:54,029 : INFO : test_Validmonthlypayment_touser : Clicking the payment to user
-2024-06-07 18:23:59,188 : INFO : test_Validmonthlypayment_touser : Payment to user is displayed
-2024-06-07 18:24:07,191 : INFO : test_Validmonthlypayment_touser : To user is filled
-2024-06-07 18:24:11,253 : INFO : test_Validmonthlypayment_touser : amount is filled
-2024-06-07 18:24:16,896 : INFO : test_Validmonthlypayment_touser : Schedule is clicked
-2024-06-07 18:24:18,228 : INFO : test_Validmonthlypayment_touser : Monthly install is clicked
-2024-06-07 18:24:18,778 : INFO : test_Validmonthlypayment_touser : no of install is filled
-2024-06-07 18:24:19,161 : INFO : test_Validmonthlypayment_touser : Next button is clicked
-2024-06-07 18:24:24,819 : INFO : test_Validmonthlypayment_touser : confirmation page is displayed successfully
-2024-06-07 18:35:48,899 : INFO : test_invalidToUsermonthlypay_user : Logged in successfully
-2024-06-07 18:35:51,410 : INFO : test_invalidToUsermonthlypay_user : Go to Banking Page
-2024-06-07 18:35:54,874 : INFO : test_invalidToUsermonthlypay_user : Banking Page is displayed
-2024-06-07 18:36:00,969 : INFO : test_invalidToUsermonthlypay_user : Clicking the payment to user
-2024-06-07 18:36:06,038 : INFO : test_invalidToUsermonthlypay_user : Payment to user is displayed
-2024-06-07 18:45:39,237 : INFO : test_invalidToUsermonthlypay_user : Logged in successfully
-2024-06-07 18:45:43,283 : INFO : test_invalidToUsermonthlypay_user : Go to Banking Page
-2024-06-07 18:46:37,912 : INFO : test_invalidToUsermonthlypay_user : Logged in successfully
-2024-06-07 18:46:40,330 : INFO : test_invalidToUsermonthlypay_user : Go to Banking Page
-2024-06-07 18:46:44,742 : INFO : test_invalidToUsermonthlypay_user : Banking Page is displayed
-2024-06-07 18:46:50,209 : INFO : test_invalidToUsermonthlypay_user : Clicking the payment to user
-2024-06-07 18:46:55,253 : INFO : test_invalidToUsermonthlypay_user : Payment to user is displayed
-2024-06-07 18:46:55,865 : INFO : test_invalidToUsermonthlypay_user : To user is filled
-2024-06-07 18:46:57,792 : INFO : test_invalidToUsermonthlypay_user : Alert is displayed
-2024-06-07 19:04:28,802 : INFO : test_Validmonthlypayment_touser : Logged in successfully
-2024-06-07 19:04:31,339 : INFO : test_Validmonthlypayment_touser : Go to Banking Page
-2024-06-07 19:04:33,227 : INFO : test_Validmonthlypayment_touser : Banking Page is displayed
-2024-06-07 19:04:39,253 : INFO : test_Validmonthlypayment_touser : Clicking the payment to user
-2024-06-07 19:04:44,495 : INFO : test_Validmonthlypayment_touser : Payment to user is displayed
-2024-06-07 19:04:44,914 : INFO : test_Validmonthlypayment_touser : Next button is clicked
-2024-06-07 19:04:49,085 : INFO : test_Validmonthlypayment_touser : To User Error message is displayed
-2024-06-07 19:04:53,155 : INFO : test_Validmonthlypayment_touser : Amount Error message is displayed
-2024-06-07 19:09:27,429 : INFO : test_Validmonthlypayment_touser : Logged in successfully
-2024-06-07 19:09:29,121 : INFO : test_Validmonthlypayment_touser : Go to Banking Page
-2024-06-07 19:10:42,779 : INFO : test_Validmonthlypayment_touser : Logged in successfully
-2024-06-07 19:10:44,461 : INFO : test_Validmonthlypayment_touser : Go to Banking Page
-2024-06-07 19:10:45,541 : INFO : test_Validmonthlypayment_touser : Banking Page is displayed
-2024-06-07 19:10:51,834 : INFO : test_Validmonthlypayment_touser : Clicking the payment to user
-2024-06-07 19:10:56,916 : INFO : test_Validmonthlypayment_touser : Payment to user is displayed
-2024-06-07 19:11:04,145 : INFO : test_Validmonthlypayment_touser : To user is filled
-2024-06-07 19:11:07,536 : INFO : test_Validmonthlypayment_touser : amount is filled
-2024-06-07 19:11:12,694 : INFO : test_Validmonthlypayment_touser : Schedule is clicked
-2024-06-07 19:11:13,799 : INFO : test_Validmonthlypayment_touser : Monthly install is clicked
-2024-06-07 19:11:14,128 : INFO : test_Validmonthlypayment_touser : Next button is clicked
-2024-06-07 19:11:18,213 : INFO : test_Validmonthlypayment_touser : No of Installments Error message is displayed
-2024-06-08 18:17:26,681 : INFO : test_validbusiness_directory : Logged in successfully
-2024-06-08 18:17:28,487 : INFO : test_validbusiness_directory : Go to Market Place
-2024-06-08 18:19:07,180 : INFO : test_validbusiness_directory : Logged in successfully
-2024-06-08 18:19:08,888 : INFO : test_validbusiness_directory : Go to Market Place
-2024-06-08 18:19:11,155 : INFO : test_validbusiness_directory : Market Place Page is displayed
-2024-06-08 18:35:55,746 : INFO : test_validbusiness_directory : Logged in successfully
-2024-06-08 18:35:57,162 : INFO : test_validbusiness_directory : Go to Market Place
-2024-06-08 18:35:59,194 : INFO : test_validbusiness_directory : Market Place Page is displayed
-2024-06-08 18:40:42,636 : INFO : test_validbusiness_directory : Logged in successfully
-2024-06-08 18:40:44,751 : INFO : test_validbusiness_directory : Go to Market Place
-2024-06-08 18:40:48,176 : INFO : test_validbusiness_directory : Market Place Page is displayed
-2024-06-08 18:40:48,998 : INFO : test_validbusiness_directory : Go to Business directory
-2024-06-08 18:40:50,040 : INFO : test_validbusiness_directory : Business Directory Page is displayed
-2024-06-08 18:40:50,447 : INFO : test_validbusiness_directory : Filled the key
-2024-06-08 18:40:50,705 : INFO : test_validbusiness_directory : Clicked on Order By
-2024-06-08 18:40:52,226 : INFO : test_validbusiness_directory : Clicked on Relevance
-2024-06-08 18:47:55,062 : INFO : test_validbusiness_directory : Logged in successfully
-2024-06-08 18:47:56,778 : INFO : test_validbusiness_directory : Go to Market Place
-2024-06-08 18:47:58,265 : INFO : test_validbusiness_directory : Market Place Page is displayed
-2024-06-08 18:47:58,745 : INFO : test_validbusiness_directory : Go to Business directory
-2024-06-08 18:47:59,392 : INFO : test_validbusiness_directory : Business Directory Page is displayed
-2024-06-08 18:48:00,317 : INFO : test_validbusiness_directory : Filled the key
-2024-06-08 18:48:00,524 : INFO : test_validbusiness_directory : Clicked on Order By
-2024-06-08 18:48:01,105 : INFO : test_validbusiness_directory : Clicked on Relevance
-2024-06-08 18:48:01,566 : INFO : test_validbusiness_directory : Verified the relevance results
-2024-06-08 19:00:17,167 : INFO : test_validbusiness_directory : Logged in successfully
-2024-06-08 19:00:18,800 : INFO : test_validbusiness_directory : Go to Market Place
-2024-06-08 19:00:20,613 : INFO : test_validbusiness_directory : Market Place Page is displayed
-2024-06-08 19:00:23,073 : INFO : test_validbusiness_directory : Go to Business directory
-2024-06-08 19:00:23,803 : INFO : test_validbusiness_directory : Business Directory Page is displayed
-2024-06-08 19:00:24,675 : INFO : test_validbusiness_directory : Filled the key
-2024-06-08 19:00:25,303 : INFO : test_validbusiness_directory : Clicked on Order By
-2024-06-08 19:00:25,874 : INFO : test_validbusiness_directory : Clicked on Relevance
-2024-06-08 19:00:27,326 : INFO : test_validbusiness_directory : Verified the relevance results
-2024-06-08 19:04:22,964 : INFO : test_validbusiness_directory : Logged in successfully
-2024-06-08 19:04:24,311 : INFO : test_validbusiness_directory : Go to Market Place
-2024-06-08 19:05:34,629 : INFO : test_validbusiness_directory : Logged in successfully
-2024-06-08 19:05:36,435 : INFO : test_validbusiness_directory : Go to Market Place
-2024-06-08 19:05:38,631 : INFO : test_validbusiness_directory : Market Place Page is displayed
-2024-06-08 19:05:40,515 : INFO : test_validbusiness_directory : Go to Business directory
-2024-06-08 19:05:41,730 : INFO : test_validbusiness_directory : Business Directory Page is displayed
-2024-06-08 19:05:43,107 : INFO : test_validbusiness_directory : Filled the key
-2024-06-08 19:05:48,191 : INFO : test_validbusiness_directory : Clicked on user
-2024-06-08 19:05:49,799 : INFO : test_validbusiness_directory : Clicked on add to contact
-2024-06-08 19:11:27,755 : INFO : test_validbusiness_directory : Logged in successfully
-2024-06-08 19:11:29,717 : INFO : test_validbusiness_directory : Go to Market Place
-2024-06-08 19:11:32,393 : INFO : test_validbusiness_directory : Market Place Page is displayed
-2024-06-08 19:11:33,380 : INFO : test_validbusiness_directory : Go to Business directory
-2024-06-08 19:11:34,256 : INFO : test_validbusiness_directory : Business Directory Page is displayed
-2024-06-08 19:11:35,266 : INFO : test_validbusiness_directory : Filled the key
-2024-06-08 19:11:35,756 : INFO : test_validbusiness_directory : Clicked on user
-2024-06-08 19:11:36,701 : INFO : test_validbusiness_directory : Clicked on add to contact
-2024-06-08 19:11:37,606 : INFO : test_validbusiness_directory : User added to contact is verified
-2024-06-08 19:19:25,759 : INFO : test_invalidkey_business_directory : Logged in successfully
-2024-06-08 19:19:29,996 : INFO : test_invalidkey_business_directory : Go to Market Place
-2024-06-08 19:20:24,361 : INFO : test_invalidkey_business_directory : Logged in successfully
-2024-06-08 19:20:27,152 : INFO : test_invalidkey_business_directory : Go to Market Place
-2024-06-08 19:20:30,243 : INFO : test_invalidkey_business_directory : Market Place Page is displayed
-2024-06-08 19:20:31,085 : INFO : test_invalidkey_business_directory : Go to Business directory
-2024-06-08 19:20:33,394 : INFO : test_invalidkey_business_directory : Business Directory Page is displayed
-2024-06-08 19:20:34,553 : INFO : test_invalidkey_business_directory : Filled the key
-2024-06-08 19:20:39,943 : INFO : test_invalidkey_business_directory : Alert is verified successfully
+2024-06-07 15:10:15,259 : INFO : test_invalid_keyword : click the login page
+2024-06-07 15:10:17,363 : INFO : test_invalid_keyword : Fill the required details in login page
+2024-06-07 15:10:17,768 : INFO : test_invalid_keyword : click the loggin button
+2024-06-07 15:10:17,892 : INFO : test_invalid_keyword : click the marketplace option in homepage
+2024-06-07 15:10:18,740 : INFO : test_invalid_keyword : click the Advertisment option in marketplace
+2024-06-07 15:10:20,271 : INFO : test_invalid_keyword : Enter the keyword into the keyword field
+2024-06-07 15:10:23,561 : INFO : test_invalid_keyword : verify the Invalid keywords error message displayed 
+2024-06-07 15:54:37,586 : INFO : test_lowestPrice : click the login page
+2024-06-07 15:54:40,237 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-07 15:54:40,558 : INFO : test_lowestPrice : click the loggin button
+2024-06-07 15:54:40,644 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-07 15:54:41,530 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-07 15:56:15,295 : INFO : test_lowestPrice : click the login page
+2024-06-07 15:56:17,348 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-07 15:56:17,865 : INFO : test_lowestPrice : click the loggin button
+2024-06-07 15:56:17,973 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-07 15:56:18,774 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-07 15:57:54,502 : INFO : test_lowestPrice : click the login page
+2024-06-07 15:57:56,526 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-07 15:57:57,036 : INFO : test_lowestPrice : click the loggin button
+2024-06-07 15:57:57,123 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-07 15:57:57,946 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-07 15:59:09,608 : INFO : test_lowestPrice : click the login page
+2024-06-07 15:59:11,972 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-07 15:59:12,371 : INFO : test_lowestPrice : click the loggin button
+2024-06-07 15:59:12,487 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-07 15:59:13,309 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-07 16:03:00,879 : INFO : test_lowestPrice : click the login page
+2024-06-07 16:03:03,030 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-07 16:03:03,695 : INFO : test_lowestPrice : click the loggin button
+2024-06-07 16:03:03,839 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-07 16:03:04,650 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-07 16:06:51,133 : INFO : test_lowestPrice : click the login page
+2024-06-07 16:06:53,527 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-07 16:06:53,961 : INFO : test_lowestPrice : click the loggin button
+2024-06-07 16:06:54,080 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-07 16:06:55,133 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-07 20:23:12,009 : INFO : test_PayNow : click the login page
+2024-06-07 20:23:14,067 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 20:23:14,478 : INFO : test_PayNow : click the loggin button
+2024-06-07 20:23:14,588 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-07 20:23:17,053 : INFO : test_PayNow : click the Advertisment option in marketplace
+2024-06-07 20:23:18,894 : INFO : test_PayNow : Enter the keyword into the keyword field
+2024-06-07 20:23:22,216 : INFO : test_PayNow : click the dropdown button order by
+2024-06-07 20:23:22,764 : INFO : test_PayNow : select the relevance option
+2024-06-07 20:23:22,864 : INFO : test_PayNow : verify the keyword based element displayed 
+2024-06-07 20:23:48,793 : INFO : test_PayNow : click the login page
+2024-06-07 20:23:50,898 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 20:23:51,327 : INFO : test_PayNow : click the loggin button
+2024-06-07 20:23:51,456 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-07 20:23:52,317 : INFO : test_PayNow : click the Advertisment option in marketplace
+2024-06-07 20:23:53,608 : INFO : test_PayNow : Enter the keyword into the keyword field
+2024-06-07 20:23:56,906 : INFO : test_PayNow : click the dropdown button order by
+2024-06-07 20:23:57,430 : INFO : test_PayNow : select the relevance option
+2024-06-07 20:23:57,515 : INFO : test_PayNow : verify the keyword based element displayed 
+2024-06-07 20:25:02,671 : INFO : test_PayNow : click the login page
+2024-06-07 20:25:04,637 : INFO : test_PayNow : Fill the required details in login page
+2024-06-07 20:25:05,165 : INFO : test_PayNow : click the loggin button
+2024-06-07 20:25:05,259 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-07 20:25:06,033 : INFO : test_PayNow : click the Advertisment option in marketplace
+2024-06-07 20:25:07,225 : INFO : test_PayNow : Enter the keyword into the keyword field
+2024-06-07 20:25:10,509 : INFO : test_PayNow : click the dropdown button order by
+2024-06-07 20:25:14,050 : INFO : test_PayNow : select the relevance option
+2024-06-07 20:25:14,162 : INFO : test_PayNow : verify the keyword based element displayed 
+2024-06-07 20:40:46,274 : INFO : test_lastPublished : click the login page
+2024-06-07 20:40:48,645 : INFO : test_lastPublished : Fill the required details in login page
+2024-06-07 20:40:49,190 : INFO : test_lastPublished : click the loggin button
+2024-06-07 20:40:49,287 : INFO : test_lastPublished : click the marketplace option in homepage
+2024-06-07 20:40:52,145 : INFO : test_lastPublished : click the Advertisment option in marketplace
+2024-06-07 20:40:55,429 : INFO : test_lastPublished : click the show Advertisment option
+2024-06-07 20:40:57,235 : INFO : test_lastPublished : click the dropdown button order by
+2024-06-07 20:41:00,375 : INFO : test_lastPublished : select the last published option
+2024-06-07 20:41:00,469 : INFO : test_lastPublished : verify the last published
+2024-06-07 20:42:30,676 : INFO : test_lastPublished : click the login page
+2024-06-07 20:42:33,128 : INFO : test_lastPublished : Fill the required details in login page
+2024-06-07 20:42:33,651 : INFO : test_lastPublished : click the loggin button
+2024-06-07 20:42:33,797 : INFO : test_lastPublished : click the marketplace option in homepage
+2024-06-07 20:42:34,993 : INFO : test_lastPublished : click the Advertisment option in marketplace
+2024-06-07 20:42:37,681 : INFO : test_lastPublished : click the show Advertisment option
+2024-06-07 20:42:38,991 : INFO : test_lastPublished : click the dropdown button order by
+2024-06-07 20:42:42,133 : INFO : test_lastPublished : select the last published option
+2024-06-07 20:42:42,239 : INFO : test_lastPublished : verify the last published
+2024-06-07 20:43:20,039 : INFO : test_lastPublished : click the login page
+2024-06-07 20:43:22,038 : INFO : test_lastPublished : Fill the required details in login page
+2024-06-07 20:43:22,554 : INFO : test_lastPublished : click the loggin button
+2024-06-07 20:43:22,675 : INFO : test_lastPublished : click the marketplace option in homepage
+2024-06-07 20:43:23,530 : INFO : test_lastPublished : click the Advertisment option in marketplace
+2024-06-07 20:43:25,014 : INFO : test_lastPublished : click the show Advertisment option
+2024-06-07 20:43:26,145 : INFO : test_lastPublished : click the dropdown button order by
+2024-06-07 20:43:29,311 : INFO : test_lastPublished : select the last published option
+2024-06-07 20:43:29,401 : INFO : test_lastPublished : verify the last published
+2024-06-07 21:11:07,745 : INFO : test_lowestPrice : click the login page
+2024-06-07 21:11:09,817 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-07 21:11:10,412 : INFO : test_lowestPrice : click the loggin button
+2024-06-07 21:11:10,512 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-07 21:11:11,338 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-07 21:11:13,117 : INFO : test_lowestPrice : click the show Advertisment option
+2024-06-07 21:11:14,233 : INFO : test_lowestPrice : click the dropdown button order by
+2024-06-07 21:11:17,395 : INFO : test_lowestPrice : select the highest price option
+2024-06-07 21:11:17,503 : INFO : test_lowestPrice : verify the highest price
+2024-06-07 21:24:40,558 : INFO : test_lowestPrice : click the login page
+2024-06-07 21:24:42,527 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-07 21:24:42,945 : INFO : test_lowestPrice : click the loggin button
+2024-06-07 21:24:43,048 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-07 21:24:43,882 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-07 21:24:45,276 : INFO : test_lowestPrice : click the show Advertisment option
+2024-06-07 21:24:46,375 : INFO : test_lowestPrice : click the dropdown button order by
+2024-06-07 21:24:49,528 : INFO : test_lowestPrice : select the highest price option
+2024-06-07 21:24:49,639 : INFO : test_lowestPrice : verify the highest price
+2024-06-08 06:02:53,560 : INFO : test_lowestPrice : click the login page
+2024-06-08 06:02:55,610 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-08 06:02:56,204 : INFO : test_lowestPrice : click the loggin button
+2024-06-08 06:02:56,316 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-08 06:02:57,188 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-08 06:02:58,976 : INFO : test_lowestPrice : click the show Advertisment option
+2024-06-08 06:03:00,070 : INFO : test_lowestPrice : click the dropdown button order by
+2024-06-08 06:03:03,232 : INFO : test_lowestPrice : select the highest price option
+2024-06-08 06:53:57,848 : INFO : test_addToFavourite : click the login page
+2024-06-08 06:54:00,058 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 06:54:00,543 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 06:54:00,660 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 06:54:01,531 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 06:54:02,812 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 06:54:05,057 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-08 06:55:20,578 : INFO : test_addToFavourite : click the login page
+2024-06-08 06:55:23,047 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 06:55:23,561 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 06:55:23,674 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 06:55:24,498 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 06:55:26,504 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 06:57:57,211 : INFO : test_addToFavourite : click the login page
+2024-06-08 06:57:59,207 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 06:57:59,759 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 06:57:59,849 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 06:58:00,713 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 06:58:02,387 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 06:58:34,797 : INFO : test_addToFavourite : click the login page
+2024-06-08 06:58:38,507 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 06:58:39,060 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 06:58:39,157 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 06:58:39,954 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 06:58:41,931 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 06:58:44,377 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-08 06:59:46,726 : INFO : test_addToFavourite : click the login page
+2024-06-08 06:59:48,748 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 06:59:49,308 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 06:59:49,408 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 06:59:50,200 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 06:59:51,454 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 06:59:53,707 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-08 07:18:51,593 : INFO : test_addToFavourite : click the login page
+2024-06-08 07:18:53,655 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 07:18:54,230 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 07:18:54,340 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 07:18:55,147 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 07:18:56,540 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 07:19:00,199 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-08 07:19:11,636 : INFO : test_RemovefromFavourite : click the login page
+2024-06-08 07:19:11,897 : INFO : test_RemovefromFavourite : Fill the required details in login page
+2024-06-08 07:19:12,370 : INFO : test_RemovefromFavourite : click the loggin button
+2024-06-08 07:19:12,473 : INFO : test_RemovefromFavourite : click the marketplace option in homepage
+2024-06-08 07:19:13,299 : INFO : test_RemovefromFavourite : click the Advertisment option in marketplace
+2024-06-08 07:19:14,735 : INFO : test_RemovefromFavourite : click the  the favourite list
+2024-06-08 07:20:06,062 : INFO : test_addToFavourite : click the login page
+2024-06-08 07:20:08,414 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 07:20:08,828 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 07:20:08,932 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 07:20:09,745 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 07:20:10,934 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 07:20:13,666 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-08 07:20:35,040 : INFO : test_RemovefromFavourite : click the login page
+2024-06-08 07:20:37,897 : INFO : test_RemovefromFavourite : Fill the required details in login page
+2024-06-08 07:20:38,315 : INFO : test_RemovefromFavourite : click the loggin button
+2024-06-08 07:20:38,410 : INFO : test_RemovefromFavourite : click the marketplace option in homepage
+2024-06-08 07:20:39,891 : INFO : test_RemovefromFavourite : click the Advertisment option in marketplace
+2024-06-08 07:20:42,048 : INFO : test_RemovefromFavourite : click the  the favourite list
+2024-06-08 07:21:19,191 : INFO : test_addToFavourite : click the login page
+2024-06-08 07:21:21,193 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 07:21:21,749 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 07:21:21,854 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 07:21:22,645 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 07:21:23,911 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 07:21:26,130 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-08 07:21:38,793 : INFO : test_RemovefromFavourite : click the login page
+2024-06-08 07:21:38,956 : INFO : test_RemovefromFavourite : Fill the required details in login page
+2024-06-08 07:21:39,414 : INFO : test_RemovefromFavourite : click the loggin button
+2024-06-08 07:21:39,516 : INFO : test_RemovefromFavourite : click the marketplace option in homepage
+2024-06-08 07:21:40,361 : INFO : test_RemovefromFavourite : click the Advertisment option in marketplace
+2024-06-08 07:21:41,865 : INFO : test_RemovefromFavourite : click the  the favourite list
+2024-06-08 07:22:14,687 : INFO : test_addToFavourite : click the login page
+2024-06-08 07:22:16,672 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 07:22:17,200 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 07:22:17,315 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 07:22:18,127 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 07:22:19,375 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 07:22:21,591 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-08 07:22:34,526 : INFO : test_RemovefromFavourite : click the login page
+2024-06-08 07:22:34,689 : INFO : test_RemovefromFavourite : Fill the required details in login page
+2024-06-08 07:22:35,157 : INFO : test_RemovefromFavourite : click the loggin button
+2024-06-08 07:22:35,251 : INFO : test_RemovefromFavourite : click the marketplace option in homepage
+2024-06-08 07:22:36,073 : INFO : test_RemovefromFavourite : click the Advertisment option in marketplace
+2024-06-08 07:22:37,334 : INFO : test_RemovefromFavourite : click the  the favourite list
+2024-06-08 07:23:01,577 : INFO : test_addToFavourite : click the login page
+2024-06-08 07:23:03,753 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 07:23:04,141 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 07:23:04,254 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 07:23:05,034 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 07:23:06,270 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 07:23:08,539 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-08 07:23:21,630 : INFO : test_RemovefromFavourite : click the login page
+2024-06-08 07:23:21,780 : INFO : test_RemovefromFavourite : Fill the required details in login page
+2024-06-08 07:23:22,194 : INFO : test_RemovefromFavourite : click the loggin button
+2024-06-08 07:23:22,293 : INFO : test_RemovefromFavourite : click the marketplace option in homepage
+2024-06-08 07:23:23,263 : INFO : test_RemovefromFavourite : click the Advertisment option in marketplace
+2024-06-08 07:23:24,900 : INFO : test_RemovefromFavourite : click the  the favourite list
+2024-06-08 07:39:38,785 : INFO : test_recurringPayment : click the login page
+2024-06-08 07:39:40,933 : INFO : test_recurringPayment : Fill the required details in login page
+2024-06-08 07:39:41,491 : INFO : test_recurringPayment : click the loggin button
+2024-06-08 07:39:41,593 : INFO : test_recurringPayment : click the banking option in homepage
+2024-06-08 07:39:52,628 : INFO : test_recurringPayment : fill the required payment details 
+2024-06-08 07:40:09,949 : INFO : test_recurringPayment : click the next button
+2024-06-08 07:40:10,050 : INFO : test_recurringPayment : click the submit button
+2024-06-08 09:56:20,109 : INFO : test_PayNow : click the login page
+2024-06-08 09:56:22,273 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 09:56:22,806 : INFO : test_PayNow : click the loggin button
+2024-06-08 09:56:22,906 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 09:56:29,415 : INFO : test_PayNow : fill the required payment details 
+2024-06-08 09:56:47,506 : INFO : test_PayNow : click the next button
+2024-06-08 09:56:47,595 : INFO : test_PayNow : click the submit button
+2024-06-08 09:58:06,608 : INFO : test_PayNow : click the login page
+2024-06-08 09:58:08,830 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 09:58:09,347 : INFO : test_PayNow : click the loggin button
+2024-06-08 09:58:09,450 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 09:58:16,091 : INFO : test_PayNow : fill the required payment details 
+2024-06-08 09:58:33,563 : INFO : test_PayNow : click the next button
+2024-06-08 09:58:33,643 : INFO : test_PayNow : click the submit button
+2024-06-08 10:01:08,797 : INFO : test_PayNow : click the login page
+2024-06-08 10:01:10,732 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:01:11,231 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:01:11,320 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:01:17,607 : INFO : test_PayNow : fill the required payment details 
+2024-06-08 10:01:30,637 : INFO : test_PayNow : click the next button
+2024-06-08 10:01:30,730 : INFO : test_PayNow : click the submit button
+2024-06-08 10:04:33,592 : INFO : test_PayNow : click the login page
+2024-06-08 10:04:35,700 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:04:36,227 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:04:36,321 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:04:42,675 : INFO : test_PayNow : fill the required payment details 
+2024-06-08 10:04:52,031 : INFO : test_PayNow : click the next button
+2024-06-08 10:04:52,122 : INFO : test_PayNow : click the submit button
+2024-06-08 10:06:03,298 : INFO : test_recurringPayment : click the login page
+2024-06-08 10:06:06,403 : INFO : test_recurringPayment : Fill the required details in login page
+2024-06-08 10:06:07,202 : INFO : test_recurringPayment : click the loggin button
+2024-06-08 10:06:07,283 : INFO : test_recurringPayment : click the banking option in homepage
+2024-06-08 10:06:13,656 : INFO : test_recurringPayment : fill the required payment details 
+2024-06-08 10:06:23,060 : INFO : test_recurringPayment : click the next button
+2024-06-08 10:06:23,161 : INFO : test_recurringPayment : click the submit button
+2024-06-08 10:07:37,236 : INFO : test_recurringPayment : click the login page
+2024-06-08 10:07:39,249 : INFO : test_recurringPayment : Fill the required details in login page
+2024-06-08 10:07:39,791 : INFO : test_recurringPayment : click the loggin button
+2024-06-08 10:07:39,884 : INFO : test_recurringPayment : click the banking option in homepage
+2024-06-08 10:07:46,285 : INFO : test_recurringPayment : fill the required payment details 
+2024-06-08 10:07:55,667 : INFO : test_recurringPayment : click the next button
+2024-06-08 10:07:55,766 : INFO : test_recurringPayment : click the submit button
+2024-06-08 10:16:05,775 : INFO : test_PayNow : click the login page
+2024-06-08 10:16:07,880 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:16:08,412 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:16:08,516 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:16:14,836 : INFO : test_PayNow : fill the required payment details 
+2024-06-08 10:16:20,904 : INFO : test_PayNow : click the next button
+2024-06-08 10:16:20,991 : INFO : test_PayNow : verify the error message amount required
+2024-06-08 10:16:37,188 : INFO : test_PayNow : click the login page
+2024-06-08 10:16:39,221 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:16:39,662 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:16:39,765 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:16:46,055 : INFO : test_PayNow : fill the required payment details 
+2024-06-08 10:16:52,157 : INFO : test_PayNow : click the next button
+2024-06-08 10:16:52,249 : INFO : test_PayNow : verify the error message amount required
+2024-06-08 10:18:16,946 : INFO : test_PayNow : click the login page
+2024-06-08 10:18:19,297 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:18:19,824 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:18:19,925 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:18:26,246 : INFO : test_PayNow : click the next button
+2024-06-08 10:18:26,366 : INFO : test_PayNow : verify the error message for the blank to User field
+2024-06-08 10:18:26,425 : INFO : test_PayNow : verify the error message for the blank amount field
+2024-06-08 10:18:40,987 : INFO : test_PayNow : click the login page
+2024-06-08 10:18:45,356 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:18:45,728 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:18:45,841 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:18:52,168 : INFO : test_PayNow : click the next button
+2024-06-08 10:18:52,293 : INFO : test_PayNow : verify the error message for the blank to User field
+2024-06-08 10:18:52,350 : INFO : test_PayNow : verify the error message for the blank amount field
+2024-06-08 10:19:43,390 : INFO : test_PayNow : click the login page
+2024-06-08 10:19:45,442 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:19:45,835 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:19:45,926 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:19:52,302 : INFO : test_PayNow : fill the amount field 
+2024-06-08 10:19:55,409 : INFO : test_PayNow : click the next button
+2024-06-08 10:19:55,511 : INFO : test_PayNow : verify the error message for the blank to User field
+2024-06-08 10:20:25,140 : INFO : test_PayNow : click the login page
+2024-06-08 10:20:27,259 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:20:27,677 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:20:27,823 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:20:34,221 : INFO : test_PayNow : fill the amount field 
+2024-06-08 10:20:37,334 : INFO : test_PayNow : click the next button
+2024-06-08 10:20:37,425 : INFO : test_PayNow : verify the error message for the blank to User field
+2024-06-08 10:23:43,823 : INFO : test_PayNow : click the login page
+2024-06-08 10:23:45,903 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:23:46,410 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:23:46,510 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:23:49,071 : INFO : test_PayNow : fill the required payment details 
+2024-06-08 10:23:55,054 : INFO : test_PayNow : Enter the amount which is greater than 500
+2024-06-08 10:23:58,402 : INFO : test_PayNow : click the next button
+2024-06-08 10:23:58,488 : INFO : test_PayNow : verify the invalid payment error message
+2024-06-08 10:24:57,765 : INFO : test_PayNow : click the login page
+2024-06-08 10:24:59,848 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:25:00,249 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:25:00,340 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:25:02,882 : INFO : test_PayNow : fill the required payment details 
+2024-06-08 10:25:12,926 : INFO : test_PayNow : click the next button
+2024-06-08 10:25:13,018 : INFO : test_PayNow : click the submit button
+2024-06-08 10:26:39,181 : INFO : test_PayNow : click the login page
+2024-06-08 10:26:41,236 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:26:41,739 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:26:41,844 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:26:44,520 : INFO : test_PayNow : fill the required payment details 
+2024-06-08 10:26:51,285 : INFO : test_PayNow : Enter the amount which is greater than 500
+2024-06-08 10:26:54,643 : INFO : test_PayNow : click the next button
+2024-06-08 10:26:54,781 : INFO : test_PayNow : verify the invalid payment error message
+2024-06-08 10:28:24,198 : INFO : test_PayNow : click the login page
+2024-06-08 10:28:26,530 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:28:27,079 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:28:27,183 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:28:29,900 : INFO : test_PayNow : fill the amount field 
+2024-06-08 10:28:33,026 : INFO : test_PayNow : click the next button
+2024-06-08 10:28:33,151 : INFO : test_PayNow : verify the error message for the blank to User field
+2024-06-08 10:29:03,831 : INFO : test_recurringPayment : click the login page
+2024-06-08 10:29:05,947 : INFO : test_recurringPayment : Fill the required details in login page
+2024-06-08 10:29:06,504 : INFO : test_recurringPayment : click the loggin button
+2024-06-08 10:29:06,609 : INFO : test_recurringPayment : click the banking option in homepage
+2024-06-08 10:29:09,201 : INFO : test_recurringPayment : fill the required payment details 
+2024-06-08 10:29:18,549 : INFO : test_recurringPayment : click the next button
+2024-06-08 10:29:18,638 : INFO : test_recurringPayment : click the submit button
+2024-06-08 10:31:53,677 : INFO : test_PayNow : click the login page
+2024-06-08 10:31:55,656 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:31:56,211 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:31:56,306 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-08 10:31:57,201 : INFO : test_PayNow : click the Advertisment option in marketplace
+2024-06-08 10:31:58,910 : INFO : test_PayNow : Enter the keyword into the keyword field
+2024-06-08 10:32:02,246 : INFO : test_PayNow : verify the keyword based element displayed 
+2024-06-08 10:33:11,942 : INFO : test_addToFavourite : click the login page
+2024-06-08 10:33:14,117 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 10:33:14,676 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 10:33:14,772 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 10:33:15,636 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 10:33:17,062 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 10:33:19,454 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-08 10:33:32,777 : INFO : test_RemovefromFavourite : click the login page
+2024-06-08 10:33:32,940 : INFO : test_RemovefromFavourite : Fill the required details in login page
+2024-06-08 10:33:33,355 : INFO : test_RemovefromFavourite : click the loggin button
+2024-06-08 10:33:33,451 : INFO : test_RemovefromFavourite : click the marketplace option in homepage
+2024-06-08 10:33:34,292 : INFO : test_RemovefromFavourite : click the Advertisment option in marketplace
+2024-06-08 10:33:35,646 : INFO : test_RemovefromFavourite : click the  the favourite list
+2024-06-08 10:35:16,394 : INFO : test_lowestPrice : click the login page
+2024-06-08 10:35:18,564 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-08 10:35:18,956 : INFO : test_lowestPrice : click the loggin button
+2024-06-08 10:35:19,073 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-08 10:35:19,978 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-08 10:35:21,338 : INFO : test_lowestPrice : click the show Advertisment option
+2024-06-08 10:35:22,550 : INFO : test_lowestPrice : click the dropdown button order by
+2024-06-08 10:35:25,686 : INFO : test_lowestPrice : select the highest price option
+2024-06-08 10:36:42,706 : INFO : test_lastPublished : click the login page
+2024-06-08 10:36:45,469 : INFO : test_lastPublished : Fill the required details in login page
+2024-06-08 10:36:45,858 : INFO : test_lastPublished : click the loggin button
+2024-06-08 10:36:45,976 : INFO : test_lastPublished : click the marketplace option in homepage
+2024-06-08 10:36:46,797 : INFO : test_lastPublished : click the Advertisment option in marketplace
+2024-06-08 10:36:48,132 : INFO : test_lastPublished : click the show Advertisment option
+2024-06-08 10:36:49,292 : INFO : test_lastPublished : click the dropdown button order by
+2024-06-08 10:36:52,427 : INFO : test_lastPublished : select the last published option
+2024-06-08 10:36:52,516 : INFO : test_lastPublished : verify the last published
+2024-06-08 10:37:30,303 : INFO : test_lowestPrice : click the login page
+2024-06-08 10:37:32,440 : INFO : test_lowestPrice : Fill the required details in login page
+2024-06-08 10:37:32,834 : INFO : test_lowestPrice : click the loggin button
+2024-06-08 10:37:32,952 : INFO : test_lowestPrice : click the marketplace option in homepage
+2024-06-08 10:37:33,757 : INFO : test_lowestPrice : click the Advertisment option in marketplace
+2024-06-08 10:37:35,222 : INFO : test_lowestPrice : click the show Advertisment option
+2024-06-08 10:37:36,447 : INFO : test_lowestPrice : click the dropdown button order by
+2024-06-08 10:37:39,580 : INFO : test_lowestPrice : select the lowest price option
+2024-06-08 10:37:39,687 : INFO : test_lowestPrice : verify the lowest price
+2024-06-08 10:38:38,788 : INFO : test_PayNow : click the login page
+2024-06-08 10:38:40,982 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:38:41,532 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:38:41,645 : INFO : test_PayNow : click the banking option in homepage
+2024-06-08 10:38:44,101 : INFO : test_PayNow : fill the required payment details 
+2024-06-08 10:38:53,411 : INFO : test_PayNow : click the next button
+2024-06-08 10:38:53,511 : INFO : test_PayNow : click the submit button
+2024-06-08 10:39:25,613 : INFO : test_recurringPayment : click the login page
+2024-06-08 10:39:27,647 : INFO : test_recurringPayment : Fill the required details in login page
+2024-06-08 10:39:28,142 : INFO : test_recurringPayment : click the loggin button
+2024-06-08 10:39:28,244 : INFO : test_recurringPayment : click the banking option in homepage
+2024-06-08 10:39:30,704 : INFO : test_recurringPayment : fill the required payment details 
+2024-06-08 10:39:40,110 : INFO : test_recurringPayment : click the next button
+2024-06-08 10:39:40,204 : INFO : test_recurringPayment : click the submit button
+2024-06-08 10:42:24,182 : INFO : test_PayNow : click the login page
+2024-06-08 10:42:26,210 : INFO : test_PayNow : Fill the required details in login page
+2024-06-08 10:42:26,735 : INFO : test_PayNow : click the loggin button
+2024-06-08 10:42:26,832 : INFO : test_PayNow : click the marketplace option in homepage
+2024-06-08 10:42:27,686 : INFO : test_PayNow : click the Advertisment option in marketplace
+2024-06-08 10:42:29,143 : INFO : test_PayNow : Enter the keyword into the keyword field
+2024-06-08 10:42:32,468 : INFO : test_PayNow : click the dropdown button order by
+2024-06-08 10:42:36,020 : INFO : test_PayNow : select the relevance option
+2024-06-08 10:42:36,104 : INFO : test_PayNow : verify the keyword based element displayed 
+2024-06-08 10:51:41,075 : INFO : test_invalid_keyword : click the login page
+2024-06-08 10:51:45,353 : INFO : test_invalid_keyword : Fill the required details in login page
+2024-06-08 10:51:45,764 : INFO : test_invalid_keyword : click the loggin button
+2024-06-08 10:51:45,870 : INFO : test_invalid_keyword : click the marketplace option in homepage
+2024-06-08 10:51:46,707 : INFO : test_invalid_keyword : click the Advertisment option in marketplace
+2024-06-08 10:51:48,405 : INFO : test_invalid_keyword : Enter the keyword into the keyword field
+2024-06-08 10:51:51,740 : INFO : test_invalid_keyword : verify the Invalid keywords error message displayed 
+2024-06-08 10:53:37,822 : INFO : test_invalid_keyword : click the login page
+2024-06-08 10:53:39,940 : INFO : test_invalid_keyword : Fill the required details in login page
+2024-06-08 10:53:40,334 : INFO : test_invalid_keyword : click the loggin button
+2024-06-08 10:53:40,402 : INFO : test_invalid_keyword : click the marketplace option in homepage
+2024-06-08 10:53:41,137 : INFO : test_invalid_keyword : click the Advertisment option in marketplace
+2024-06-08 10:53:42,364 : INFO : test_invalid_keyword : Enter the keyword into the keyword field
+2024-06-08 10:53:45,644 : INFO : test_invalid_keyword : verify the Invalid keywords error message displayed 
+2024-06-08 10:55:12,269 : INFO : test_Advertisement : click the login page
+2024-06-08 10:55:14,474 : INFO : test_Advertisement : Fill the required details in login page
+2024-06-08 10:55:14,920 : INFO : test_Advertisement : click the loggin button
+2024-06-08 10:55:15,023 : INFO : test_Advertisement : click the marketplace option in homepage
+2024-06-08 10:55:15,849 : INFO : test_Advertisement : click the Advertisment option in marketplace
+2024-06-08 10:55:17,676 : INFO : test_Advertisement : Enter the keyword into the keyword field
+2024-06-08 10:55:21,011 : INFO : test_Advertisement : verify the keyword based element displayed 
+2024-06-08 10:59:42,049 : INFO : test_BlankAmount : click the login page
+2024-06-08 10:59:44,153 : INFO : test_BlankAmount : Fill the required details in login page
+2024-06-08 10:59:44,602 : INFO : test_BlankAmount : click the loggin button
+2024-06-08 10:59:44,740 : INFO : test_BlankAmount : click the banking option in homepage
+2024-06-08 10:59:47,203 : INFO : test_BlankAmount : fill the required payment details 
+2024-06-08 10:59:53,937 : INFO : test_BlankAmount : click the next button
+2024-06-08 10:59:54,034 : INFO : test_BlankAmount : verify the error message amount required
+2024-06-08 11:05:35,936 : INFO : test_BlankAmount : click the login page
+2024-06-08 11:05:37,930 : INFO : test_BlankAmount : Fill the required details in login page
+2024-06-08 11:05:38,375 : INFO : test_BlankAmount : click the loggin button
+2024-06-08 11:05:38,468 : INFO : test_BlankAmount : click the banking option in homepage
+2024-06-08 11:05:40,803 : INFO : test_BlankAmount : fill the required payment details 
+2024-06-08 11:05:47,920 : INFO : test_BlankAmount : click the next button
+2024-06-08 11:05:48,002 : INFO : test_BlankAmount : verify the error message amount required
+2024-06-08 11:08:31,707 : INFO : test_BlankFields : click the login page
+2024-06-08 11:08:34,816 : INFO : test_BlankFields : Fill the required details in login page
+2024-06-08 11:08:35,383 : INFO : test_BlankFields : click the loggin button
+2024-06-08 11:08:35,481 : INFO : test_BlankFields : click the banking option in homepage
+2024-06-08 11:08:36,350 : INFO : test_BlankFields : click the payment to user
+2024-06-08 11:08:37,828 : INFO : test_BlankFields : click the next button
+2024-06-08 11:08:37,966 : INFO : test_BlankFields : verify the error message for the blank to User field
+2024-06-08 11:08:38,018 : INFO : test_BlankFields : verify the error message for the blank amount field
+2024-06-08 11:13:11,038 : INFO : test_BlankToUserField : click the login page
+2024-06-08 11:13:13,813 : INFO : test_BlankToUserField : Fill the required details in login page
+2024-06-08 11:13:14,327 : INFO : test_BlankToUserField : click the loggin button
+2024-06-08 11:13:14,436 : INFO : test_BlankToUserField : click the banking option in homepage
+2024-06-08 11:13:17,925 : INFO : test_BlankToUserField : fill the amount field 
+2024-06-08 11:13:21,060 : INFO : test_BlankToUserField : click the next button
+2024-06-08 11:13:21,175 : INFO : test_BlankToUserField : verify the error message for the blank to User field
+2024-06-08 11:14:21,453 : INFO : test_BlankToUserField : click the login page
+2024-06-08 11:14:23,660 : INFO : test_BlankToUserField : Fill the required details in login page
+2024-06-08 11:14:24,036 : INFO : test_BlankToUserField : click the loggin button
+2024-06-08 11:14:24,103 : INFO : test_BlankToUserField : click the banking option in homepage
+2024-06-08 11:14:26,285 : INFO : test_BlankToUserField : fill the amount field 
+2024-06-08 11:14:29,415 : INFO : test_BlankToUserField : click the next button
+2024-06-08 11:14:29,516 : INFO : test_BlankToUserField : verify the error message for the blank to User field
+2024-06-08 11:15:06,582 : INFO : test_BlankToUserField : click the login page
+2024-06-08 11:15:11,519 : INFO : test_BlankToUserField : Fill the required details in login page
+2024-06-08 11:15:11,903 : INFO : test_BlankToUserField : click the loggin button
+2024-06-08 11:15:11,989 : INFO : test_BlankToUserField : click the banking option in homepage
+2024-06-08 11:15:14,640 : INFO : test_BlankToUserField : fill the amount field 
+2024-06-08 11:15:17,765 : INFO : test_BlankToUserField : click the next button
+2024-06-08 11:15:17,885 : INFO : test_BlankToUserField : verify the error message for the blank to User field
+2024-06-08 11:16:42,536 : INFO : test_addToFavourite : click the login page
+2024-06-08 11:16:46,214 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-08 11:16:46,752 : INFO : test_addToFavourite : click the loggin button
+2024-06-08 11:16:46,846 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-08 11:16:48,477 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-08 11:16:50,075 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-08 11:16:53,667 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-08 11:17:07,049 : INFO : test_RemovefromFavourite : click the login page
+2024-06-08 11:17:07,202 : INFO : test_RemovefromFavourite : Fill the required details in login page
+2024-06-08 11:17:07,621 : INFO : test_RemovefromFavourite : click the loggin button
+2024-06-08 11:17:07,716 : INFO : test_RemovefromFavourite : click the marketplace option in homepage
+2024-06-08 11:17:08,507 : INFO : test_RemovefromFavourite : click the Advertisment option in marketplace
+2024-06-08 11:17:09,885 : INFO : test_RemovefromFavourite : click the  the favourite list
+2024-06-08 11:24:18,855 : INFO : test_highestPrice : click the login page
+2024-06-08 11:24:20,907 : INFO : test_highestPrice : Fill the required details in login page
+2024-06-08 11:24:21,448 : INFO : test_highestPrice : click the loggin button
+2024-06-08 11:24:21,549 : INFO : test_highestPrice : click the marketplace option in homepage
+2024-06-08 11:24:22,340 : INFO : test_highestPrice : click the Advertisment option in marketplace
+2024-06-08 11:24:23,527 : INFO : test_highestPrice : click the show Advertisment option
+2024-06-08 11:24:24,590 : INFO : test_highestPrice : click the dropdown button order by
+2024-06-08 11:24:27,725 : INFO : test_highestPrice : select the highest price option
+2024-06-08 11:31:13,722 : INFO : test_highestPrice : click the login page
+2024-06-08 11:31:15,733 : INFO : test_highestPrice : Fill the required details in login page
+2024-06-08 11:31:16,287 : INFO : test_highestPrice : click the loggin button
+2024-06-08 11:31:16,398 : INFO : test_highestPrice : click the marketplace option in homepage
+2024-06-08 11:31:17,186 : INFO : test_highestPrice : click the Advertisment option in marketplace
+2024-06-08 11:31:18,408 : INFO : test_highestPrice : click the show Advertisment option
+2024-06-08 11:31:19,551 : INFO : test_highestPrice : click the dropdown button order by
+2024-06-08 11:31:22,702 : INFO : test_highestPrice : select the highest price option
+2024-06-08 11:34:22,668 : INFO : test_highestPrice : click the login page
+2024-06-08 11:34:24,592 : INFO : test_highestPrice : Fill the required details in login page
+2024-06-08 11:34:25,085 : INFO : test_highestPrice : click the loggin button
+2024-06-08 11:34:25,190 : INFO : test_highestPrice : click the marketplace option in homepage
+2024-06-08 11:34:25,968 : INFO : test_highestPrice : click the Advertisment option in marketplace
+2024-06-08 11:34:27,704 : INFO : test_highestPrice : click the show Advertisment option
+2024-06-08 11:34:28,805 : INFO : test_highestPrice : click the dropdown button order by
+2024-06-08 11:34:31,943 : INFO : test_highestPrice : select the highest price option
