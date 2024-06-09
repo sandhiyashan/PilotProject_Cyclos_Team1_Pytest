@@ -74,8 +74,3 @@ class BusinessDirectoryPage(BasePage):
         self._wait.until(expected_conditions.visibility_of_element_located((self.key_error_msg)))
         title = self.find(self.key_error_msg).text
         assert title == self.error_msg
-
-
-
-
-        

@@ -9,9 +9,8 @@ from Pages.AdvertisementPage import Advertisement
 @pytest.mark.parametrize("username,password", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\payment_to_user_testdata.xlsx", "login"))
 @pytest.mark.parametrize("keyword_data", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\advertisement_testdata.xlsx", "valid_data"))
 
-class Test_Advertisement:
-    @pytest.mark.regression
-    def test_Advertisement(self,username,password,keyword_data):
+class Test_paymentToUser:
+    def test_PayNow(self,username,password,keyword_data):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
         login = LoginPage(self.driver)
@@ -28,7 +27,12 @@ class Test_Advertisement:
         ads.click_Advertisement()
         log.info("Enter the keyword into the keyword field")
         ads.enter_keyword(keyword_data)
+        log.info("click the dropdown button order by")
+        ads.click_orderBy()
+        log.info("select the relevance option")
+        ads.click_relevance()
         log.info("verify the keyword based element displayed ")
         ads.verify_keyword_based_element()
 
-
+        
+        
