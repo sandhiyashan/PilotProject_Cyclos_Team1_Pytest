@@ -10,7 +10,8 @@ from Pages.LoginPage import LoginPage
 @pytest.mark.parametrize("user_name,amount_data", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest-2\\ExcelFiles\\payment_to_user_testdata.xlsx", "validData"))
 
 class Test_paymentToUser:
-    def test_PayNow(self,username,password,user_name,amount_data):
+    @pytest.mark.smoke
+    def test_BlankAmount(self,username,password,user_name,amount_data):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
         payment = PaymentUser(self.driver)
