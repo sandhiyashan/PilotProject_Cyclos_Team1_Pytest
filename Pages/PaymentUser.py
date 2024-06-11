@@ -20,6 +20,7 @@ class PaymentUser(BasePage):
 
     def __init__(self,driver):
         super().__init__(driver)
+        self.driver = driver
 
     def click_Payment_To_User(self):
         self._wait.until(ec.visibility_of_element_located((self.payment_to_user_xpath)))

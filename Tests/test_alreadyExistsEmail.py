@@ -8,6 +8,7 @@ from Pages.RegisterPage import RegisterPage
 @pytest.mark.parametrize("name,login,email", excelReader.get_data("E:\PilotProject_Cyclos_Team1_Pytest-1\ExcelFiles\login_data.xlsx", "alreadyEmail"))
 
 class TestAlreadyExistsEmail:
+    @pytest.mark.regression
     def test_already_exists_email(self,name,login,email):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
