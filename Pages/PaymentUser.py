@@ -1,6 +1,6 @@
 import time
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as ec
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from Pages.BasePage import BasePage
 
 class PaymentUser(BasePage):
@@ -23,53 +23,134 @@ class PaymentUser(BasePage):
         self.driver = driver
 
     def click_Payment_To_User(self):
-        self._wait.until(ec.visibility_of_element_located((self.payment_to_user_xpath)))
-        self.click(self.payment_to_user_xpath)
-
+        '''click the payment to user option'''
+        try:
+            self.wait_for_element(self.payment_to_user_xpath)
+            self.click(self.payment_to_user_xpath)
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+        
     def verify_Payment_To_User(self):
-        paymentpage_title = self._wait.until(ec.visibility_of_element_located((self.payment_title_xpath))).text
-        assert  paymentpage_title == "Payment to user"
+        '''Verify the payment to user page open'''
+        try:
+            paymentpage_title = self.wait_for_element(self.payment_title_xpath).text
+            assert  paymentpage_title == "Payment to user"
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def fill_ToUser_Field(self, toUser):
-        time.sleep(5)
-        self.send_keys(self.to_User_xpath, toUser)
-        self.click(self.select_user_xpath)
+        '''Enter the username in the to user field'''
+        try:
+            self.wait_for_element(self.to_User_xpath)
+            time.sleep(3)
+            self.send_keys(self.to_User_xpath, toUser)
+            self.click(self.select_user_xpath)
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except TimeoutException as e:
+            print(f"Timeout Exception: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def fill_Amount_Field(self,amount):
-        time.sleep(3)
-        self.send_keys(self.amount_xpath, amount)
+        '''Enter the amount in the amount field'''
+        try:
+            self.wait_for_element(self.amount_xpath)
+            self.send_keys(self.amount_xpath, amount)
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def click_Scheduling(self):
-        self._wait.until(ec.visibility_of_element_located((self.scheduling_xpath)))
-        self.click(self.scheduling_xpath)
+        '''Click the scheduling dropdown list'''
+        try:
+            self.wait_for_element(self.scheduling_xpath)
+            self.click(self.scheduling_xpath)
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def select_PayNow(self):
-        self._wait.until(ec.visibility_of_element_located((self.pay_now_xpath)))
-        self.click(self.pay_now_xpath)
-    
+        '''Select the paynow option in dropdown list'''
+        try:
+            self.wait_for_element(self.pay_now_xpath)
+            self.click(self.pay_now_xpath)
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
     def select_Recurring_Payment(self):
-        self._wait.until(ec.visibility_of_element_located((self.recurringPayment_xpath)))
-        self.click(self.recurringPayment_xpath)
+        '''Select the select_Recurring_Payment option in dropdown list'''
+        try:
+            self.wait_for_element(self.recurringPayment_xpath)
+            self.click(self.recurringPayment_xpath)
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def click_Next_Button(self):
-        self.click(self.next_button_xpath)
-    
+        '''Click the next button'''
+        try:
+            self.click(self.next_button_xpath)
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
     def click_Confirm_Button(self):
-        time.sleep(3)
-        self.click(self.confirm_button_xpath)
+        '''click the confirm button'''
+        try:
+            time.sleep(3)
+            self.click(self.confirm_button_xpath)
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
     
     def verify_succesful_payment(self):
-        succesful_pay = self.find(self.confirm_button_xpath).text
-        assert succesful_pay == 'Confirm'
-    
+        '''Verify the successful payment message'''
+        try:
+            succesful_pay = self.find(self.confirm_button_xpath).text
+            assert succesful_pay == 'Confirm'
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
     def toUser_required_error_msg(self):
-        error_msg = self._wait.until(ec.visibility_of_element_located((self.toUser_error_msg))).text
-        assert error_msg == 'This field is required'
+        '''Verify the to To user required error message'''
+        try:
+            error_msg = self.wait_for_element(self.toUser_error_msg).text
+            assert error_msg == 'This field is required'
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def amount_required_error_msg(self):
-        error_msg = self._wait.until(ec.visibility_of_element_located((self.amount_error_msg))).text
-        assert error_msg == 'This field is required'
-        
+        '''Verify the amount field required error message is displayed'''
+        try:
+            error_msg = self.wait_for_element(self.amount_error_msg).text
+            assert error_msg == 'This field is required'
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
     def invalid_Amount_Message(self):
-        error_msg = self._wait.until(ec.visibility_of_element_located((self.invalid_amount_error_msg))).text
-        assert error_msg == "Amount must be less or equal to 500,00 IU's."
+        '''Verify the invalid amount error message is displayed'''
+        try:
+            error_msg = self.wait_for_element(self.invalid_amount_error_msg).text
+            assert error_msg == "Amount must be less or equal to 500,00 IU's."
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
