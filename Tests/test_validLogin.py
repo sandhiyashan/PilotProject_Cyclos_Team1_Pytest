@@ -8,6 +8,7 @@ from Pages.LoginPage import LoginPage
 @pytest.mark.parametrize("username,password", excelReader.get_data("E:\PilotProject_Cyclos_Team1_Pytest-1\ExcelFiles\login_data.xlsx", "validLogin"))
 
 class TestValidLogin:
+    @pytest.mark.smoke
     def test_valid_login(self,username,password):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)

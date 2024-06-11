@@ -24,8 +24,7 @@ class Advertisement(BasePage):
 
     def __init__(self, driver):
         super().__init__(driver)  
-        self.driver = driver 
-    
+        self.driver = driver
 
     def click_Advertisement(self):
         self._wait.until(ec.visibility_of_element_located((self.advertisment_xpath)))
@@ -43,16 +42,13 @@ class Advertisement(BasePage):
         for element in elements:
             assert element.text == "Orange"
 
-
     def verify_invalid_keyword_error_msg(self):
         self._wait.until(ec.visibility_of_element_located((self.invalid_msg_xpath)))
         error_msg = self.find(self.invalid_msg_xpath).text
         assert error_msg == "Invalid keywords"
-
-    
+  
     def click_show_advertisement(self):
         self.click(self.show_advertisement_xpath)
-
     
     def click_orderBy(self):
         self._wait.until(ec.visibility_of_element_located((self.order_By)))

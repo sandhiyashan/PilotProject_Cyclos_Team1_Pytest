@@ -8,6 +8,7 @@ from Pages.RegisterPage import RegisterPage
 @pytest.mark.parametrize("website,mobile,land_line,address,zip1,city,region", excelReader.get_data("E:\PilotProject_Cyclos_Team1_Pytest-1\ExcelFiles\login_data.xlsx", "validatingBlank"))
 
 class TestBlankFieldRegister:
+    @pytest.mark.regression
     def test_blank_field_register(self,website,mobile,land_line,address,zip1,city,region):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
