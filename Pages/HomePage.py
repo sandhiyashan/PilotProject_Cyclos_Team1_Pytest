@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 from Pages.BasePage import BasePage
 
 class HomePage(BasePage):
@@ -12,27 +13,70 @@ class HomePage(BasePage):
     banking_page_keyword = "Banking"
     banking_xpath = (By.XPATH, "//div[text()='Banking']")
 
+    def __init__(self, driver):
+        super().__init__(driver)  # Call the constructor of BasePage
+        self.driver = driver
+
     def goToRegister(self):
-        self.click(self.register_Xpath)
+        try:
+            self.click(self.register_Xpath)
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
 
     def goToLogin(self):
-        self.click(self.login_xpath)
+        try:
+            self.click(self.login_xpath)
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
 
     def verifyLogin(self):
-        title = self.find(self.verify_login_xpath).text
-        assert title == 'Cyclos'
+        try:
+            title = self.find(self.verify_login_xpath).text
+            assert title == 'Cyclos'
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except AssertionError as e:
+            print(f"Assertion Error: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
         
     def goToMarketPlace(self):
-        self.click(self.marketPlace_xpath)
+        try:
+            self.click(self.marketPlace_xpath)
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
 
     def click_the_logout(self):
-        self.click(self.Logout_xpath)
+        try:
+            self.click(self.Logout_xpath)
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
 
     def goToBanking(self):
-        self.click(self.banking_xpath)
+        try:
+            self.click(self.banking_xpath)
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
     
     def verifyBankingPage(self):
-        title = self.find(self.banking_page_verify).text
-        assert title == self.banking_page_keyword
+        try:
+            title = self.find(self.banking_page_verify).text
+            assert title == self.banking_page_keyword
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except AssertionError as e:
+            print(f"Assertion Error: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
     
 

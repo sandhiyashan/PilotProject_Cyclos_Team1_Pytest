@@ -1350,3 +1350,30 @@
 2024-06-08 11:34:27,704 : INFO : test_highestPrice : click the show Advertisment option
 2024-06-08 11:34:28,805 : INFO : test_highestPrice : click the dropdown button order by
 2024-06-08 11:34:31,943 : INFO : test_highestPrice : select the highest price option
+2024-06-11 22:52:18,054 : INFO : test_Advertisement : click the login page
+2024-06-11 22:52:20,131 : INFO : test_Advertisement : Fill the required details in login page
+2024-06-11 22:52:20,523 : INFO : test_Advertisement : click the loggin button
+2024-06-11 22:52:20,635 : INFO : test_Advertisement : click the marketplace option in homepage
+2024-06-11 22:52:21,633 : INFO : test_Advertisement : click the Advertisment option in marketplace
+2024-06-11 22:52:23,210 : INFO : test_Advertisement : Enter the keyword into the keyword field
+2024-06-11 22:52:26,537 : INFO : test_Advertisement : verify the keyword based element displayed 
+2024-06-11 22:55:57,721 : INFO : test_addToFavourite : click the login page
+2024-06-11 22:56:00,281 : INFO : test_addToFavourite : Fill the required details in login page
+2024-06-11 22:56:00,723 : INFO : test_addToFavourite : click the loggin button
+2024-06-11 22:56:00,819 : INFO : test_addToFavourite : click the marketplace option in homepage
+2024-06-11 22:56:02,254 : INFO : test_addToFavourite : click the Advertisment option in marketplace
+2024-06-11 22:56:04,963 : INFO : test_addToFavourite : click the show Advertisment option
+2024-06-11 22:56:08,936 : INFO : test_addToFavourite : click the  the favourite list
+2024-06-11 22:56:33,188 : INFO : test_RemovefromFavourite : click the login page
+2024-06-11 22:56:33,362 : INFO : test_RemovefromFavourite : Fill the required details in login page
+2024-06-11 22:56:33,812 : INFO : test_RemovefromFavourite : click the loggin button
+2024-06-11 22:56:33,918 : INFO : test_RemovefromFavourite : click the marketplace option in homepage
+2024-06-11 22:56:35,412 : INFO : test_RemovefromFavourite : click the Advertisment option in marketplace
+2024-06-11 22:56:42,102 : INFO : test_RemovefromFavourite : click the  the favourite list
+2024-06-11 22:57:24,945 : INFO : test_PayNow : click the login page
+2024-06-11 22:57:27,670 : INFO : test_PayNow : Fill the required details in login page
+2024-06-11 22:57:28,282 : INFO : test_PayNow : click the loggin button
+2024-06-11 22:57:28,379 : INFO : test_PayNow : click the banking option in homepage
+2024-06-11 22:57:31,366 : INFO : test_PayNow : fill the required payment details 
+2024-06-11 22:57:36,492 : INFO : test_PayNow : click the next button
+2024-06-11 22:57:36,586 : INFO : test_PayNow : click the submit button

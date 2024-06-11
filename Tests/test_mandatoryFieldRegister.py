@@ -8,6 +8,7 @@ from Pages.RegisterPage import RegisterPage
 @pytest.mark.parametrize("name,login,email,password,confirm_password", excelReader.get_data("E:\PilotProject_Cyclos_Team1_Pytest-1\ExcelFiles\login_data.xlsx", "mandatoryField"))
 
 class TestMandatoryFieldRegister:
+    @pytest.mark.smoke
     def test_mandatory_field_register(self,name,login,email,password,confirm_password):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)

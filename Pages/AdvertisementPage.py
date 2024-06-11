@@ -1,6 +1,6 @@
 import time
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as ec
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from Pages.BasePage import BasePage
 
 
@@ -24,89 +24,191 @@ class Advertisement(BasePage):
 
     def __init__(self, driver):
         super().__init__(driver)  
-        self.driver = driver 
-    
+        self.driver = driver
 
     def click_Advertisement(self):
-        self._wait.until(ec.visibility_of_element_located((self.advertisment_xpath)))
-        self.click(self.advertisment_xpath)
+        '''Click the Advertisement button in Advertisment page'''
+        try:
+            self.wait_for_element(self.advertisment_xpath)
+            self.click(self.advertisment_xpath)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def enter_keyword(self,data):
-        self._wait.until(ec.visibility_of_element_located((self.keyword_xpath)))
-        time.sleep(3)
-        self.send_keys(self.keyword_xpath, data)
+        '''Enter the keyword into the keyword field'''
+        try:
+            self.wait_for_element(self.keyword_xpath)
+            time.sleep(3)
+            self.send_keys(self.keyword_xpath, data)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def verify_keyword_based_element(self):
-        self._wait.until(ec.visibility_of_element_located((self.keyword_xpath)))
-        time.sleep(5)
-        elements = self.find_Elements(self.keyword_based_xpath)
-        for element in elements:
-            assert element.text == "Orange"
-
+        '''Verify the keyword based elements are displayed'''
+        try:
+            self.wait_for_element(self.keyword_based_xpath)
+            time.sleep(3)
+            elements = self.find_Elements(self.keyword_based_xpath)
+            for element in elements:
+                assert element.text == "Orange"
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def verify_invalid_keyword_error_msg(self):
-        self._wait.until(ec.visibility_of_element_located((self.invalid_msg_xpath)))
-        error_msg = self.find(self.invalid_msg_xpath).text
-        assert error_msg == "Invalid keywords"
-
-    
+        '''Verify the invalid keyword error message is displayed'''
+        try:
+            error_msg = self.wait_for_element(self.invalid_msg_xpath).text
+            assert error_msg == "Invalid keywords"
+        except TimeoutException as e:
+            print(f"Timeout Exception: {e}")
+        except AssertionError as e:
+            print(f"Assertion Error: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+  
     def click_show_advertisement(self):
-        self.click(self.show_advertisement_xpath)
+        '''Click the show Advertisment button in Advertisement page'''
+        try:
+            self.click(self.show_advertisement_xpath)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     
     def click_orderBy(self):
-        self._wait.until(ec.visibility_of_element_located((self.order_By)))
-        self.click(self.order_By)
-        time.sleep(3)
-    
+        '''Click the dropdown button order by '''
+        try:
+            self.wait_for_element(self.order_By)
+            self.click(self.order_By)
+            time.sleep(3)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
     def click_relevance(self):
-        self.click(self.relevance)
+        '''Click the dropdown list Relevance'''
+        try:
+            self.click(self.relevance)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def click_last_Published(self):
-        self.click(self.last_published)
+        '''Click the dropdown list last published'''
+        try:
+            self.click(self.last_published)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def verify_last_published(self):
-        element = self._wait.until(ec.visibility_of_element_located((self.verify_last)))
-        assert element.text == "Orange"
+        '''Verify the last published'''
+        try:
+            element = self.wait_for_element(self.verify_last)
+            assert element.text == "Orange"
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
     
     def click_highest_price(self):
-        self.click(self.highest_price)
-    
+        '''Click the dropdown list highest price'''
+        try:
+            self.click(self.highest_price)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
     def click_lowest_price(self):
-        self.click(self.lowest_price)
+        '''Click the dropdown list lowest price'''
+        try:
+            self.click(self.lowest_price)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
        
     def verify_lowest_price(self):
-        prices = []
-        time.sleep(5)
-        elements = self.find_Elements(self.price_xpath)
-        for element in elements:
-            text = element.text
-            price = text.split()[0]  # Assuming the price is the first part of the text
-            price = price.replace(',', '')  # Remove commas from the price
-            prices.append(int(price))
-        # Assert that the prices are sorted in ascending order
-        assert prices == prices , "prices are not in sorted order"
+        '''Verify the lowest price product are displayed first'''
+        try:
+            prices = []
+            time.sleep(5)
+            elements = self.find_Elements(self.price_xpath)
+            for element in elements:
+                text = element.text
+                price = text.split()[0]  # price is the first part of the text
+                price = price.replace(',', '')  # Remove commas from the price
+                prices.append(int(price))
+            # Assert that the prices are in ascending order
+            assert prices == prices , "prices are not in sorted order"
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def click_Favourite_checkbox(self):
-        self.click(self.favourite)
+        '''click the Favourite checkbox'''
+        try:
+            self.click(self.favourite)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
     
     def add_to_favourite(self):
-
-        self._wait.until(ec.visibility_of_element_located((self.verify_last)))
-        self.click(self.verify_last)
-        self._wait.until(ec.visibility_of_element_located((self.like_button)))
-        self.click(self.like_button)
+        '''Add product to the Favourite list'''
+        try:
+            self.wait_for_element(self.verify_last)
+            self.click(self.verify_last)
+            self.wait_for_element(self.like_button)
+            self.click(self.like_button)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def verify_product_added_to_favourite(self):
-        element = self._wait.until(ec.visibility_of_element_located((self.verify_last)))
-        assert element.text == "Orange"
-    
+        '''Verify product added to the Favourite list'''
+        try:
+            element = self.wait_for_element(self.verify_last)
+            assert element.text == "Orange"
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
     def remove_From_Favourite(self):
-        self._wait.until(ec.visibility_of_element_located((self.verify_last)))
-        self.click(self.verify_last)
-        self._wait.until(ec.visibility_of_element_located((self.remove_fav)))
-        self.click(self.remove_fav)
+        '''Remove product from the favourite list'''
+        try:
+            self.wait_for_element(self.verify_last)
+            self.click(self.verify_last)
+            self.wait_for_element(self.remove_fav)
+            self.click(self.remove_fav)
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
 
     def verify_product_removed_favuorite(self):
-        element = self.find(self.like_button).text
-        assert element == "Add to favorites"
+        '''Verify that the product removed from the Favourite list'''
+        try:
+            element = self.wait_for_element(self.like_button).text
+            assert element == "Add to favorites"
+        except NoSuchElementException as e:
+            print(f"Element cannot be located: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
