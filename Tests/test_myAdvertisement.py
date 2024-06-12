@@ -9,7 +9,7 @@ from Pages.LoginPage import LoginPage
 @pytest.mark.usefixtures("test_setup_teardown")
 
 class TestMyAdvertisement:
-
+    @pytest.mark.confirmation
     def test_add_new_advertisement(self):
 
         log = consolelogger.get_logger()
@@ -37,6 +37,7 @@ class TestMyAdvertisement:
         advertisement.click_save_button()
         log.info("click on save button")
 
+    @pytest.mark.smoke
     def test_search_advertisement(self):
 
         log = consolelogger.get_logger()

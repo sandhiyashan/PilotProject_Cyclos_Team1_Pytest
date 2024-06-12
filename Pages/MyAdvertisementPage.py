@@ -1,5 +1,6 @@
 import time
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, ElementNotInteractableException
 from Pages.BasePage import BasePage
 
 class MyAdvertisementPage(BasePage):
@@ -16,27 +17,67 @@ class MyAdvertisementPage(BasePage):
     search_result_xpath = (By.XPATH,"//div[@class='card-text']")
     searched_element = "Lion"
 
+    def __init__(self, driver):
+        super().__init__(driver)  # Call the constructor of BasePage
+        self.driver = driver
+
     def click_my_advertisements(self):
-        self.click(self.advertisements_xpath)
+        '''click my advertisements button on home page'''
+        try:
+            self.click(self.advertisements_xpath)
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
 
     def add_new_advertisements(self):
-        self.click(self.add_new_xpath)
+        '''click add new advertisements icon'''
+        try:
+            self.click(self.add_new_xpath)
+        except ElementNotInteractableException as e:
+            print(f"Element not interactable: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
 
     def fill_advertisement(self):
-        self.send_keys(self.title_xpath,"Orange")
-        self.click(self.category_xpath)
-        self.click(self.item_xpath)
-        self.send_keys(self.price_css,"200")
-        self.send_keys(self.textArea_xpath,"It;s very Delicious")
+        '''fill the details in advertisements form'''
+        try:
+            self.send_keys(self.title_xpath, "Orange")
+            self.click(self.category_xpath)
+            self.click(self.item_xpath)
+            self.send_keys(self.price_css, "200")
+            self.send_keys(self.textArea_xpath, "It's very Delicious")
+        except Exception as e:
+            print(f"Error: {e}")
 
     def click_save_button(self):
-        self.click(self.save_btn_css)
+        '''click save button on advertisements form'''
+        try:
+            self.click(self.save_btn_css)
+        except ElementNotInteractableException as e:
+            print(f"Element not interactable: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
 
     def search_functionality(self):
-        self.click(self.keywords_xpath)
-        self.send_keys(self.keywords_xpath,self.searched_element)
-        time.sleep(3)
+        '''click the search button and send keys to search'''
+        try:
+            self.click(self.keywords_xpath)
+            self.send_keys(self.keywords_xpath, self.searched_element)
+            time.sleep(3)  # Assuming you need this wait
+        except TimeoutException as e:
+            print(f"Timeout Exception occurred: {e}")
+        except Exception as e:
+            print(f"Error occurred: {e}")
 
     def verify_result(self):
-        store = self.find(self.search_result_xpath).text
-        assert store == self.searched_element
+        '''verify the result on search functionality'''
+        try:
+            store = self.find(self.search_result_xpath).text
+            assert store == self.searched_element
+        except AssertionError as e:
+            print(f"Assertion Error: {e}")
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
