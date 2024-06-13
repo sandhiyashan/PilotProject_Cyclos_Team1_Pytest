@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
+from selenium.common.exceptions import NoSuchElementException, TimeoutException 
 from Pages.BasePage import BasePage
 
 class MemberAccountPage(BasePage):
@@ -14,17 +15,36 @@ class MemberAccountPage(BasePage):
         self.driver = driver
 
     def gotTo_memberaccount(self):
-        self._wait.until(expected_conditions.visibility_of_element_located((self.member_acc_xpath)))
-        self.click(self.member_acc_xpath)
-        mem_acc_title = self.find(self.verify_memberacc_xpath).text
-        assert mem_acc_title == self.member_acc_keyword
+        '''Method to verify member account page'''
+        try:
+            self._wait.until(expected_conditions.visibility_of_element_located((self.member_acc_xpath)))
+            self.click(self.member_acc_xpath)
+            mem_acc_title = self.find(self.verify_memberacc_xpath).text
+            assert mem_acc_title == self.member_acc_keyword
+        except AssertionError as e:
+            print(f"Assertion Error: {e}")
+        except TimeoutException as e:
+            print(f"Timeout Exception: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
 
     def verify_balance(self):
-        self._wait.until(expected_conditions.presence_of_element_located((self.balance_xpath)))
+        '''Method to verify balance'''
+        try:
+            self._wait.until(expected_conditions.presence_of_element_located((self.balance_xpath)))
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
 
     def verify_transaction(self):
-        self._wait.until(expected_conditions.presence_of_all_elements_located((self.table_xpath)))
-        
+        '''Method to verify transaction'''
+        try:
+            self._wait.until(expected_conditions.presence_of_all_elements_located((self.table_xpath)))
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
 
 
 

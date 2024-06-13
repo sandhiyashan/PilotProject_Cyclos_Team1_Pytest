@@ -9,6 +9,7 @@ from Pages.BusinessDirectoryPage import BusinessDirectoryPage
 @pytest.mark.parametrize("key,username,password", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\busDir_data.xlsx", "invalid_data"))
 
 class TestInvalidKeyBusinessDirectory:
+    @pytest.mark.smoke
     def test_invalidkey_business_directory(self, key, username, password):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
@@ -21,7 +22,7 @@ class TestInvalidKeyBusinessDirectory:
         home.goToMarketPlace()
         log.info("Go to Market Place")
         home.verify_marketplace()
-        log.info("Market Place Page is displayed")
+        log.info("Market Place Page is verified")
         business_dir.goToBusinessDirectoryPage()
         log.info("Go to Business directory")
         business_dir.verify_BusinessDirectoryPage()
@@ -30,5 +31,7 @@ class TestInvalidKeyBusinessDirectory:
         log.info("Filled the key")
         business_dir.verify_key_alert()
         log.info("Alert is verified successfully")
+
+        
         
         

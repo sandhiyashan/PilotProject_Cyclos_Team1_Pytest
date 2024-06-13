@@ -1,6 +1,7 @@
 import time
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from selenium.webdriver.support import expected_conditions
 from Pages.BasePage import BasePage
 
 class PaymentUser(BasePage):
@@ -12,11 +13,16 @@ class PaymentUser(BasePage):
     scheduling_xpath = (By.XPATH,"//button[@class='form-control text-left custom-select w-100']")
     pay_now_xpath = (By.XPATH,"//a[text()=' Pay now ']")
     recurringPayment_xpath = (By.XPATH, "//a[text()=' Recurring payments ']")
+    monthly_inst_xpath = (By.XPATH,"//div[@role='listbox']//a[text()=' Monthly installments ']")
+    no_of_inst_xpath = (By.XPATH,"//div[@class='d-flex label-value-value']//input[@type='number']")
     next_button_xpath = (By.XPATH , "//action-button[@class='d-inline-block button']/button")
     confirm_button_xpath = (By.XPATH , "//span[text()='Confirm']")
     toUser_error_msg = (By.XPATH, "(//div[@class='invalid-feedback'])[1]")
     amount_error_msg = (By.XPATH, "(//div[@class='invalid-feedback'])[2]")
+    no_of_instal_error_msg = (By.XPATH, "(//div[@class='invalid-feedback'])[1]")
     invalid_amount_error_msg = (By.CSS_SELECTOR, "div[class='invalid-feedback']")
+    alert_xpath = (By.XPATH,"//notification//div[@class='notification-message']")
+    alert_text = "Invalid keywords"
 
     def __init__(self,driver):
         super().__init__(driver)
@@ -86,6 +92,39 @@ class PaymentUser(BasePage):
         except Exception as e:
             print(f"Error Message: {e}")
 
+    def select_monthlyInstall(self):
+        '''Method to monthly install option'''
+        try:
+            self._wait.until(expected_conditions.element_to_be_clickable((self.monthly_inst_xpath)))
+            self.click(self.monthly_inst_xpath)
+        except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
+
+    def fill_no_of_installment(self,instal_no):
+       '''Method to fill the no of installments'''
+       try:
+           self._wait.until(expected_conditions.visibility_of_element_located((self.no_of_inst_xpath)))
+           self.send_keys(self.no_of_inst_xpath,instal_no)
+       except NoSuchElementException as e:
+            print(f"Element not found: {e}")
+       except Exception as e:
+            print(f"Error: {e}")
+
+    def verify_alert(self):
+        '''Method to verify the alert'''
+        try:
+            self._wait.until(expected_conditions.visibility_of_element_located((self.alert_xpath)))
+            title = self.find(self.alert_xpath).text
+            assert title == self.alert_text
+        except AssertionError as e:
+            print(f"Assertion Error: {e}")
+        except TimeoutException as e:
+            print(f"Timeout Exception: {e}")
+        except Exception as e:
+            print(f"Error: {e}")
+
     def select_Recurring_Payment(self):
         '''Select the select_Recurring_Payment option in dropdown list'''
         try:
@@ -139,6 +178,16 @@ class PaymentUser(BasePage):
         '''Verify the amount field required error message is displayed'''
         try:
             error_msg = self.wait_for_element(self.amount_error_msg).text
+            assert error_msg == 'This field is required'
+        except NoSuchElementException as e:
+            print(f"Element cannot be found: {e}")
+        except Exception as e:
+            print(f"Error Message: {e}")
+
+    def instalno_required_error_msg(self):
+        '''Verify the to To user required error message'''
+        try:
+            error_msg = self.wait_for_element(self.no_of_instal_error_msg).text
             assert error_msg == 'This field is required'
         except NoSuchElementException as e:
             print(f"Element cannot be found: {e}")

@@ -6,9 +6,11 @@ from Pages.LoginPage import LoginPage
 from Pages.PaymentUser import PaymentUser
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("username, password, user_name", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\payment_to_user_testdata.xlsx", "invalidUser_data"))
+@pytest.mark.parametrize("username, password", excelReader.get_data("..\ExcelFiles\payment_to_user_testdata.xlsx", "login"))
+@pytest.mark.parametrize("user_name", excelReader.get_data("..\ExcelFiles\payment_to_user_testdata.xlsx", "invalidData"))
 
 class TestInvalidToUserMonthlyPayUser:
+    @pytest.mark.regression
     def test_invalidToUsermonthlypay_user(self, username, password, user_name):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
@@ -26,7 +28,7 @@ class TestInvalidToUserMonthlyPayUser:
         log.info("Clicking the payment to user")
         payment.verify_Payment_To_User()
         log.info("Payment to user is displayed")
-        payment.fill_ToUser(user_name)
+        payment.fill_ToUser_Field(user_name)
         log.info("To user is filled")
         payment.verify_alert()
         log.info("Alert is displayed")

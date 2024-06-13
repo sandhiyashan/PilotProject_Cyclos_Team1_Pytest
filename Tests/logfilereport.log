@@ -1377,3 +1377,207 @@
 2024-06-11 22:57:31,366 : INFO : test_PayNow : fill the required payment details 
 2024-06-11 22:57:36,492 : INFO : test_PayNow : click the next button
 2024-06-11 22:57:36,586 : INFO : test_PayNow : click the submit button
+2024-06-13 16:27:00,192 : INFO : test_membAccount : Logged in successfully
+2024-06-13 16:27:02,661 : INFO : test_membAccount : Go to Banking Page
+2024-06-13 16:27:05,617 : INFO : test_membAccount : Banking Page is displayed
+2024-06-13 16:27:10,422 : INFO : test_membAccount : Member account Page is displayed
+2024-06-13 16:27:10,472 : INFO : test_membAccount : Balance is verified
+2024-06-13 16:27:11,448 : INFO : test_membAccount : Transaction history is verified
+2024-06-13 16:27:54,985 : INFO : test_membAccount : Logged in successfully
+2024-06-13 16:27:54,985 : INFO : test_membAccount : Logged in successfully
+2024-06-13 16:27:56,316 : INFO : test_membAccount : Go to Banking Page
+2024-06-13 16:27:56,316 : INFO : test_membAccount : Go to Banking Page
+2024-06-13 16:27:58,126 : INFO : test_membAccount : Banking Page is displayed
+2024-06-13 16:27:58,126 : INFO : test_membAccount : Banking Page is displayed
+2024-06-13 16:28:02,224 : INFO : test_membAccount : Member account Page is displayed
+2024-06-13 16:28:02,224 : INFO : test_membAccount : Member account Page is displayed
+2024-06-13 16:28:02,254 : INFO : test_membAccount : Balance is verified
+2024-06-13 16:28:02,254 : INFO : test_membAccount : Balance is verified
+2024-06-13 16:28:02,299 : INFO : test_membAccount : Transaction history is verified
+2024-06-13 16:28:02,299 : INFO : test_membAccount : Transaction history is verified
+2024-06-13 16:43:26,639 : INFO : test_validreceive_qr_code : Logged in successfully
+2024-06-13 16:43:30,445 : INFO : test_validreceive_qr_code : Go to Banking Page
+2024-06-13 16:43:31,956 : INFO : test_validreceive_qr_code : Banking Page is displayed
+2024-06-13 16:43:33,332 : INFO : test_validreceive_qr_code : Go to Receive QR Code Page
+2024-06-13 16:43:34,172 : INFO : test_validreceive_qr_code : Receive QR Code Page is displayed
+2024-06-13 16:43:39,527 : INFO : test_validreceive_qr_code : QR Code is generated successfully
+2024-06-13 17:11:22,190 : INFO : test_validreceive_payment : Logged in successfully
+2024-06-13 17:11:27,505 : INFO : test_validreceive_payment : Go to Banking Page
+2024-06-13 17:11:32,535 : INFO : test_validreceive_payment : Banking Page is displayed
+2024-06-13 17:11:34,250 : INFO : test_validreceive_payment : Go to Receive Payment Page
+2024-06-13 17:11:35,172 : INFO : test_validreceive_payment : Receive Payment Page is displayed
+2024-06-13 17:11:35,620 : INFO : test_validreceive_payment : To user is filled
+2024-06-13 17:11:37,330 : INFO : test_validreceive_payment : amount is entered
+2024-06-13 17:11:41,475 : INFO : test_validreceive_payment : schedule is selected
+2024-06-13 17:11:43,271 : INFO : test_validreceive_payment : description is entered
+2024-06-13 17:11:45,035 : INFO : test_validreceive_payment : next button is clicked
+2024-06-13 17:12:04,066 : INFO : test_validreceive_payment : confirmation page is displayed successfully
+2024-06-13 18:43:47,556 : INFO : test_Validmonthlypayment_touser : Logged in successfully
+2024-06-13 18:43:50,183 : INFO : test_Validmonthlypayment_touser : Go to Banking Page
+2024-06-13 18:43:51,167 : INFO : test_Validmonthlypayment_touser : Banking Page is displayed
+2024-06-13 18:43:55,254 : INFO : test_Validmonthlypayment_touser : Clicking the payment to user
+2024-06-13 18:43:56,414 : INFO : test_Validmonthlypayment_touser : Payment to user is displayed
+2024-06-13 18:44:03,247 : INFO : test_Validmonthlypayment_touser : To user is filled
+2024-06-13 18:44:03,648 : INFO : test_Validmonthlypayment_touser : amount is filled
+2024-06-13 18:44:06,574 : INFO : test_Validmonthlypayment_touser : Schedule is clicked
+2024-06-13 18:44:07,137 : INFO : test_Validmonthlypayment_touser : Monthly install is clicked
+2024-06-13 18:44:07,508 : INFO : test_Validmonthlypayment_touser : no of install is filled
+2024-06-13 18:44:07,671 : INFO : test_Validmonthlypayment_touser : Next button is clicked
+2024-06-13 18:44:20,823 : INFO : test_Validmonthlypayment_touser : confirmation page is displayed successfully
+2024-06-13 19:26:35,679 : INFO : test_invalidToUserreceive_payment : Logged in successfully
+2024-06-13 19:26:39,640 : INFO : test_invalidToUserreceive_payment : Go to Banking Page
+2024-06-13 19:26:42,127 : INFO : test_invalidToUserreceive_payment : Banking Page is displayed
+2024-06-13 19:26:48,337 : INFO : test_invalidToUserreceive_payment : Go to Receive Payment Page
+2024-06-13 19:26:50,099 : INFO : test_invalidToUserreceive_payment : Receive Payment Page is displayed
+2024-06-13 19:27:00,194 : INFO : test_invalidToUserreceive_payment : Alert is verified
+2024-06-13 19:39:15,531 : INFO : test_invalidToUsermonthlypay_user : Logged in successfully
+2024-06-13 19:39:17,563 : INFO : test_invalidToUsermonthlypay_user : Go to Banking Page
+2024-06-13 19:39:20,262 : INFO : test_invalidToUsermonthlypay_user : Banking Page is displayed
+2024-06-13 19:39:22,444 : INFO : test_invalidToUsermonthlypay_user : Clicking the payment to user
+2024-06-13 19:39:22,933 : INFO : test_invalidToUsermonthlypay_user : Payment to user is displayed
+2024-06-13 19:39:32,650 : INFO : test_invalidToUsermonthlypay_user : To user is filled
+2024-06-13 19:39:32,744 : INFO : test_invalidToUsermonthlypay_user : Alert is displayed
+2024-06-13 19:45:04,823 : INFO : test_invalidkey_business_directory : Logged in successfully
+2024-06-13 19:45:07,555 : INFO : test_invalidkey_business_directory : Go to Market Place
+2024-06-13 19:45:12,209 : INFO : test_invalidkey_business_directory : Market Place Page is verified
+2024-06-13 19:45:12,819 : INFO : test_invalidkey_business_directory : Go to Business directory
+2024-06-13 19:45:15,177 : INFO : test_invalidkey_business_directory : Business Directory Page is displayed
+2024-06-13 19:45:15,930 : INFO : test_invalidkey_business_directory : Filled the key
+2024-06-13 19:46:48,741 : INFO : test_invalidkey_business_directory : Logged in successfully
+2024-06-13 19:46:51,054 : INFO : test_invalidkey_business_directory : Go to Market Place
+2024-06-13 19:46:56,571 : INFO : test_invalidkey_business_directory : Market Place Page is verified
+2024-06-13 19:46:57,671 : INFO : test_invalidkey_business_directory : Go to Business directory
+2024-06-13 19:46:59,522 : INFO : test_invalidkey_business_directory : Business Directory Page is displayed
+2024-06-13 19:46:59,867 : INFO : test_invalidkey_business_directory : Filled the key
+2024-06-13 19:48:43,228 : INFO : test_invalidkey_business_directory : Logged in successfully
+2024-06-13 19:48:47,921 : INFO : test_invalidkey_business_directory : Go to Market Place
+2024-06-13 19:48:52,101 : INFO : test_invalidkey_business_directory : Market Place Page is verified
+2024-06-13 19:48:53,273 : INFO : test_invalidkey_business_directory : Go to Business directory
+2024-06-13 19:48:55,235 : INFO : test_invalidkey_business_directory : Business Directory Page is displayed
+2024-06-13 19:48:56,401 : INFO : test_invalidkey_business_directory : Filled the key
+2024-06-13 19:49:02,394 : INFO : test_invalidkey_business_directory : Alert is verified successfully
+2024-06-13 20:04:56,593 : INFO : test_invalidkey_business_directory : Logged in successfully
+2024-06-13 20:05:01,848 : INFO : test_invalidkey_business_directory : Go to Market Place
+2024-06-13 20:05:09,009 : INFO : test_invalidkey_business_directory : Market Place Page is verified
+2024-06-13 20:05:09,274 : INFO : test_invalidkey_business_directory : Go to Business directory
+2024-06-13 20:05:11,694 : INFO : test_invalidkey_business_directory : Business Directory Page is displayed
+2024-06-13 20:05:12,601 : INFO : test_invalidkey_business_directory : Filled the key
+2024-06-13 20:05:19,338 : INFO : test_invalidkey_business_directory : Alert is verified successfully
+2024-06-13 20:06:08,507 : INFO : test_invalidkey_business_directory : Logged in successfully
+2024-06-13 20:06:11,742 : INFO : test_invalidkey_business_directory : Go to Market Place
+2024-06-13 20:06:14,876 : INFO : test_invalidkey_business_directory : Market Place Page is verified
+2024-06-13 20:06:16,096 : INFO : test_invalidkey_business_directory : Go to Business directory
+2024-06-13 20:06:18,107 : INFO : test_invalidkey_business_directory : Business Directory Page is displayed
+2024-06-13 20:06:19,247 : INFO : test_invalidkey_business_directory : Filled the key
+2024-06-13 20:06:26,191 : INFO : test_invalidkey_business_directory : Alert is verified successfully
+2024-06-13 20:14:42,898 : INFO : test_invalid_login : Go to Login Page
+2024-06-13 20:14:52,458 : INFO : test_invalid_login : fill the details in login form
+2024-06-13 20:14:52,880 : INFO : test_invalid_login : click the login button
+2024-06-13 20:14:58,128 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-13 20:15:20,470 : INFO : test_invalid_login : Go to Login Page
+2024-06-13 20:15:20,470 : INFO : test_invalid_login : Go to Login Page
+2024-06-13 20:15:25,645 : INFO : test_invalid_login : fill the details in login form
+2024-06-13 20:15:25,645 : INFO : test_invalid_login : fill the details in login form
+2024-06-13 20:15:30,552 : INFO : test_invalid_login : click the login button
+2024-06-13 20:15:30,552 : INFO : test_invalid_login : click the login button
+2024-06-13 20:15:30,584 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-13 20:15:30,584 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-13 20:16:51,239 : INFO : test_invalid_login : Go to Login Page
+2024-06-13 20:16:51,239 : INFO : test_invalid_login : Go to Login Page
+2024-06-13 20:16:51,239 : INFO : test_invalid_login : Go to Login Page
+2024-06-13 20:16:57,914 : INFO : test_invalid_login : fill the details in login form
+2024-06-13 20:16:57,914 : INFO : test_invalid_login : fill the details in login form
+2024-06-13 20:16:57,914 : INFO : test_invalid_login : fill the details in login form
+2024-06-13 20:17:03,490 : INFO : test_invalid_login : click the login button
+2024-06-13 20:17:03,490 : INFO : test_invalid_login : click the login button
+2024-06-13 20:17:03,490 : INFO : test_invalid_login : click the login button
+2024-06-13 20:17:15,947 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-13 20:17:15,947 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-13 20:17:15,947 : INFO : test_invalid_login : verify whether the functionality check invalid credentials
+2024-06-13 20:20:01,635 : INFO : test_validbusiness_directory : Logged in successfully
+2024-06-13 20:20:07,155 : INFO : test_validbusiness_directory : Go to Market Place
+2024-06-13 20:20:18,757 : INFO : test_validbusiness_directory : Market Place Page is displayed
+2024-06-13 20:20:29,952 : INFO : test_validbusiness_directory : Go to Business directory
+2024-06-13 20:20:41,047 : INFO : test_validbusiness_directory : Business Directory Page is displayed
+2024-06-13 20:20:52,135 : INFO : test_validbusiness_directory : Filled the key
+2024-06-13 20:21:03,254 : INFO : test_validbusiness_directory : Clicked on Order By
+2024-06-13 20:21:14,424 : INFO : test_validbusiness_directory : Clicked on Relevance
+2024-06-13 20:21:25,598 : INFO : test_validbusiness_directory : Verified the relevance results
+2024-06-13 20:28:08,385 : INFO : test_blankToUser_qr_code : Logged in successfully
+2024-06-13 20:28:13,765 : INFO : test_blankToUser_qr_code : Go to Banking Page
+2024-06-13 20:28:19,255 : INFO : test_blankToUser_qr_code : Banking Page is displayed
+2024-06-13 20:28:31,360 : INFO : test_blankToUser_qr_code : Go to Receive QR Code Page
+2024-06-13 20:28:42,457 : INFO : test_blankToUser_qr_code : Receive QR Code Page is displayed
+2024-06-13 20:29:09,768 : INFO : test_blankToUser_qr_code : Error message is displayed successfully
+2024-06-13 20:33:01,327 : INFO : test_blanktouserreceive_payment : Logged in successfully
+2024-06-13 20:33:03,577 : INFO : test_blanktouserreceive_payment : Go to Banking Page
+2024-06-13 20:33:07,332 : INFO : test_blanktouserreceive_payment : Banking Page is displayed
+2024-06-13 20:33:10,047 : INFO : test_blanktouserreceive_payment : Go to Receive Payment Page
+2024-06-13 20:33:10,672 : INFO : test_blanktouserreceive_payment : Receive Payment Page is displayed
+2024-06-13 20:33:13,597 : INFO : test_blanktouserreceive_payment : amount is entered
+2024-06-13 20:33:18,127 : INFO : test_blanktouserreceive_payment : next button is clicked
+2024-06-13 20:33:18,777 : INFO : test_blanktouserreceive_payment : verify the error message username required
+2024-06-13 21:05:43,459 : INFO : test_blankinstno_monthlypayment_user : Logged in successfully
+2024-06-13 21:05:48,004 : INFO : test_blankinstno_monthlypayment_user : Go to Banking Page
+2024-06-13 21:05:51,076 : INFO : test_blankinstno_monthlypayment_user : Banking Page is displayed
+2024-06-13 21:05:54,239 : INFO : test_blankinstno_monthlypayment_user : Clicking the payment to user
+2024-06-13 21:05:55,669 : INFO : test_blankinstno_monthlypayment_user : Payment to user is displayed
+2024-06-13 21:06:02,650 : INFO : test_blankinstno_monthlypayment_user : To user is filled
+2024-06-13 21:06:06,774 : INFO : test_blankinstno_monthlypayment_user : amount is filled
+2024-06-13 21:06:07,550 : INFO : test_blankinstno_monthlypayment_user : Schedule is clicked
+2024-06-13 21:06:08,516 : INFO : test_blankinstno_monthlypayment_user : Monthly install is clicked
+2024-06-13 21:06:13,699 : INFO : test_blankinstno_monthlypayment_user : Next button is clicked
+2024-06-13 21:13:28,366 : INFO : test_blankinstno_monthlypayment_user : Logged in successfully
+2024-06-13 21:13:32,014 : INFO : test_blankinstno_monthlypayment_user : Go to Banking Page
+2024-06-13 21:13:34,341 : INFO : test_blankinstno_monthlypayment_user : Banking Page is displayed
+2024-06-13 21:13:36,237 : INFO : test_blankinstno_monthlypayment_user : Clicking the payment to user
+2024-06-13 21:13:39,206 : INFO : test_blankinstno_monthlypayment_user : Payment to user is displayed
+2024-06-13 21:13:45,805 : INFO : test_blankinstno_monthlypayment_user : To user is filled
+2024-06-13 21:13:46,669 : INFO : test_blankinstno_monthlypayment_user : amount is filled
+2024-06-13 21:13:53,007 : INFO : test_blankinstno_monthlypayment_user : Schedule is clicked
+2024-06-13 21:13:54,336 : INFO : test_blankinstno_monthlypayment_user : Monthly install is clicked
+2024-06-13 21:13:58,307 : INFO : test_blankinstno_monthlypayment_user : Next button is clicked
+2024-06-13 21:15:43,354 : INFO : test_blankinstno_monthlypayment_user : Logged in successfully
+2024-06-13 21:15:46,061 : INFO : test_blankinstno_monthlypayment_user : Go to Banking Page
+2024-06-13 21:15:48,739 : INFO : test_blankinstno_monthlypayment_user : Banking Page is displayed
+2024-06-13 21:15:50,736 : INFO : test_blankinstno_monthlypayment_user : Clicking the payment to user
+2024-06-13 21:15:53,273 : INFO : test_blankinstno_monthlypayment_user : Payment to user is displayed
+2024-06-13 21:16:00,253 : INFO : test_blankinstno_monthlypayment_user : To user is filled
+2024-06-13 21:16:01,056 : INFO : test_blankinstno_monthlypayment_user : amount is filled
+2024-06-13 21:16:04,299 : INFO : test_blankinstno_monthlypayment_user : Schedule is clicked
+2024-06-13 21:16:05,378 : INFO : test_blankinstno_monthlypayment_user : Monthly install is clicked
+2024-06-13 21:16:05,759 : INFO : test_blankinstno_monthlypayment_user : Next button is clicked
+2024-06-13 21:16:06,474 : INFO : test_blankinstno_monthlypayment_user : No of Installments Error message is displayed
+2024-06-13 21:20:18,929 : INFO : test_blankfieldsreceive_payment : Logged in successfully
+2024-06-13 21:20:21,074 : INFO : test_blankfieldsreceive_payment : Go to Banking Page
+2024-06-13 21:20:22,974 : INFO : test_blankfieldsreceive_payment : Banking Page is displayed
+2024-06-13 21:20:24,564 : INFO : test_blankfieldsreceive_payment : Go to Receive Payment Page
+2024-06-13 21:20:25,374 : INFO : test_blankfieldsreceive_payment : Receive Payment Page is displayed
+2024-06-13 21:20:26,280 : INFO : test_blankfieldsreceive_payment : next button is clicked
+2024-06-13 21:20:26,556 : INFO : test_blankfieldsreceive_payment : verify the error message amount required 
+2024-06-13 21:21:40,258 : INFO : test_blankamountreceive_payment : Logged in successfully
+2024-06-13 21:21:42,220 : INFO : test_blankamountreceive_payment : Go to Banking Page
+2024-06-13 21:21:43,543 : INFO : test_blankamountreceive_payment : Banking Page is displayed
+2024-06-13 21:21:45,323 : INFO : test_blankamountreceive_payment : Go to Receive Payment Page
+2024-06-13 21:21:46,000 : INFO : test_blankamountreceive_payment : Receive Payment Page is displayed
+2024-06-13 21:21:46,307 : INFO : test_blankamountreceive_payment : To user is filled
+2024-06-13 21:21:47,241 : INFO : test_blankamountreceive_payment : next button is clicked
+2024-06-13 21:21:47,663 : INFO : test_blankamountreceive_payment : verify the error message username required
+2024-06-13 21:21:47,768 : INFO : test_blankamountreceive_payment : verify the error message amount required 
+2024-06-13 21:46:08,164 : INFO : test_Validmonthlypayment_touser : Logged in successfully
+2024-06-13 21:46:10,359 : INFO : test_Validmonthlypayment_touser : Go to Banking Page
+2024-06-13 21:46:13,426 : INFO : test_Validmonthlypayment_touser : Banking Page is displayed
+2024-06-13 21:46:14,374 : INFO : test_Validmonthlypayment_touser : Clicking the payment to user
+2024-06-13 21:46:15,472 : INFO : test_Validmonthlypayment_touser : Payment to user is displayed
+2024-06-13 21:46:15,720 : INFO : test_Validmonthlypayment_touser : Next button is clicked
+2024-06-13 21:46:16,364 : INFO : test_Validmonthlypayment_touser : To User Error message is displayed
+2024-06-13 21:46:16,504 : INFO : test_Validmonthlypayment_touser : Amount Error message is displayed
+2024-06-13 21:48:55,388 : INFO : test_adduser_tocontact : Logged in successfully
+2024-06-13 21:48:58,440 : INFO : test_adduser_tocontact : Go to Market Place
+2024-06-13 21:49:10,494 : INFO : test_adduser_tocontact : Market Place Page is displayed
+2024-06-13 21:49:21,755 : INFO : test_adduser_tocontact : Go to Business directory
+2024-06-13 21:49:32,858 : INFO : test_adduser_tocontact : Business Directory Page is displayed
+2024-06-13 21:49:43,981 : INFO : test_adduser_tocontact : Filled the key
+2024-06-13 21:49:55,122 : INFO : test_adduser_tocontact : Clicked on user
+2024-06-13 21:50:06,286 : INFO : test_adduser_tocontact : Clicked on add to contact
+2024-06-13 21:50:17,464 : INFO : test_adduser_tocontact : User added to contact is verified

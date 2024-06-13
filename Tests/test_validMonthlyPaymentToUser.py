@@ -3,12 +3,15 @@ from Utilities import consolelogger
 from Utilities import excelReader
 from Pages.HomePage import HomePage
 from Pages.LoginPage import LoginPage
-from Pages.PaymentUser import PaymentUser
+from Pages.PaymentUser import PaymentUsers
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("username, password, user_name, amount_data, instal_no", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\payment_to_user_testdata.xlsx", "valid"))
+@pytest.mark.parametrize("username, password", excelReader.get_data("..\ExcelFiles\payment_to_user_testdata.xlsx", "login"))
+@pytest.mark.parametrize("user_name, amount_data", excelReader.get_data("..\ExcelFiles\payment_to_user_testdata.xlsx", "validData"))
+@pytest.mark.parametrize("instal_no", excelReader.get_data("..\ExcelFiles\payment_to_user_testdata.xlsx", "monthly_data"))
 
 class TestValidMonthlyPaymentToUser:
+    @pytest.mark.smoke
     def test_Validmonthlypayment_touser(self, username, password, user_name, amount_data, instal_no):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
