@@ -9,6 +9,7 @@ from Pages.ReceivePaymentPage import ReceivePayPage
 @pytest.mark.parametrize("to_user,amount,description,username,password", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\receivePay_data.xlsx", "valid_data"))
 
 class TestBlankFieldsReceivePaymentPage:
+    @pytest.mark.smoke
     def test_blankfieldsreceive_payment(self, to_user, amount, description, username, password):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)

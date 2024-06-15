@@ -6,10 +6,11 @@ from Pages.LoginPage import LoginPage
 from Pages.PaymentUser import PaymentUser
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("username, password, user_name, amount_data, instal_no", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\payment_to_user_testdata.xlsx", "valid"))
+@pytest.mark.parametrize("username, password", excelReader.get_data("..\ExcelFiles\payment_to_user_testdata.xlsx", "login"))
 
-class TestValidMonthlyPaymentToUser:
-    def test_Validmonthlypayment_touser(self, username, password, user_name, amount_data, instal_no):
+class TestBlankFieldMonthlyPaymentToUser:
+    @pytest.mark.smoke
+    def test_blankfieldmonthlypayment_touser(self, username, password):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
         payment  = PaymentUser(self.driver)

@@ -6,11 +6,11 @@ from Pages.LoginPage import LoginPage
 from Pages.ReceiveQRcodePage import ReceiveQRcodePage
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("amount,description,username,password", excelReader.get_data("..\ExcelFiles\qrcode.xlsx", "valid_data"))
+@pytest.mark.parametrize("amount,description,username,password", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\qrcode.xlsx", "invalid_data"))
 
-class TestValidReceiveQRCode:
+class TestBlankToUserReceiveQRCode:
     @pytest.mark.smoke
-    def test_validreceive_qr_code(self, username, password, amount, description):
+    def test_blankToUser_qr_code(self, username, password, amount, description):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
         receive_qr  = ReceiveQRcodePage(self.driver)
@@ -29,5 +29,5 @@ class TestValidReceiveQRCode:
         log.info("Receive QR Code Page is displayed")
         receive_qr.fill_the_receive_qr_form(amount,description)
         receive_qr.click_gen_qrcode()
-        receive_qr.verify_qr_display()
-        log.info("QR Code is generated successfully")
+        receive_qr.verify_error_mesg()
+        log.info("Error message is displayed successfully")

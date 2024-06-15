@@ -9,6 +9,7 @@ from Pages.BusinessDirectoryPage import BusinessDirectoryPage
 @pytest.mark.parametrize("key,username,password,non", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\busDir_data.xlsx", "valid_data"))
 
 class TestAddUserToContact:
+    @pytest.mark.smoke
     def test_adduser_tocontact(self, key, username, password,non):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)

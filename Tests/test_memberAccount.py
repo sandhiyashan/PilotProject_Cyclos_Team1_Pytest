@@ -10,6 +10,7 @@ from Pages.MemberAccountPage import MemberAccountPage
 @pytest.mark.parametrize("username,password", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\login_data.xlsx", "validLogin"))
 
 class TestMemberAccount:
+    @pytest.mark.smoke
     def test_membAccount(self,username,password):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)

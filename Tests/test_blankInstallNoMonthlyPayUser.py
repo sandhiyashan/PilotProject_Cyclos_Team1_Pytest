@@ -6,10 +6,12 @@ from Pages.LoginPage import LoginPage
 from Pages.PaymentUser import PaymentUser
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("username, password, user_name, amount_data, instal_no", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\payment_to_user_testdata.xlsx", "valid"))
+@pytest.mark.parametrize("username, password", excelReader.get_data("..\ExcelFiles\payment_to_user_testdata.xlsx", "login"))
+@pytest.mark.parametrize("user_name, amount_data", excelReader.get_data("..\ExcelFiles\payment_to_user_testdata.xlsx", "validData"))
 
-class TestValidMonthlyPaymentToUser:
-    def test_Validmonthlypayment_touser(self, username, password, user_name, amount_data, instal_no):
+class TestblankInstNoMonthlyPaymentToUser:
+    @pytest.mark.smoke
+    def test_blankinstno_monthlypayment_user(self, username, password, user_name, amount_data):
         log = consolelogger.get_logger()
         home = HomePage(self.driver)
         payment  = PaymentUser(self.driver)
@@ -36,5 +38,5 @@ class TestValidMonthlyPaymentToUser:
         log.info("Monthly install is clicked")
         payment.click_Next_Button()
         log.info("Next button is clicked")
-        payment.installno_required_error_msg()
+        payment.instalno_required_error_msg()
         log.info("No of Installments Error message is displayed")
