@@ -1,0 +1,4 @@
+[32mINFO    [0m test_valid_login:test_validLogin.py:17 Go to Login Page
+[32mINFO    [0m test_valid_login:test_validLogin.py:19 fill the details in login form
+[32mINFO    [0m test_valid_login:test_validLogin.py:21 click the login button
+[32mINFO    [0m test_valid_login:test_validLogin.py:23 verify the login made successful

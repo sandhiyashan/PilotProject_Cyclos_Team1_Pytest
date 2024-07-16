@@ -1,0 +1,10 @@
+[32mINFO    [0m test_add_new_advertisement:test_myAdvertisement.py:20 Go to Login Page
+[32mINFO    [0m test_add_new_advertisement:test_myAdvertisement.py:22 fill the details in login form
+[32mINFO    [0m test_add_new_advertisement:test_myAdvertisement.py:24 click the login button
+[32mINFO    [0m test_add_new_advertisement:test_myAdvertisement.py:26 verify the login made successful
+[32mINFO    [0m test_add_new_advertisement:test_myAdvertisement.py:28 Login successfully
+[32mINFO    [0m test_add_new_advertisement:test_myAdvertisement.py:30 Go to MarketPlace
+[32mINFO    [0m test_add_new_advertisement:test_myAdvertisement.py:32 Click my advertisement in sub section
+[32mINFO    [0m test_add_new_advertisement:test_myAdvertisement.py:34 Click add new icon on my advertisement page
+[32mINFO    [0m test_add_new_advertisement:test_myAdvertisement.py:36 fill the details of advertisement
+[32mINFO    [0m test_add_new_advertisement:test_myAdvertisement.py:38 click on save button

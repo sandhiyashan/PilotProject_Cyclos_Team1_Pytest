@@ -6,8 +6,8 @@ from Pages.PaymentUser import PaymentUser
 from Pages.LoginPage import LoginPage
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("username,password", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\payment_to_user_testdata.xlsx", "login"))
-@pytest.mark.parametrize("user_name,exceeded_amount_data", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\payment_to_user_testdata.xlsx", "boundary"))
+@pytest.mark.parametrize("username,password", excelReader.get_data("../ExcelFiles/payment_to_user_testdata.xlsx", "login"))
+@pytest.mark.parametrize("user_name,exceeded_amount_data", excelReader.get_data("../ExcelFiles/payment_to_user_testdata.xlsx", "boundary"))
 
 class Test_InvalidPayment:
     def test_PayNow(self,username,password,user_name,exceeded_amount_data):

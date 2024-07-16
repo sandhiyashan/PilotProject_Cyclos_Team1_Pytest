@@ -1,0 +1,6 @@
+[32mINFO    [0m test_mandatory_field_register:test_mandatoryFieldRegister.py:17 Register button is clicked
+[32mINFO    [0m test_mandatory_field_register:test_mandatoryFieldRegister.py:19 Register page opens
+[32mINFO    [0m test_mandatory_field_register:test_mandatoryFieldRegister.py:21 Required fields are filled
+[32mINFO    [0m test_mandatory_field_register:test_mandatoryFieldRegister.py:23 Next button is clicked
+[32mINFO    [0m test_mandatory_field_register:test_mandatoryFieldRegister.py:25 Password section is filled
+[32mINFO    [0m test_mandatory_field_register:test_mandatoryFieldRegister.py:29 Registration is successfully completed

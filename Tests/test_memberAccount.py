@@ -7,7 +7,7 @@ from Utilities import read_config
 from Pages.MemberAccountPage import MemberAccountPage
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("username,password", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\login_data.xlsx", "validLogin"))
+@pytest.mark.parametrize("username,password", excelReader.get_data("../ExcelFiles/login_data.xlsx", "validLogin"))
 
 class TestMemberAccount:
     @pytest.mark.smoke

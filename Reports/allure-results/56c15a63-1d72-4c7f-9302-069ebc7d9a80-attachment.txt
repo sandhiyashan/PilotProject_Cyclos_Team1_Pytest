@@ -1,0 +1,8 @@
+[32mINFO    [0m test_BlankFields:test_blanKfields.py:18 click the login page
+[32mINFO    [0m test_BlankFields:test_blanKfields.py:20 Fill the required details in login page
+[32mINFO    [0m test_BlankFields:test_blanKfields.py:22 click the loggin button
+[32mINFO    [0m test_BlankFields:test_blanKfields.py:24 click the banking option in homepage
+[32mINFO    [0m test_BlankFields:test_blanKfields.py:26 click the payment to user
+[32mINFO    [0m test_BlankFields:test_blanKfields.py:29 click the next button
+[32mINFO    [0m test_BlankFields:test_blanKfields.py:31 verify the error message for the blank to User field
+[32mINFO    [0m test_BlankFields:test_blanKfields.py:33 verify the error message for the blank amount field

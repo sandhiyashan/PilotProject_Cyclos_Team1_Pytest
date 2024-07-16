@@ -5,7 +5,7 @@ from Pages.HomePage import HomePage
 from Pages.RegisterPage import RegisterPage
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("name,login,email", excelReader.get_data("E:\PilotProject_Cyclos_Team1_Pytest-1\ExcelFiles\login_data.xlsx", "invalidEmail"))
+@pytest.mark.parametrize("name,login,email", excelReader.get_data("../ExcelFiles/login_data.xlsx", "invalidEmail"))
 
 class TestInvalidEmailRegister:
     @pytest.mark.smoke

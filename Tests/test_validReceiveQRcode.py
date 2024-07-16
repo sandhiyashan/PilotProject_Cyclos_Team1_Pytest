@@ -6,7 +6,7 @@ from Pages.LoginPage import LoginPage
 from Pages.ReceiveQRcodePage import ReceiveQRcodePage
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("amount,description,username,password", excelReader.get_data("..\ExcelFiles\qrcode.xlsx", "valid_data"))
+@pytest.mark.parametrize("amount,description,username,password", excelReader.get_data("../ExcelFiles/qrcode.xlsx", "valid_data"))
 
 class TestValidReceiveQRCode:
     @pytest.mark.smoke

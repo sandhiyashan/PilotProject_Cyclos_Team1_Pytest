@@ -1,0 +1,12 @@
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:23 Logged in successfully
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:25 Go to Banking Page
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:27 Banking Page is displayed
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:29 Clicking the payment to user
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:31 Payment to user is displayed
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:33 To user is filled
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:35 amount is filled
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:37 Schedule is clicked
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:39 Monthly install is clicked
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:41 no of install is filled
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:43 Next button is clicked
+[32mINFO    [0m test_Validmonthlypayment_touser:test_validMonthlyPaymentToUser.py:46 confirmation page is displayed successfully

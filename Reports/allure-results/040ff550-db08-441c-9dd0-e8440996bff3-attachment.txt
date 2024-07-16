@@ -1,0 +1,8 @@
+[32mINFO    [0m test_blankfieldmonthlypayment_touser:test_blankFieldMonthlyPayUser.py:21 Logged in successfully
+[32mINFO    [0m test_blankfieldmonthlypayment_touser:test_blankFieldMonthlyPayUser.py:23 Go to Banking Page
+[32mINFO    [0m test_blankfieldmonthlypayment_touser:test_blankFieldMonthlyPayUser.py:25 Banking Page is displayed
+[32mINFO    [0m test_blankfieldmonthlypayment_touser:test_blankFieldMonthlyPayUser.py:27 Clicking the payment to user
+[32mINFO    [0m test_blankfieldmonthlypayment_touser:test_blankFieldMonthlyPayUser.py:29 Payment to user is displayed
+[32mINFO    [0m test_blankfieldmonthlypayment_touser:test_blankFieldMonthlyPayUser.py:31 Next button is clicked
+[32mINFO    [0m test_blankfieldmonthlypayment_touser:test_blankFieldMonthlyPayUser.py:33 To User Error message is displayed
+[32mINFO    [0m test_blankfieldmonthlypayment_touser:test_blankFieldMonthlyPayUser.py:35 Amount Error message is displayed

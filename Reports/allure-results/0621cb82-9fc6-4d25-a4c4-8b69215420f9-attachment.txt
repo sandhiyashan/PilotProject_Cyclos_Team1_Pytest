@@ -1,0 +1,9 @@
+[32mINFO    [0m test_validbusiness_directory:test_businessDirectory.py:21 Logged in successfully
+[32mINFO    [0m test_validbusiness_directory:test_businessDirectory.py:23 Go to Market Place
+[32mINFO    [0m test_validbusiness_directory:test_businessDirectory.py:25 Market Place Page is displayed
+[32mINFO    [0m test_validbusiness_directory:test_businessDirectory.py:27 Go to Business directory
+[32mINFO    [0m test_validbusiness_directory:test_businessDirectory.py:29 Business Directory Page is displayed
+[32mINFO    [0m test_validbusiness_directory:test_businessDirectory.py:31 Filled the key
+[32mINFO    [0m test_validbusiness_directory:test_businessDirectory.py:33 Clicked on Order By
+[32mINFO    [0m test_validbusiness_directory:test_businessDirectory.py:35 Clicked on Relevance
+[32mINFO    [0m test_validbusiness_directory:test_businessDirectory.py:37 Verified the relevance results

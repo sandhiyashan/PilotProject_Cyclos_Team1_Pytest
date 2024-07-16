@@ -7,7 +7,7 @@ from Pages.LoginPage import LoginPage
 from Pages.ReceiveQRcodePage import ReceiveQRcodePage
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("amount,description,username,password", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\qrcode.xlsx", "invalid_data"))
+@pytest.mark.parametrize("amount,description,username,password", excelReader.get_data("../ExcelFiles/qrcode.xlsx", "invalid_data"))
 
 class TestInvalidReceiveQRCode:
     def test_invalidreceive_qr_code(self, username, password, amount, description):

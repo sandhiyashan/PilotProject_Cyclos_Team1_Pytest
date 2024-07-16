@@ -1,0 +1,9 @@
+[32mINFO    [0m test_lastPublished:test_lastPublished.py:18 click the login page
+[32mINFO    [0m test_lastPublished:test_lastPublished.py:20 Fill the required details in login page
+[32mINFO    [0m test_lastPublished:test_lastPublished.py:22 click the loggin button
+[32mINFO    [0m test_lastPublished:test_lastPublished.py:24 click the marketplace option in homepage
+[32mINFO    [0m test_lastPublished:test_lastPublished.py:26 click the Advertisment option in marketplace
+[32mINFO    [0m test_lastPublished:test_lastPublished.py:28 click the show Advertisment option
+[32mINFO    [0m test_lastPublished:test_lastPublished.py:30 click the dropdown button order by
+[32mINFO    [0m test_lastPublished:test_lastPublished.py:32 select the last published option
+[32mINFO    [0m test_lastPublished:test_lastPublished.py:34 verify the last published

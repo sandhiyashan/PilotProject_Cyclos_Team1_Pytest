@@ -1,0 +1,7 @@
+[32mINFO    [0m test_invalid_keyword:test_Advertisement_Invalid.py:19 click the login page
+[32mINFO    [0m test_invalid_keyword:test_Advertisement_Invalid.py:21 Fill the required details in login page
+[32mINFO    [0m test_invalid_keyword:test_Advertisement_Invalid.py:23 click the loggin button
+[32mINFO    [0m test_invalid_keyword:test_Advertisement_Invalid.py:25 click the marketplace option in homepage
+[32mINFO    [0m test_invalid_keyword:test_Advertisement_Invalid.py:27 click the Advertisment option in marketplace
+[32mINFO    [0m test_invalid_keyword:test_Advertisement_Invalid.py:29 Enter the keyword into the keyword field
+[32mINFO    [0m test_invalid_keyword:test_Advertisement_Invalid.py:31 verify the Invalid keywords error message displayed

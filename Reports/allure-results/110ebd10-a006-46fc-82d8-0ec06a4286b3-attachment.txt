@@ -1,0 +1,7 @@
+[32mINFO    [0m test_addToFavourite:test_Favourite.py:18 click the login page
+[32mINFO    [0m test_addToFavourite:test_Favourite.py:20 Fill the required details in login page
+[32mINFO    [0m test_addToFavourite:test_Favourite.py:22 click the loggin button
+[32mINFO    [0m test_addToFavourite:test_Favourite.py:24 click the marketplace option in homepage
+[32mINFO    [0m test_addToFavourite:test_Favourite.py:26 click the Advertisment option in marketplace
+[32mINFO    [0m test_addToFavourite:test_Favourite.py:28 click the show Advertisment option
+[32mINFO    [0m test_addToFavourite:test_Favourite.py:32 click the  the favourite list

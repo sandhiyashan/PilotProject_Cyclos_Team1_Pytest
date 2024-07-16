@@ -1,0 +1,51 @@
+Error: sequence item 0: expected str instance, int found
+Element cannot be found: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Confirm']"}
+  (Session info: chrome=126.0.6478.127); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C890EEA2+31554]
+	(No symbol) [0x00007FF6C8887ED9]
+	(No symbol) [0x00007FF6C874872A]
+	(No symbol) [0x00007FF6C8798434]
+	(No symbol) [0x00007FF6C879853C]
+	(No symbol) [0x00007FF6C87DF6A7]
+	(No symbol) [0x00007FF6C87BD06F]
+	(No symbol) [0x00007FF6C87DC977]
+	(No symbol) [0x00007FF6C87BCDD3]
+	(No symbol) [0x00007FF6C878A33B]
+	(No symbol) [0x00007FF6C878AED1]
+	GetHandleVerifier [0x00007FF6C8C18B1D+3217341]
+	GetHandleVerifier [0x00007FF6C8C65AE3+3532675]
+	GetHandleVerifier [0x00007FF6C8C5B0E0+3489152]
+	GetHandleVerifier [0x00007FF6C89BE776+750614]
+	(No symbol) [0x00007FF6C889375F]
+	(No symbol) [0x00007FF6C888EB14]
+	(No symbol) [0x00007FF6C888ECA2]
+	(No symbol) [0x00007FF6C887E16F]
+	BaseThreadInitThunk [0x00007FFFACEC257D+29]
+	RtlUserThreadStart [0x00007FFFAE00AA48+40]
+
+Element cannot be found: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Confirm']"}
+  (Session info: chrome=126.0.6478.127); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C890EEA2+31554]
+	(No symbol) [0x00007FF6C8887ED9]
+	(No symbol) [0x00007FF6C874872A]
+	(No symbol) [0x00007FF6C8798434]
+	(No symbol) [0x00007FF6C879853C]
+	(No symbol) [0x00007FF6C87DF6A7]
+	(No symbol) [0x00007FF6C87BD06F]
+	(No symbol) [0x00007FF6C87DC977]
+	(No symbol) [0x00007FF6C87BCDD3]
+	(No symbol) [0x00007FF6C878A33B]
+	(No symbol) [0x00007FF6C878AED1]
+	GetHandleVerifier [0x00007FF6C8C18B1D+3217341]
+	GetHandleVerifier [0x00007FF6C8C65AE3+3532675]
+	GetHandleVerifier [0x00007FF6C8C5B0E0+3489152]
+	GetHandleVerifier [0x00007FF6C89BE776+750614]
+	(No symbol) [0x00007FF6C889375F]
+	(No symbol) [0x00007FF6C888EB14]
+	(No symbol) [0x00007FF6C888ECA2]
+	(No symbol) [0x00007FF6C887E16F]
+	BaseThreadInitThunk [0x00007FFFACEC257D+29]
+	RtlUserThreadStart [0x00007FFFAE00AA48+40]
+

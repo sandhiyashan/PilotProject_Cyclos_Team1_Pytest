@@ -1,0 +1,6 @@
+[32mINFO    [0m test_invalidreceive_qr_code:test_invalidReceiveQRcode.py:22 Logged in successfully
+[32mINFO    [0m test_invalidreceive_qr_code:test_invalidReceiveQRcode.py:24 Go to Banking Page
+[32mINFO    [0m test_invalidreceive_qr_code:test_invalidReceiveQRcode.py:26 Banking Page is displayed
+[32mINFO    [0m test_invalidreceive_qr_code:test_invalidReceiveQRcode.py:28 Go to Receive QR Code Page
+[32mINFO    [0m test_invalidreceive_qr_code:test_invalidReceiveQRcode.py:30 Receive QR Code Page is displayed
+[32mINFO    [0m test_invalidreceive_qr_code:test_invalidReceiveQRcode.py:34 Error message is displayed successfully

@@ -1,0 +1,7 @@
+[32mINFO    [0m test_blank_field_register:test_blankFieldRegister.py:17 Register button is clicked
+[32mINFO    [0m test_blank_field_register:test_blankFieldRegister.py:19 Register page opens
+[32mINFO    [0m test_blank_field_register:test_blankFieldRegister.py:21 fill the remaining field in the profile except mandatory field
+[32mINFO    [0m test_blank_field_register:test_blankFieldRegister.py:23 enable the address section
+[32mINFO    [0m test_blank_field_register:test_blankFieldRegister.py:25 Fill the address field
+[32mINFO    [0m test_blank_field_register:test_blankFieldRegister.py:27 click the next button
+[32mINFO    [0m test_blank_field_register:test_blankFieldRegister.py:29 verify the mandatory fields gives a alert message

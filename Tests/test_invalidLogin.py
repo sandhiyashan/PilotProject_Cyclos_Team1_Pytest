@@ -5,7 +5,7 @@ from Pages.HomePage import HomePage
 from Pages.LoginPage import LoginPage
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("username,password", excelReader.get_data("E:\PilotProject_Cyclos_Team1_Pytest-1\ExcelFiles\login_data.xlsx", "invalidLogin"))
+@pytest.mark.parametrize("username,password", excelReader.get_data("../ExcelFiles/login_data.xlsx", "invalidLogin"))
 
 class TestInvalidLogin:
     @pytest.mark.regression

@@ -1,0 +1,6 @@
+[32mINFO    [0m test_blankToUser_qr_code:test_blankToUserReceiveQRcode.py:21 Logged in successfully
+[32mINFO    [0m test_blankToUser_qr_code:test_blankToUserReceiveQRcode.py:23 Go to Banking Page
+[32mINFO    [0m test_blankToUser_qr_code:test_blankToUserReceiveQRcode.py:25 Banking Page is displayed
+[32mINFO    [0m test_blankToUser_qr_code:test_blankToUserReceiveQRcode.py:27 Go to Receive QR Code Page
+[32mINFO    [0m test_blankToUser_qr_code:test_blankToUserReceiveQRcode.py:29 Receive QR Code Page is displayed
+[32mINFO    [0m test_blankToUser_qr_code:test_blankToUserReceiveQRcode.py:33 Error message is displayed successfully

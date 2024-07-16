@@ -5,7 +5,7 @@ from Pages.HomePage import HomePage
 from Pages.RegisterPage import RegisterPage
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("website,mobile,land_line,address,zip1,city,region", excelReader.get_data("E:\PilotProject_Cyclos_Team1_Pytest-1\ExcelFiles\login_data.xlsx", "validatingBlank"))
+@pytest.mark.parametrize("website,mobile,land_line,address,zip1,city,region", excelReader.get_data("../ExcelFiles/login_data.xlsx", "validatingBlank"))
 
 class TestBlankFieldRegister:
     @pytest.mark.regression

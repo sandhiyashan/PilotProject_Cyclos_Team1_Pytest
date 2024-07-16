@@ -1,0 +1,9 @@
+[32mINFO    [0m test_confirm_password_register:test_confirmPasswordRegister.py:17 Register button is clicked
+[32mINFO    [0m test_confirm_password_register:test_confirmPasswordRegister.py:19 Register page opens
+[32mINFO    [0m test_confirm_password_register:test_confirmPasswordRegister.py:21 Required fields are filled
+[32mINFO    [0m test_confirm_password_register:test_confirmPasswordRegister.py:23 Remaining fields are filled
+[32mINFO    [0m test_confirm_password_register:test_confirmPasswordRegister.py:25 Address field is enabled
+[32mINFO    [0m test_confirm_password_register:test_confirmPasswordRegister.py:27 Address section is filled
+[32mINFO    [0m test_confirm_password_register:test_confirmPasswordRegister.py:29 Next button is clicked
+[32mINFO    [0m test_confirm_password_register:test_confirmPasswordRegister.py:31 Password section is filled
+[32mINFO    [0m test_confirm_password_register:test_confirmPasswordRegister.py:35 Verification is done by confirm password

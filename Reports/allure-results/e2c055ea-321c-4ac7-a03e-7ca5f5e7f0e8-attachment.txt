@@ -1,0 +1,9 @@
+[32mINFO    [0m test_adduser_tocontact:test_addUserToContact.py:21 Logged in successfully
+[32mINFO    [0m test_adduser_tocontact:test_addUserToContact.py:23 Go to Market Place
+[32mINFO    [0m test_adduser_tocontact:test_addUserToContact.py:25 Market Place Page is displayed
+[32mINFO    [0m test_adduser_tocontact:test_addUserToContact.py:27 Go to Business directory
+[32mINFO    [0m test_adduser_tocontact:test_addUserToContact.py:29 Business Directory Page is displayed
+[32mINFO    [0m test_adduser_tocontact:test_addUserToContact.py:31 Filled the key
+[32mINFO    [0m test_adduser_tocontact:test_addUserToContact.py:33 Clicked on user
+[32mINFO    [0m test_adduser_tocontact:test_addUserToContact.py:35 Clicked on add to contact
+[32mINFO    [0m test_adduser_tocontact:test_addUserToContact.py:37 User added to contact is verified

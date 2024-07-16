@@ -1,0 +1,7 @@
+[32mINFO    [0m test_Advertisement:test_Advertisement.py:19 click the login page
+[32mINFO    [0m test_Advertisement:test_Advertisement.py:21 Fill the required details in login page
+[32mINFO    [0m test_Advertisement:test_Advertisement.py:23 click the loggin button
+[32mINFO    [0m test_Advertisement:test_Advertisement.py:25 click the marketplace option in homepage
+[32mINFO    [0m test_Advertisement:test_Advertisement.py:27 click the Advertisment option in marketplace
+[32mINFO    [0m test_Advertisement:test_Advertisement.py:29 Enter the keyword into the keyword field
+[32mINFO    [0m test_Advertisement:test_Advertisement.py:31 verify the keyword based element displayed

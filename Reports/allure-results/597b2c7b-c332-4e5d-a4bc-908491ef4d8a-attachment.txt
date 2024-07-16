@@ -1,0 +1,4 @@
+[32mINFO    [0m test_invalid_login:test_invalidLogin.py:17 Go to Login Page
+[32mINFO    [0m test_invalid_login:test_invalidLogin.py:19 fill the details in login form
+[32mINFO    [0m test_invalid_login:test_invalidLogin.py:21 click the login button
+[32mINFO    [0m test_invalid_login:test_invalidLogin.py:23 verify whether the functionality check invalid credentials

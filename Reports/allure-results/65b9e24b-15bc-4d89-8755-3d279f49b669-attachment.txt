@@ -1,0 +1,5 @@
+[32mINFO    [0m test_invalid_email_register:test_invalidEmailRegister.py:17 Register button is clicked
+[32mINFO    [0m test_invalid_email_register:test_invalidEmailRegister.py:19 Register page opens
+[32mINFO    [0m test_invalid_email_register:test_invalidEmailRegister.py:21 Required fields are filled
+[32mINFO    [0m test_invalid_email_register:test_invalidEmailRegister.py:23 Next button is clicked
+[32mINFO    [0m test_invalid_email_register:test_invalidEmailRegister.py:25 Invalid email is verified

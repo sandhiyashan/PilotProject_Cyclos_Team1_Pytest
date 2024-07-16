@@ -1,0 +1,8 @@
+[32mINFO    [0m test_valid_register:test_validRegistration.py:17 Register page opens
+[32mINFO    [0m test_valid_register:test_validRegistration.py:20 Required fields are filled
+[32mINFO    [0m test_valid_register:test_validRegistration.py:22 Remaining fields are filled
+[32mINFO    [0m test_valid_register:test_validRegistration.py:24 Address field is enabled
+[32mINFO    [0m test_valid_register:test_validRegistration.py:26 Address section is filled
+[32mINFO    [0m test_valid_register:test_validRegistration.py:28 Next button is clicked
+[32mINFO    [0m test_valid_register:test_validRegistration.py:30 Password section is filled
+[32mINFO    [0m test_valid_register:test_validRegistration.py:34 Registration is successfully completed

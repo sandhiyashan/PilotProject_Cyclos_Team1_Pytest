@@ -1,0 +1,7 @@
+[32mINFO    [0m test_invalidkey_business_directory:test_invalidKeyBusinessDirectory.py:21 Logged in successfully
+[32mINFO    [0m test_invalidkey_business_directory:test_invalidKeyBusinessDirectory.py:23 Go to Market Place
+[32mINFO    [0m test_invalidkey_business_directory:test_invalidKeyBusinessDirectory.py:25 Market Place Page is verified
+[32mINFO    [0m test_invalidkey_business_directory:test_invalidKeyBusinessDirectory.py:27 Go to Business directory
+[32mINFO    [0m test_invalidkey_business_directory:test_invalidKeyBusinessDirectory.py:29 Business Directory Page is displayed
+[32mINFO    [0m test_invalidkey_business_directory:test_invalidKeyBusinessDirectory.py:31 Filled the key
+[32mINFO    [0m test_invalidkey_business_directory:test_invalidKeyBusinessDirectory.py:33 Alert is verified successfully

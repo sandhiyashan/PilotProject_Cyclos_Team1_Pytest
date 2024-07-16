@@ -6,7 +6,7 @@ from Pages.LoginPage import LoginPage
 from Pages.BusinessDirectoryPage import BusinessDirectoryPage
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("key,username,password", excelReader.get_data("I:\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\busDir_data.xlsx", "invalid_data"))
+@pytest.mark.parametrize("key,username,password", excelReader.get_data("../ExcelFiles/busDir_data.xlsx", "invalid_data"))
 
 class TestInvalidKeyBusinessDirectory:
     @pytest.mark.smoke
@@ -31,7 +31,3 @@ class TestInvalidKeyBusinessDirectory:
         log.info("Filled the key")
         business_dir.verify_key_alert()
         log.info("Alert is verified successfully")
-
-        
-        
-        

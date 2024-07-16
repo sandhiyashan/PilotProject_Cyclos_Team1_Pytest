@@ -1,0 +1,5 @@
+[32mINFO    [0m test_already_exists_email:test_alreadyExistsEmail.py:17 Register button is clicked
+[32mINFO    [0m test_already_exists_email:test_alreadyExistsEmail.py:19 Register page opens
+[32mINFO    [0m test_already_exists_email:test_alreadyExistsEmail.py:21 Required fields are filled
+[32mINFO    [0m test_already_exists_email:test_alreadyExistsEmail.py:23 Next button is clicked
+[32mINFO    [0m test_already_exists_email:test_alreadyExistsEmail.py:25 Already existing email is verified

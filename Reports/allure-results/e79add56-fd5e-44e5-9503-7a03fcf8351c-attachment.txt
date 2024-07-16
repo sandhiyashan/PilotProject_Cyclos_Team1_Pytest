@@ -1,0 +1,6 @@
+[32mINFO    [0m test_invalidToUserreceive_payment:test_invalidToUserReceivePayment.py:21 Logged in successfully
+[32mINFO    [0m test_invalidToUserreceive_payment:test_invalidToUserReceivePayment.py:23 Go to Banking Page
+[32mINFO    [0m test_invalidToUserreceive_payment:test_invalidToUserReceivePayment.py:25 Banking Page is displayed
+[32mINFO    [0m test_invalidToUserreceive_payment:test_invalidToUserReceivePayment.py:27 Go to Receive Payment Page
+[32mINFO    [0m test_invalidToUserreceive_payment:test_invalidToUserReceivePayment.py:29 Receive Payment Page is displayed
+[32mINFO    [0m test_invalidToUserreceive_payment:test_invalidToUserReceivePayment.py:32 Alert is verified

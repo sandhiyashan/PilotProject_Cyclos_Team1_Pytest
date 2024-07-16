@@ -1,0 +1,8 @@
+[32mINFO    [0m test_PayNow:test_invalidPayment.py:19 click the login page
+[32mINFO    [0m test_PayNow:test_invalidPayment.py:21 Fill the required details in login page
+[32mINFO    [0m test_PayNow:test_invalidPayment.py:23 click the loggin button
+[32mINFO    [0m test_PayNow:test_invalidPayment.py:25 click the banking option in homepage
+[32mINFO    [0m test_PayNow:test_invalidPayment.py:29 fill the required payment details 
+[32mINFO    [0m test_PayNow:test_invalidPayment.py:31 Enter the amount which is greater than 500
+[32mINFO    [0m test_PayNow:test_invalidPayment.py:35 click the next button
+[32mINFO    [0m test_PayNow:test_invalidPayment.py:37 verify the invalid payment error message

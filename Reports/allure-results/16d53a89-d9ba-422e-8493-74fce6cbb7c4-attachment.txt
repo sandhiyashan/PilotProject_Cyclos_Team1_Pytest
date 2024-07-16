@@ -1,0 +1,6 @@
+[32mINFO    [0m test_RemovefromFavourite:test_Favourite.py:42 click the login page
+[32mINFO    [0m test_RemovefromFavourite:test_Favourite.py:44 Fill the required details in login page
+[32mINFO    [0m test_RemovefromFavourite:test_Favourite.py:46 click the loggin button
+[32mINFO    [0m test_RemovefromFavourite:test_Favourite.py:48 click the marketplace option in homepage
+[32mINFO    [0m test_RemovefromFavourite:test_Favourite.py:50 click the Advertisment option in marketplace
+[32mINFO    [0m test_RemovefromFavourite:test_Favourite.py:52 click the  the favourite list

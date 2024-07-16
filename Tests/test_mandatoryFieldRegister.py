@@ -5,7 +5,7 @@ from Pages.HomePage import HomePage
 from Pages.RegisterPage import RegisterPage
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("name,login,email,password,confirm_password", excelReader.get_data("E:\PilotProject_Cyclos_Team1_Pytest-1\ExcelFiles\login_data.xlsx", "mandatoryField"))
+@pytest.mark.parametrize("name,login,email,password,confirm_password", excelReader.get_data("../ExcelFiles/login_data.xlsx", "mandatoryField"))
 
 class TestMandatoryFieldRegister:
     @pytest.mark.smoke

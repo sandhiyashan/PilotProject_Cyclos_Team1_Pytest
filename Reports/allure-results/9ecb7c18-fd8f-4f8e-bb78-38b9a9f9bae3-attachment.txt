@@ -1,0 +1,8 @@
+[32mINFO    [0m test_blanktouserreceive_payment:test_blankToUserReceivePayment.py:21 Logged in successfully
+[32mINFO    [0m test_blanktouserreceive_payment:test_blankToUserReceivePayment.py:23 Go to Banking Page
+[32mINFO    [0m test_blanktouserreceive_payment:test_blankToUserReceivePayment.py:25 Banking Page is displayed
+[32mINFO    [0m test_blanktouserreceive_payment:test_blankToUserReceivePayment.py:27 Go to Receive Payment Page
+[32mINFO    [0m test_blanktouserreceive_payment:test_blankToUserReceivePayment.py:29 Receive Payment Page is displayed
+[32mINFO    [0m test_blanktouserreceive_payment:test_blankToUserReceivePayment.py:31 amount is entered
+[32mINFO    [0m test_blanktouserreceive_payment:test_blankToUserReceivePayment.py:33 next button is clicked
+[32mINFO    [0m test_blanktouserreceive_payment:test_blankToUserReceivePayment.py:35 verify the error message username required

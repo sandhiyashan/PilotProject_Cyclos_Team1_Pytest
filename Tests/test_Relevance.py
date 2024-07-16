@@ -6,8 +6,8 @@ from Pages.LoginPage import LoginPage
 from Pages.AdvertisementPage import Advertisement
 
 @pytest.mark.usefixtures("test_setup_teardown")
-@pytest.mark.parametrize("username,password", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\payment_to_user_testdata.xlsx", "login"))
-@pytest.mark.parametrize("keyword_data", excelReader.get_data("C:\\cyclos_Pytest_project\\PilotProject_Cyclos_Team1_Pytest\\ExcelFiles\\advertisement_testdata.xlsx", "valid_data"))
+@pytest.mark.parametrize("username,password", excelReader.get_data("../ExcelFiles/payment_to_user_testdata.xlsx", "login"))
+@pytest.mark.parametrize("keyword_data", excelReader.get_data("../ExcelFiles/advertisement_testdata.xlsx", "valid_data"))
 
 class Test_paymentToUser:
     def test_PayNow(self,username,password,keyword_data):

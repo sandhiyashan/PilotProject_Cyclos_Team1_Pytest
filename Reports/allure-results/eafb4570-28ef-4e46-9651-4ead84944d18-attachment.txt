@@ -1,0 +1,7 @@
+[32mINFO    [0m test_invalidToUsermonthlypay_user:test_invalidToUserMonthlyPay.py:22 Logged in successfully
+[32mINFO    [0m test_invalidToUsermonthlypay_user:test_invalidToUserMonthlyPay.py:24 Go to Banking Page
+[32mINFO    [0m test_invalidToUsermonthlypay_user:test_invalidToUserMonthlyPay.py:26 Banking Page is displayed
+[32mINFO    [0m test_invalidToUsermonthlypay_user:test_invalidToUserMonthlyPay.py:28 Clicking the payment to user
+[32mINFO    [0m test_invalidToUsermonthlypay_user:test_invalidToUserMonthlyPay.py:30 Payment to user is displayed
+[32mINFO    [0m test_invalidToUsermonthlypay_user:test_invalidToUserMonthlyPay.py:32 To user is filled
+[32mINFO    [0m test_invalidToUsermonthlypay_user:test_invalidToUserMonthlyPay.py:34 Alert is displayed

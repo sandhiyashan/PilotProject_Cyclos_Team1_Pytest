@@ -1,0 +1,6 @@
+[32mINFO    [0m test_membAccount:test_memberAccount.py:22 Logged in successfully
+[32mINFO    [0m test_membAccount:test_memberAccount.py:24 Go to Banking Page
+[32mINFO    [0m test_membAccount:test_memberAccount.py:26 Banking Page is displayed
+[32mINFO    [0m test_membAccount:test_memberAccount.py:28 Member account Page is displayed
+[32mINFO    [0m test_membAccount:test_memberAccount.py:30 Balance is verified
+[32mINFO    [0m test_membAccount:test_memberAccount.py:32 Transaction history is verified

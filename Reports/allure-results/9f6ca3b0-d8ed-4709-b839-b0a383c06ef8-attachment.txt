@@ -1,0 +1,11 @@
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:21 Logged in successfully
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:23 Go to Banking Page
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:25 Banking Page is displayed
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:27 Go to Receive Payment Page
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:29 Receive Payment Page is displayed
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:31 To user is filled
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:33 amount is entered
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:35 schedule is selected
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:37 description is entered
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:39 next button is clicked
+[32mINFO    [0m test_validreceive_payment:test_validReceivePayment.py:41 confirmation page is displayed successfully

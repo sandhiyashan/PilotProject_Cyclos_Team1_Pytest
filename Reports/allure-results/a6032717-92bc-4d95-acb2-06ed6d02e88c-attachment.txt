@@ -1,0 +1,7 @@
+[32mINFO    [0m test_blankfieldsreceive_payment:test_blankFieldsReceivePayment.py:21 Logged in successfully
+[32mINFO    [0m test_blankfieldsreceive_payment:test_blankFieldsReceivePayment.py:23 Go to Banking Page
+[32mINFO    [0m test_blankfieldsreceive_payment:test_blankFieldsReceivePayment.py:25 Banking Page is displayed
+[32mINFO    [0m test_blankfieldsreceive_payment:test_blankFieldsReceivePayment.py:27 Go to Receive Payment Page
+[32mINFO    [0m test_blankfieldsreceive_payment:test_blankFieldsReceivePayment.py:29 Receive Payment Page is displayed
+[32mINFO    [0m test_blankfieldsreceive_payment:test_blankFieldsReceivePayment.py:31 next button is clicked
+[32mINFO    [0m test_blankfieldsreceive_payment:test_blankFieldsReceivePayment.py:33 verify the error message amount required

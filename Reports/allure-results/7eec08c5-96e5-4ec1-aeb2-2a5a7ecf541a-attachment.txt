@@ -1,0 +1,7 @@
+[32mINFO    [0m test_PayNow:test_paymentToUser.py:19 click the login page
+[32mINFO    [0m test_PayNow:test_paymentToUser.py:21 Fill the required details in login page
+[32mINFO    [0m test_PayNow:test_paymentToUser.py:23 click the loggin button
+[32mINFO    [0m test_PayNow:test_paymentToUser.py:25 click the banking option in homepage
+[32mINFO    [0m test_PayNow:test_paymentToUser.py:29 fill the required payment details 
+[32mINFO    [0m test_PayNow:test_paymentToUser.py:34 click the next button
+[32mINFO    [0m test_PayNow:test_paymentToUser.py:36 click the submit button
