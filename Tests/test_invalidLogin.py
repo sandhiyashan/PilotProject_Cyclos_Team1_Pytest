@@ -19,13 +19,5 @@ class TestInvalidLogin:
         log.info("fill the details in login form")
         login.click_login_button()
         log.info("click the login button")
-        with pytest.raises(InvalidCredentialsError):
-            login.verify_error_message()
-            log.info("verify whether the functionality check invalid credentials")
-
-class InvalidCredentialsError(Exception):
-    """Exception raised for invalid login credentials."""
-
-    def __init__(self, message="Invalid login credentials."):
-        self.message = message
-        super().__init__(self.message)
+        login.verify_error_message()
+        log.info("verify whether the functionality check invalid credentials")
